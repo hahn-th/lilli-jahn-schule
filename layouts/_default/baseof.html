@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  {{ partial "header.html" . }}
+  {{ partial "feature-selector.html" . }}
+
+  <!-- Code that all your templates share, like a header -->
+  {{ block "main" . }}
+  <!-- The part of the page that begins to differ between templates -->
+  {{ end }}
+
+  {{ partial "footer.html" . }}
+  {{ partial "footer-scripts.html" . }}
+  {{ partial "image-modal.html" . }}
+</body>
+
+</html>

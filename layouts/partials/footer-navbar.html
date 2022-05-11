@@ -1,0 +1,16 @@
+<div id="footer-nav" >
+    <div class="container">
+        <nav class="">
+            <ul>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.footermenu }}
+                <li class="">
+                    <a class="{{ if $currentPage.IsMenuCurrent " main" . }} active" aria-current="page{{ end }}"
+                        href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+
+        </nav>
+    </div>
+</div>

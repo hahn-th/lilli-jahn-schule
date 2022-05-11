@@ -1,0 +1,13 @@
+baseURL: 'http://example.org/'
+languageCode: 'de-de'
+title: 'Lilli-Jahn-Schule Immenhausen'
+
+menu:
+  footermenu:
+  - Name: "Intra.Net"
+    Weight: 100
+  
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
