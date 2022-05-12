@@ -9,9 +9,10 @@ menu:
     parent: "unsereschule"
 ---
 
-![Lilli Jahn](/images/lilli-portraet.jpg#float-right)
 
 ## Liebe Kinder, liebe Eltern, liebe Schulgemeinde,
+
+![Lilli Jahn](/images/lilli-portraet.jpg#float-right)
 
 die Lilli-Jahn-Schule besuchen ungefähr 230 Kinder aus Immenhausen, Holzhausen und Mariendorf.
 
@@ -58,9 +59,9 @@ Abends nach der Arbeit trafen sich Lilli und Ernst in der Bibliothek ihres Hause
 
 Es waren Lillis glücklichste Jahre.
 
-![Lilli mit Familie](/images/lilli-mit-familie.jpeg#right)
-
 #### FREUNDE!
+
+![Lilli mit Familie](/images/lilli-mit-familie.jpeg#float-right)
 
 Lilli und Ernst hatten viele Freunde. Dass kam daher, weil Ernst der einzige Arzt in Immenhausen war. Nur weil Lilli ­Jüdin war, durfte sie nicht mehr Arbeiten. Wenn noch Leute zu Lilli gegangen sind, brachten sie sich selber in Gefahr. Daher wurden ihre Freunde immer weniger.
 
