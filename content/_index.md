@@ -1,11 +1,9 @@
 ---
-title: "Hello"
-date: 2022-05-09T20:33:52+02:00
-draft: false
-
+title: Hello
+date: 2022-05-09T20:33:52.000+02:00
 menu:
   main:
-    weight: 10
----
+    weight: 6
 
+---
 Herzliche Willkommen

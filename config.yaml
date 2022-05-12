@@ -1,12 +1,12 @@
-baseURL: 'http://example.org/'
-languageCode: 'de-de'
-title: 'Lilli-Jahn-Schule Immenhausen'
-
+---
+baseURL: http://example.org/
+languageCode: de-de
+title: Lilli-Jahn-Schule Immenhausen
 menu:
   footermenu:
-  - Name: "Intra.Net"
+  - Name: Intra.Net
     Weight: 100
-  
+    weight: 3
 markup:
   goldmark:
     renderer:
