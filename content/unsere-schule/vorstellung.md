@@ -1,14 +1,12 @@
 ---
-title: "Vorstellung"
-date: 2022-05-09T20:33:30+02:00
-draft: false
-
+title: Vorstellung
+date: 2022-05-09T20:33:30.000+02:00
 menu:
   main:
-    weight: 1
-    parent: "unsereschule"
----
+    weight: 2
+    parent: unsereschule
 
+---
 ![Lilli Jahn](/images/lilli-portraet.jpg#float-right)
 
 ## Liebe Kinder, liebe Eltern, liebe Schulgemeinde,

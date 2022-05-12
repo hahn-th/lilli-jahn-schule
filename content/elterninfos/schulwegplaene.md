@@ -1,8 +1,9 @@
 ---
-title: Schulwegpläne
+title: Schulwegplaene
 date: 2022-05-11T20:00:31.000+02:00
 menu:
   main:
+    name: Schulwegpläne
     weight: 1
     parent: Elterninfos
 

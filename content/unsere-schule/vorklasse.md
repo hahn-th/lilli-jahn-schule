@@ -1,12 +1,11 @@
 ---
-title: "Vorklasse"
-date: 2022-05-09T20:33:43+02:00
-draft: false
-
+title: Vorklasse
+date: 2022-05-09T20:33:43.000+02:00
 menu:
   main:
-    weight: 5
-    parent: "unsereschule"
+    weight: 3
+    parent: unsereschule
+
 ---
 Zum Profil der Lilli-Jahn-Schule gehört die Vorklasse. Sie bietet Kindern, denen man noch ein Jahr lang Erfahrungsmöglichkeiten geben möchte, eine an ihrem individuellen Entwicklungs- und Lernstand ansetzende Förderung, die sie auf einen erfolgreichen Übergang in die erste Klasse vorbereiten soll.
 

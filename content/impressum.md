@@ -1,10 +1,8 @@
 ---
-title: "Impressum"
-date: 2022-05-10T11:33:32+02:00
-draft: false
-
+title: Impressum
+date: 2022-05-10T11:33:32.000+02:00
 menu:
-    footermenu:
-        weight: 40
----
+  footermenu:
+    weight: 2
 
+---

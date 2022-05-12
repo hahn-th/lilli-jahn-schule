@@ -1,14 +1,12 @@
 ---
-title: "Unterrichtszeiten"
-date: 2022-05-11T19:43:03+02:00
-draft: false
-
+title: Unterrichtszeiten
+date: 2022-05-11T19:43:03.000+02:00
 menu:
   main:
-    weight: 7
-    parent: "unsereschule"
----
+    weight: 4
+    parent: unsereschule
 
+---
 {{<table "table table-striped table-bordered">}}
 |Unterrichtsstunde | Uhrzeit|
 |---|---|
