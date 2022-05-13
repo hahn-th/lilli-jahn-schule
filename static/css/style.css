@@ -36,7 +36,11 @@ body {
 .brand-big {
     font-size: 2em;
 }
-
+#offcanvasNavbar h5 {
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+}
 #featureimage img {
     max-height: 400px;
     min-width: auto;
