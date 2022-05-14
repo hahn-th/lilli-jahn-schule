@@ -1,7 +1,8 @@
 ---
-title: "Eltern Bringen Ihre Kinder Mit Dem Rad"
+title: Eltern Bringen Ihre Kinder Mit Dem Rad
 date: 2022-05-12T19:55:21+02:00
 draft: false
+thumbnail: /images/uploads/vorschaubild-platzhalter.jpg
 ---
 
 Bacon ipsum dolor amet venison meatloaf ea ut culpa pork chop. Laborum ribeye ut exercitation pig sirloin consectetur prosciutto esse meatball doner short ribs et minim. Dolor brisket doner, cupim meatloaf jowl duis irure mollit tenderloin dolore nisi pig kevin. Reprehenderit cupim shankle ipsum venison, salami ea officia rump consectetur ham hock landjaeger in proident. Venison pig pastrami nisi, beef kielbasa turkey enim corned beef eiusmod drumstick. Doner ground round sint in drumstick, ex aute tri-tip boudin bacon quis sed tenderloin. Boudin excepteur non beef ribs, dolore ex reprehenderit pork chop biltong bresaola.
