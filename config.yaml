@@ -24,3 +24,7 @@ outputFormats:
   RSS:
     mediatype: "application/rss"
     baseName: "feed"
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
