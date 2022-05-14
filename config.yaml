@@ -1,7 +1,9 @@
 ---
-baseURL: http://example.org/
+baseURL: https://jocular-brioche-01f615.netlify.app/
 languageCode: de-de
 title: Lilli-Jahn-Schule Immenhausen
+author: 
+  name: Lilli-Jahn-Schule Immenhausen
 menu:
   footermenu:
   - Name: Intra.Net
@@ -11,3 +13,18 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+outputs:
+  home:
+  - "RSS"
+  - "HTML"
+section: "HTML"
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "feed"
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
