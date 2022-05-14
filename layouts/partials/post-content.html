@@ -1,6 +1,6 @@
-<div class="post-content clearfix">
-    {{ with .Params.Image }}
-        <img class="post-featured-image" src="{{ . }}">
+<div class="post-content clearfix">    
+    {{ if .Params.thumbnail }}
+        <img src="{{ .Params.thumbnail }}" class="post-featured-image w-100 h-auto">
     {{ end }}
 
     {{ .Content }}
