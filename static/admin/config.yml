@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: dev # Branch to update (optional; defaults to master)
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
@@ -12,10 +12,11 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 collections:
   - name: post
     label: "Neuigkeiten"
-    folder: post    
+    folder: /content/post    
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      
