@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
-  repo:  hahn-th/lilli-jahn-schule
-  base_url: https://api.netlify.com
+  repo: hahn-th/lilli-jahn-schule
   branch: main # Branch to update (optional; defaults to master)
 
 # This line should *not* be indented
