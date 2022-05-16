@@ -168,3 +168,23 @@ article h1,h2,h3,h4,h5 {
     border-radius: 10px;
     box-shadow: 3px 3px 8px 3px rgb(67, 90, 109, 0.2);
 }
+
+.fv_mitglied {
+    border: 1px solid #eee;
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 10px 3px 10px 3px;
+}
+.fv_mitglied .fv_name {
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+}
+.fv_mitglied .fv_position {
+    display: block;
+    font-weight: 300;
+}
+.fv_project h3 {
+    border-bottom: 2px solid gold;
+}

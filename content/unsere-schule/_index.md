@@ -5,5 +5,4 @@ menu:
   main:
     weight: 7
     identifier: unsereschule
-
 ---
