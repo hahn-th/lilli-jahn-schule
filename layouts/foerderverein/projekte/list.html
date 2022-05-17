@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+
+<section id="content">
+    <div class="container clearfix">
+
+        {{ .Content}}
+        <h3>Unsere Projekte:</h3>
+
+
+        {{ $projekte := .Site.GetPage "/foerderverein/projekte" }}
+
+        <div class="fv_projekte">
+            {{ range .Pages }}
+                {{ partial "list-item.html" . }}
+            {{ end }}
+
+        </div>
+
+</section>
+
+{{ end }}

@@ -7,12 +7,10 @@
 <div id="post-index" class="container">
     {{ partial "post-intro.html" . }}
 
-    <ol class="post-list">
-        {{ $pag := .Paginate .Pages }}
-        {{ range $pag.Pages }}
-            {{ partial "post-stub.html" . }}
-        {{ end }}
-    </ol>
+    {{ $pag := .Paginate .Pages }}
+    {{ range $pag.Pages }}
+        {{ partial "list-item.html" . }}
+    {{ end }}
 
     <div class="post-navigation">
         {{ partial "pagination.html" . }}

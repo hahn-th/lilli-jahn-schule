@@ -14,6 +14,9 @@ markup:
     renderer:
       unsafe: true
 
+theme: "hugo-shortcode-gallery"
+galleryShowExif: false
+galleryLastRow: "nojustify"
 outputs:
   home:
   - "RSS"

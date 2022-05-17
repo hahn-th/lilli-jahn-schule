@@ -1,6 +1,11 @@
 {{ define "main" }}
 
 <section id="content">
+
+    <div class="container">
+        {{ partial "breadcrumb.html" . }}
+    </div>
+
     <div class="container clearfix justify-content-center d-flex">
         <article class="post-container w-75" itemscope="" itemtype="http://schema.org/BlogPosting">
             {{ partial "post-header.html" . }}
@@ -9,12 +14,7 @@
 
             {{ partial "post-footer.html" . }}
 
-            <div class="row">
-                <div class="col-md-6 text-left">{{if .NextInSection}}<i class="fa-solid fa-angles-left"></i> <a
-                        href="{{.NextInSection.Permalink}}">{{.NextInSection.Title }} </a>{{end}}</div>
-                <div class="col-md-6 text-end">{{if .PrevInSection}}<a href="{{.PrevInSection.Permalink}}">
-                        {{.PrevInSection.Title }} <i class="fa-solid fa-angles-right"></i></a>{{end}}</div>
-            </div>
+            {{ partial "post-next-last-nav.html" . }}
         </article>
     </div>
 </section>

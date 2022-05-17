@@ -1,5 +1,21 @@
 {{ define "main" }}
-<div class="container">
-    {{ .Content }}
-</div>
+
+<section id="content">
+        
+    <div class="container clearfix">
+        <h1>{{ .Page.Title }}</h1>
+        <article>
+            {{ .Content }}
+        </article>
+
+        <div class="fv_projekte">
+            {{ range .Pages }}
+            <article class="fv_projekt">
+                <a href="{{.Permalink}}">{{.Date.Format "02.01.2006"}} | {{.Title}}</a>
+            </article>
+            {{ end }}
+    
+        </div>
+    </div>
+</section>
 {{ end }}
