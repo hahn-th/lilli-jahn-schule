@@ -2,7 +2,7 @@
 title: "2020 Weihnachtsmarkt"
 date: 2020-05-16T19:17:46+02:00
 draft: false
-image: "images/2020-weihnachtsmarkt.jpg"
+thumbnail: "images/2020-weihnachtsmarkt.jpg"
 ---
 In diesem Jahr hatte der Förderverein wieder einen Stand auf dem Immenhäuser Weihnachtsmarkt. Es wurden Glühwein, Kinderpunsch und Waffelherzen angeboten.
 

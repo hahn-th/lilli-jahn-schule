@@ -14,7 +14,7 @@
                     <div class="post-list">
                         {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" "post") }}
                         {{ range $pag.Pages }}
-                        {{ partial "post-stub.html" . }}
+                            {{ partial "list-item.html" . }}
                         {{ end }}
                     </div>
                 </section>

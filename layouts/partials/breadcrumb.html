@@ -9,9 +9,15 @@
 {{ else if not .p1.IsHome }}
 {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
 {{ end }}
-<li class="breadcrumb-item{{ if eq .p1 .p2 }}  active" aria-current="page{{ end }}" >
-  <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
-</li>
+
+  {{ if eq .p1 .p2 }}
+    <li class="breadcrumb-item active" aria-current="page">{{ .p1.Title }}</li>
+  {{ else }}
+    <li class="breadcrumb-item" >
+      <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
+    </li>
+  {{ end }}
+
 {{ end }}
 </nav>
 

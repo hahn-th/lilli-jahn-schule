@@ -1,8 +1,8 @@
 ---
-title: "2019 Sitzgelegenheiten Betreeung"
+title: "2019 Sitzgelegenheiten Betreuung"
 date: 2019-05-16T19:46:32+02:00
 draft: false
-image: "images/1.jpg"
+thumbnail: "images/1.jpg"
 ---
 
 #### NEUES SITZELEMENT FÜR DEN BETREUUNGSRAUM DER LILLI-JAHN-SCHULE IMMENHAUSEN
