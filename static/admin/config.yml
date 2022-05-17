@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: dev # Branch to update (optional; defaults to master)
 
 # These lines should *not* be indented
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
@@ -9,8 +9,23 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 collections:
   - name: post
     label: "Neuigkeiten"
-    folder: /content/post    
+    folder: /content/post
     create: true
+    path: "{{slug}}/index"
+    media_folder: "images"
+    public_folder: "images"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: foerderverein_projekt
+    label: "Förderverein Projekte"
+    folder: /content/foerderverein/projekte
+    create: true
+    path: "{{slug}}/index"
+    media_folder: "images"
+    public_folder: "images"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
