@@ -1,10 +1,27 @@
+<nav aria-label="breadcrumb">
+
 <ol class="breadcrumb">
-  <li><a href="/">Home</a></li>
-  {{ $rellink := "" }}
-  {{ range (split .RelPermalink "/") }}
-    {{ if gt (len . ) 0 -}}
-      {{ $rellink = printf "%s/%s" $rellink . }}
-      <li><a href="{{ $rellink }}">{{ humanize . }}</a></li>
-    {{ end }}
-  {{ end }}
+  {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
 </ol>
+{{ define "breadcrumbnav" }}
+{{ if .p1.Parent }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+{{ else if not .p1.IsHome }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+{{ end }}
+<li class="breadcrumb-item{{ if eq .p1 .p2 }}  active" aria-current="page{{ end }}" >
+  <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
+</li>
+{{ end }}
+</nav>
+
+
+<!-- 
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav> -->

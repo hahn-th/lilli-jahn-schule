@@ -2,7 +2,7 @@
 title: "Sponsorenlauf an der Lilli-Jahn-Schule"
 date: 2016-05-16T20:01:08+02:00
 draft: false
-image: "sponsor3.jpg"
+image: "images/sponsor3.jpg"
 ---
 Am 08. Juli 2016 veranstaltete die Lilli-Jahn-Schule gemeinsam mit dem Förderverein einen Sponsorenlauf rund um den Kampteich.
 
@@ -15,3 +15,5 @@ So kam es, dass am Freitagnachmittag die Kinder mehrere Runden um den Teich lief
 Nachdem alle Läufer erfolgreich, aber auch erschöpft, ihre Runden beendet hatten, wurden sie mit kühlen Getränken und Grillwürstchen durch den Förderverein versorgt.
 
 Der Förderverein freute sich über den so erlaufenen Betrag von 2605 Euro, alle beteiligten Läuferinnen und Läufer können auf diese tolle Leistung stolz sein.
+
+{{< gallery match="images/*" rowHeight="150" margins="5" thumbnailResizeOptions="400x400 q90 Lanczos" >}}

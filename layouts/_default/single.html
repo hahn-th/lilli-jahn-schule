@@ -1,12 +1,16 @@
 {{ define "main" }}
 
 <section id="content">
-        
+    <div class="container">
+        {{ partial "breadcrumb.html" . }}
+    </div>
     <div class="container clearfix">
         <h1>{{ .Page.Title }}</h1>
         <article>
-        {{ .Content }}
-    </article>
+            {{ .Content }}
+
+            {{ partial "post-next-last-nav.html" . }}
+        </article>
     </div>
 </section>
 {{ end }}

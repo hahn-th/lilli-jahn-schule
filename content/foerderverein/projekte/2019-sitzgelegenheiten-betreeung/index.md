@@ -1,8 +1,8 @@
 ---
 title: "2019 Sitzgelegenheiten Betreeung"
-date: 2022-05-16T19:46:32+02:00
-draft: true
-image: "1.jpg"
+date: 2019-05-16T19:46:32+02:00
+draft: false
+image: "images/1.jpg"
 ---
 
 #### NEUES SITZELEMENT FÜR DEN BETREUUNGSRAUM DER LILLI-JAHN-SCHULE IMMENHAUSEN
@@ -20,3 +20,5 @@ Auf diesem Weg möchten wir, der Förderverein, uns ganz herzlich beim Team des 
 Übrigens: der nächste Kindersachen Basar findet am 10.03.2019 statt.
 
 **DANKE an die TUI STIFTUNG und das Team vom KINDERBASAR**
+
+{{< gallery match="images/*" rowHeight="150" margins="5" thumbnailResizeOptions="400x400 q90 Lanczos" >}}
