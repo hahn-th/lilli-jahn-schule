@@ -1,3 +1,15 @@
+/* IMPORT FONTS */
+/* https://fonts.google.com/specimen/Cabin+Sketch#standard-styles */
+@font-face {
+    font-family: "Cabin Sketch";
+    src: url(CabinSketch-Regular.ttf);
+  }
+@font-face {
+    font-family: "Cabin Sketch";
+    src: url(CabinSketch-Bold.ttf);
+    font-weight: bold;
+  }
+
 html, body {
     padding:0px;
     margin:0px;
@@ -63,6 +75,7 @@ body {
 article h1 {
       /* border-bottom: 1px dotted rgb(67, 90, 109);; */
       border-bottom: 2px solid gold;
+      font-family: "Cabin Sketch";
     margin: 0 0 40px 0;
     font-size: 34px;
 }
@@ -72,11 +85,13 @@ article h4,h5,h6 { margin-top: 1.5em;}
 
 article h2 { font-size: 24px; }
 article h1,h2,h3,h4,h5 {
-    font-weight: 300;
+
+    font-family: "Cabin Sketch";
 }
 
 #content h1 {
     border-bottom: 2px solid gold;
+    font-family: "Cabin Sketch";
 }
 
 #content img {
@@ -91,14 +106,8 @@ article h1,h2,h3,h4,h5 {
     padding: 15px;
     margin: 5px 0 10px 0;
 }
-
-.post-list { margin-top: 2em;}
-.post-list a {
-    text-decoration: none;
-}
 .box h3 {
     border-bottom: 2px solid gold;
-
 }
 
 .single-page-nav {

@@ -1,5 +1,5 @@
 ---
-title: "2021 CoronaWaldspieleSommer"
+title: "Waldspiele unter Corona-Bedingungen"
 date: 2022-05-17T08:39:06+02:00
 draft: false
 thumbnail: /images/uploads/vorschaubild-platzhalter.jpg
