@@ -2,6 +2,7 @@
 title: "Schulsozialarbeit"
 date: 2022-05-17T10:51:12+02:00
 draft: false
+weight: 1
 menu:
   main:
     weight: 2

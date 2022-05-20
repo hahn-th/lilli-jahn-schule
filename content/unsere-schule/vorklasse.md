@@ -1,6 +1,7 @@
 ---
 title: Vorklasse
 date: 2022-05-09T20:33:43.000+02:00
+weight: 3
 menu:
   main:
     weight: 3

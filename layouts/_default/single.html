@@ -5,12 +5,25 @@
         {{ partial "breadcrumb.html" . }}
     </div>
     <div class="container clearfix">
-        <h1>{{ .Page.Title }}</h1>
-        <article>
-            {{ .Content }}
+        <div class="row">
 
-            {{ partial "post-next-last-nav.html" . }}
-        </article>
+            <div class="col-md-9">
+                <h1>{{ .Page.Title }}</h1>
+                <article>
+                    {{ .Content }}
+                </article>
+            </div>
+            <div class="col-md-3">
+                <aside>
+                    {{ partial "aside-kontakt.html" . }}
+                    
+                    {{ partial "aside-section-nav.html" . }}
+                </aside>
+            </div>
+        </div>
+
+
     </div>
 </section>
+
 {{ end }}

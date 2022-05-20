@@ -1,8 +1,8 @@
 <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light flex">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
-                <img id="site-logo" src="/images/header-logo.png" alt="logo Lilli-Jahn-Schule">
+                <img id="logo" src="/images/header-logo.png" alt="logo Lilli-Jahn-Schule">
 
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -21,27 +21,30 @@
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 flex">
                         
                         {{ $currentPage := . }}
+                        {{ $count := 0 }}
                         {{ range .Site.Menus.main }}
+                            {{ $count = add $count 1 }}
+                            
                             {{ if .HasChildren }}
                                 <!-- sub menus -->
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle{{ if $currentPage.HasMenuCurrent "main" . }} active {{ end }}" href="#" id="offcanvasNavbarDropdown"
+                                <li class="custom-nav nav-item dropdown {{ printf "nav%d" $count }} {{ if $currentPage.IsMenuCurrent "main" . }} active {{end}}">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
                                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         {{ .Name }}
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                                         {{ range .Children }}
-                                            <li><a class="dropdown-item{{ if $currentPage.HasMenuCurrent "main" . }} active {{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>
+                                            <li class="{{ if $currentPage.HasMenuCurrent "main" . }} active {{ end }}"><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
                                         {{ end }}
                                     </ul>
                                 </li>
                             {{ else }}
                                 <!-- top level menues -->
-                                <li class="nav-item">
-                                    <a class="nav-link{{ if $currentPage.IsMenuCurrent "main" . }} active" aria-current="page{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                                <li class="custom-nav nav-item {{ printf "nav%d" $count }} {{ if $currentPage.IsMenuCurrent "main" . }} active {{end}}">
+                                    <a class="nav-link" {{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page"{{ end }} href="{{ .URL }}">{{ .Name }}</a>
                                 </li>
                             {{ end }}
                         {{ end }}

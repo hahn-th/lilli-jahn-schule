@@ -1,6 +1,7 @@
 ---
 title: Unterrichtszeiten
 date: 2022-05-11T19:43:03.000+02:00
+weight: 4
 menu:
   main:
     weight: 4
