@@ -163,6 +163,20 @@ h5 {
 .box h3 {
     border-bottom: 2px solid gold;
 }
+aside .box {
+    color: #444;
+}
+aside .box h3 {
+    color: #888;
+}
+aside .box ul {
+    padding: 0;
+}
+aside .box li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 .single-page-nav {
     margin-top: 2em;

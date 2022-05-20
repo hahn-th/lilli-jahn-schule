@@ -5,7 +5,7 @@
         {{ partial "breadcrumb.html" . }}
     </div>
     <div class="container clearfix">
-        <div class="row">
+        <div class="row gx-5">
 
             <div class="col-md-9">
                 <h1>{{ .Page.Title }}</h1>
@@ -15,9 +15,9 @@
             </div>
             <div class="col-md-3">
                 <aside>
+                    {{ partial "aside-section-nav.html" . }}
                     {{ partial "aside-kontakt.html" . }}
                     
-                    {{ partial "aside-section-nav.html" . }}
                 </aside>
             </div>
         </div>

@@ -1,9 +1,9 @@
 <section class="box aside-nav">
-    <h3>{{ .Section }}</h3>
+    <h3>{{ .CurrentSection.Title }}</h3>
     <ul>
         {{ range .CurrentSection.Pages  }}
         <li>
-            {{ .Title }}
+            <a href="{{ .Permalink }}" alt="{{ .Title }}">{{ .Title }}</a>
         </li>
         {{end}}
     </ul>
