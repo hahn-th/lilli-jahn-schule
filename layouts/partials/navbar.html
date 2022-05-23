@@ -30,14 +30,14 @@
                             
                             {{ if .HasChildren }}
                                 <!-- sub menus -->
-                                <li class="custom-nav nav-item dropdown {{ printf "nav%d" $count }} {{ if $currentPage.IsMenuCurrent "main" . }} active {{end}}">
+                                <li class="custom-nav nav-item dropdown {{ printf "nav%d" $count }} {{ if $currentPage.HasMenuCurrent "main" . }} active {{ end }}">
                                     <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
                                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         {{ .Name }}
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                                         {{ range .Children }}
-                                            <li class="{{ if $currentPage.HasMenuCurrent "main" . }} active {{ end }}"><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
+                                            <li class=""><a class="dropdown-item {{ if $currentPage.IsMenuCurrent "main" . }} active {{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
                                         {{ end }}
                                     </ul>
                                 </li>

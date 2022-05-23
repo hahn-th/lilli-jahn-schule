@@ -1,0 +1,7 @@
+personen:
+- name: Frau Janson
+  funktion: Schulleitung
+  image: schulleitung/frau_janson.jpg
+- name: Frau Schneider
+  funktion: Schulleitung
+  image: schulleitung/frau_schneider.jpg

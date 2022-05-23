@@ -1,0 +1,19 @@
+personen:
+- name: Frau Habisch
+  funktion: Betreuungskraft
+  image: betreuung/1259.jpg
+- name: Frau Hadasch
+  funktion: Betreuungskraft
+  image: betreuung/3742_1.jpg
+- name: Frau Ohlemeyer
+  funktion: Betreuungskraft
+  image: betreuung/frau_ohlemeyer.jpg
+- name: Frau Kleinsimon
+  funktion: Betreuungskraft
+  image: sekretariat/4352_1.jpg
+- name: Herr Topp
+  funktion: Betreuungskraft
+  image: betreuung/christian.jpg
+- name: Frau Luttmann
+  funktion: Betreuungskraft
+  image: betreuung/miriam_luttmann.jpg 
