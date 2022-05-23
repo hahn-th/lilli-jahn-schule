@@ -1,20 +1,19 @@
 {{ define "main" }}
 
-
-{{ partial "feature-selector.html" . }}
-
-
 <section id="content">
     <div class="container clearfix">
         <div class="row">
 
             <div class="col-md-9">
                 <section class="box">
+                    {{.Content}}
+                </section>
+                <section class="box">
                     <h3>Neuigkeiten</h3>
                     <div class="post-list">
                         {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" "post") }}
                         {{ range $pag.Pages }}
-                            {{ partial "list-item.html" . }}
+                        {{ partial "list-item.html" . }}
                         {{ end }}
                     </div>
                 </section>
@@ -25,53 +24,11 @@
             </div>
             <div class="col-md-3">
                 <aside>
-                    <section class="box">
-                        <h3>Kontakt</h3>
-                        <b>Lilli-Jahn-Schule Immenhausen</b>
-                        <p>Grundschule</p>
+                    {{ partial "aside-kontakt.html" . }}
 
-                        <p>
-                            Nordweg 10
-                            34376 Immenhausen
-                        </p>
-
-                        <p>
-                            Sekretariat: <a href="tel:056732651"> <i class="fa-solid fa-phone"></i> 05673-2651</a><br>
-                            Betreuung: <a href="tel:05673925779"> <i class="fa-solid fa-phone"></i> 05673-925779</a> (ab
-                            11:15 Uhr)
-                        </p>
-
-                        <p>
-                            <a href="mailto:poststelle@grundschule.immenhausen.schulverwaltung.hessen.de"><i
-                                    class="fa-solid fa-envelope"></i> Email</a>
-                        </p>
-                    </section>
-
-                    <section class="box">
-                        <h3>Instagram</h3>
-                        <p>
-                            Für witzige Schnappschüsse und um näher am Schulalltag dran zu sein, folge uns doch auf
-                            Instagram.
-                        <div class="text-center" style="display:block">
-                            <img src="/images/insta-follow-us.png" class="w-50">
-                        </div>
-                        </p>
-                    </section>
-                    <section class="box">
-                        <h3>Termine</h3>
-                        <section class="termin">
-                            <b>20.05.2022</b>
-                            <p>Hier wird was passieren.</p>
-                        </section>
-                        <section class="termin">
-                            <b>01.06.2022</b>
-                            <p>Bald gibt es Ferien</p>
-                        </section>
-                        <section class="termin">
-                            <b>24.12.2022</b>
-                            <p>Weihnachten</p>
-                        </section>
-                    </section>
+                    {{ partial "aside-insta.html" . }}
+                    
+                    {{ partial "aside-termine.html" . }}
                 </aside>
             </div>
         </div>

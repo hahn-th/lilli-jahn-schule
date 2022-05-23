@@ -1,6 +1,7 @@
 ---
 title: Unterrichtszeiten
 date: 2022-05-11T19:43:03.000+02:00
+weight: 4
 menu:
   main:
     weight: 4
@@ -18,5 +19,5 @@ menu:
 |4. Stunde | 10:30 - 11:15 Uhr|
 |5. Stunde | 11:20 - 12:05 Uhr|
 |Hofpause | 12:05 - 12:20 Uhr|
-|6. Stunde | 12:20 - 13:03 Uhr|
+|6. Stunde | 12:20 - 13:05 Uhr|
 {{</table>}}

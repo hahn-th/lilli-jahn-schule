@@ -1,25 +1,19 @@
 ---
 title: Vorstellung
 date: 2022-05-09T20:33:30.000+02:00
+weight: 2
 menu:
   main:
     weight: 2
     parent: unsereschule
 ---
 
-## Liebe Kinder, liebe Eltern, liebe Schulgemeinde,
-
-![Lilli Jahn](/images/lilli-portraet.jpg#float-right)
-
-die Lilli-Jahn-Schule besuchen ungefähr 230 Kinder aus Immenhausen, Holzhausen und Mariendorf.
-
-Sie ist eine Grundschule mit Vorklasse und den Jahrgangsstufen 1 bis 4.
-
-Nach Unterrichtsschluss können die Kinder bis 15.30 Uhr in der Betreuung spielen, Hausaufgaben machen und an freiwilligen Arbeitsgemeinschaften  teilnehmen.
-
 ## Lilli Jahn
 
+
 ### So hat unsere Schule ihren Namen bekommen!
+
+{{<lightbox_image src="/images/lilli-portraet.jpg" title="Lilli Jahn" class="float-end" >}}
 
 Unsere Schule hieß immer nur Grundschule Immenhausen. Dann haben unsere Lehrer und Eltern überlegt, wie unsere Schule heißen soll. Nach langem Überlegen haben sie sich auf den Namen Lilli Jahn geeinigt.
 
@@ -41,7 +35,6 @@ Lilli arbeitete ziemlich früh wieder. Ab und zu musste Lilli ganz schnell von d
 Sie konnte Klavierspielen, war eine super Hausfrau, hatte einen Doktortitel und kümmerte sich um ihre Kinder. Ihr Mann war „nur“ Arzt. 
 Lilli blieb trotz der vielen Anforderungen im­mer fröhlich. 
 
-
 #### Herbst 1932
 
 1930 wurde die kleine Johanna geboren.
@@ -56,9 +49,9 @@ Abends nach der Arbeit trafen sich Lilli und Ernst in der Bibliothek ihres Hause
 
 Es waren Lillis glücklichste Jahre.
 
-#### FREUNDE!
+{{<lightbox_image src="/images/lilli-mit-familie.jpeg" title="Lilli Jahn mit ihrer Familie" class="float-start" >}}
 
-![Lilli mit Familie](/images/lilli-mit-familie.jpeg#float-right)
+#### FREUNDE!
 
 Lilli und Ernst hatten viele Freunde. Dass kam daher, weil Ernst der einzige Arzt in Immenhausen war. Nur weil Lilli ­Jüdin war, durfte sie nicht mehr Arbeiten. Wenn noch Leute zu Lilli gegangen sind, brachten sie sich selber in Gefahr. Daher wurden ihre Freunde immer weniger.
 

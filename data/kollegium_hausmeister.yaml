@@ -1,0 +1,10 @@
+personen:
+- name: Herr Hajra
+  funktion: Hausmeister
+  image: hausmeister/0b7b55687d1d26b223123ae9290a9dfc_660.jpg
+- name: Herr Kraus
+  funktion: Hausmeister
+  image: hausmeister/ab26f8836dc1b541fd85720a48aac207_kraus.jpg
+- name: Frau Ludloff
+  funktion: Hausmeisterin
+  image: hausmeister/hausmeisterin_lillibet_ludloff.jpg
