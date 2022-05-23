@@ -1,0 +1,15 @@
+<script src="{{ "/shortcode-gallery/swipebox/js/jquery.swipebox.min.js" | relURL }}"></script>
+<link rel="stylesheet" href="{{ "/shortcode-gallery/swipebox/css/swipebox.min.css"| relURL }}">
+
+{{ $class := .Get "class" }}
+{{ $src := .Get "src" }}
+{{ $title := .Get "title"}}
+
+<a href="{{ $src }}" class="lightbox-img swipebox" title="{{ $title }}">
+    <img src="{{ $src }}" class="{{ $class }}">
+</a>
+
+
+<script>
+    $('.swipebox').swipebox();
+</script>

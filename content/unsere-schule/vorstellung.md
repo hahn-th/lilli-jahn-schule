@@ -10,10 +10,10 @@ menu:
 
 ## Lilli Jahn
 
-![Lilli Jahn](/images/lilli-portraet.jpg#float-right)
-
 
 ### So hat unsere Schule ihren Namen bekommen!
+
+{{<lightbox_image src="/images/lilli-portraet.jpg" title="Lilli Jahn" class="float-end" >}}
 
 Unsere Schule hieß immer nur Grundschule Immenhausen. Dann haben unsere Lehrer und Eltern überlegt, wie unsere Schule heißen soll. Nach langem Überlegen haben sie sich auf den Namen Lilli Jahn geeinigt.
 
@@ -35,7 +35,6 @@ Lilli arbeitete ziemlich früh wieder. Ab und zu musste Lilli ganz schnell von d
 Sie konnte Klavierspielen, war eine super Hausfrau, hatte einen Doktortitel und kümmerte sich um ihre Kinder. Ihr Mann war „nur“ Arzt. 
 Lilli blieb trotz der vielen Anforderungen im­mer fröhlich. 
 
-
 #### Herbst 1932
 
 1930 wurde die kleine Johanna geboren.
@@ -50,9 +49,9 @@ Abends nach der Arbeit trafen sich Lilli und Ernst in der Bibliothek ihres Hause
 
 Es waren Lillis glücklichste Jahre.
 
-#### FREUNDE!
+{{<lightbox_image src="/images/lilli-mit-familie.jpeg" title="Lilli Jahn mit ihrer Familie" class="float-start" >}}
 
-![Lilli mit Familie](/images/lilli-mit-familie.jpeg#float-right)
+#### FREUNDE!
 
 Lilli und Ernst hatten viele Freunde. Dass kam daher, weil Ernst der einzige Arzt in Immenhausen war. Nur weil Lilli ­Jüdin war, durfte sie nicht mehr Arbeiten. Wenn noch Leute zu Lilli gegangen sind, brachten sie sich selber in Gefahr. Daher wurden ihre Freunde immer weniger.
 

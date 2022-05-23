@@ -251,13 +251,19 @@ aside .box li {
     margin: 0;
     padding: 0;
 }
-
+/* 
 .md__image img {
     max-height: 400px;
     width: auto;
     height: auto;
     border-radius: 10px;
     box-shadow: 3px 3px 8px 3px rgb(67, 90, 109, 0.2);
+} */
+
+.lightbox-img img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px 3px rgb(67, 90, 109, 0.2);
+    margin: 10px;
 }
 
 .fv_mitglied {
