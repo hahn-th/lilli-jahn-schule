@@ -1,0 +1,15 @@
+<div class="container-fluid">
+{{ range .Site.Data.termine.termine }}
+    {{ $dateFormatted := replaceRE `(\d{1,2}).(\d{1,2}).(\d{2,4})` "$3-$2-$1" .datum }}
+<div class="row calendar-entry m-3">
+    <div class="calendar-date m-0 p-0 col-2">
+        <div class="month w-100">{{ dateFormat "Jan" $dateFormatted }}</div>
+        <div class="day">{{ dateFormat "02" $dateFormatted }}</div>
+        <div class="year">{{ dateFormat "2006" $dateFormatted }}</div>
+    </div>
+    <div class="col">
+        {{ .name }}
+    </div>
+</div>
+{{ end }}
+</div>

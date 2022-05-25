@@ -293,3 +293,54 @@ aside .box li {
 .fv_project h3 {
     border-bottom: 2px solid gold;
 }
+
+/* Calendar */
+.calendar-date {
+    border-radius: 15px;
+    background-color: #E3E3E3;
+}
+.calendar-date .month { 
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: gold;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-inline: 10px;
+}
+.calendar-date .day { 
+    font-size: 3rem;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1;
+}
+.calendar-date .year { 
+    font-size: 0.7rem;
+    background-color: #ccc;
+}
+
+.eventcal-header-month {
+    color: #444;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.eventcal-card {
+    border-radius: 15px;
+    background-color: gold;
+    padding: 20px;
+    min-height: 250px;
+}
+.eventcal-card-day {
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1;
+}
+.eventcal-card-month {
+    font-size: 0.7rem;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.eventcal-card-text {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px dashed #888;
+}
