@@ -8,4 +8,6 @@ menu:
     weight: 1
     parent: fuereltern
 ---
+Alle Termine können sie in in ihren persönlichen Kalender importieren.
 
+{{< termine >}}

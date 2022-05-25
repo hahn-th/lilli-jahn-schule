@@ -1,6 +1,12 @@
 ---
 baseURL: https://jocular-brioche-01f615.netlify.app/
 languageCode: de-de
+defaultContentLanguage: de
+languages:
+  de:
+    languagedirection: rtl
+    title: Deutsch
+    weight: 1
 title: Lilli-Jahn-Schule Immenhausen
 author: 
   name: Lilli-Jahn-Schule Immenhausen
@@ -13,6 +19,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+params:
+  DateForm: "2.1.2006"
 
 theme: "hugo-shortcode-gallery"
 galleryShowExif: false

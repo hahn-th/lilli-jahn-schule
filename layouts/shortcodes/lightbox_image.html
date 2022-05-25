@@ -5,14 +5,8 @@
 {{ $src := .Get "src" }}
 {{ $title := .Get "title"}}
 
-{{ $image := .Page.Resources.GetMatch $src }}
-{{ $image := $image.Resize "x400" }}
 <a href="{{ $src }}" class="lightbox-img swipebox" title="{{ $title }}">
-        
-    
-    {{ with $image }}
-        <img src="{{ .RelPermalink }}" class="{{ $class }}" width="{{ .Width }}" height="{{ .Height }}">
-    {{ end }}
+    <img src="{{ $src }}" class="{{ $class }}">
 </a>
 
 <script>
