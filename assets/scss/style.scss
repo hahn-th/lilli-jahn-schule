@@ -15,6 +15,7 @@ html,
 body {
     padding: 0px;
     margin: 0px;
+    color: $gray-900;
 }
 
 body {
@@ -29,7 +30,7 @@ body {
     padding: 0;
 }
 .header > div {
-    border-bottom: 1px dashed darkgray;
+    border-bottom: 1px dashed $mutedFontColor;
 }
 
 .flex {
@@ -81,7 +82,7 @@ body {
     background-color: rgb(92, 149, 112);
 }
 
-.active {
+navbar .active {
     font-weight: bold;
 }
 
@@ -117,28 +118,31 @@ body {
 /* BREADCRUMB */
 .breadcrumb {
     color: $mutedFontColor !important;
+    margin: 0;
+    border-bottom: 1px dashed $mutedFontColor;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
 }
 .breadcrumb a {
     color: $mutedFontColor !important;
     background-color: transparent !important;
     text-decoration: none;
 }
-.breadcrumb .active {
-    color: $mutedFontColor !important;
-}
 
 /* CONTENT */
 
 #content {
-    padding: 40px 0 40px 0;
+    padding-top: 20px;
 }
+
 
 article h1 {
     /* border-bottom: 1px dotted rgb(67, 90, 109);; */
     border-bottom: 2px solid $primary;
     font-family: "Cabin Sketch";
     margin: 0 0 40px 0;
-    font-size: 34px;
+    font-size: 40px;
 }
 
 article h2 {
@@ -221,6 +225,11 @@ aside .box li {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.post-date {
+    font-size: 0.9rem;
+    color: $gray-700;
 }
 
 .footer {
@@ -351,11 +360,17 @@ aside .box li {
 }
 
 #content a {
-    color: black;
+    color: $gray-900;
     background-color: $primary;
+}
+#content a:hover {
+    color: $gray-700;
 }
 
 .footer a {
-    color: black !important;
+    color: $gray-900 !important;
+}
+.footer a:hover {
+    color: $gray-700 !important;
 }
 
