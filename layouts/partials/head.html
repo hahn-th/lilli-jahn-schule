@@ -5,10 +5,11 @@
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
-<link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/style.css"> 
-<link rel="stylesheet" href="/css/image-position.css"> 
+{{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
+{{ $style := resources.Get "scss/main.scss" | toCSS  $options | minify }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
 
 <link rel="alternate" type="application/rss+xml" href='{{ "feed.xml" | absURL }}' />
 
-<script src="/js/jquery-3.6.0.min.js"></script> 
+{{ $jquery := resources.Get "js/jquery.min.js" }}
+<script src="{{ $jquery.RelPermalink }}"></script>

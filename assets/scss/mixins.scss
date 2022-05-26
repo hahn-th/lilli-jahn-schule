@@ -1,0 +1,5 @@
+@include media-breakpoint-up(sm) {
+    .logo {
+      border: 2px solid $primary;
+    }
+  }

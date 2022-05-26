@@ -39,3 +39,14 @@ outputFormats:
 sitemap:
   changefreq: monthly
   filename: sitemap.xml
+
+module:
+  mounts:
+    - source: node_modules/bootstrap/dist/js/bootstrap.min.js
+      target: assets/js/bootstrap.min.js
+    - source: node_modules/jquery/dist/jquery.min.js
+      target: assets/js/jquery.min.js
+    - source: node_modules/popper.js/dist/popper.min.js
+      target: assets/js/popper.min.js
+    - source: assets
+      target: assets
