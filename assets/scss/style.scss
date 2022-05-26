@@ -16,12 +16,9 @@ body {
     padding: 0px;
     margin: 0px;
     color: $gray-900;
-}
-
-body {
+    font-size: 14px;
+    letter-spacing: 1.28px;
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    /* font-family: "Montserrat", Helvetica, Arial, Verdana, sans-serif; */
-    /* font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
     background: white url('/images/bg.png');
 }
 
