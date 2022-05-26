@@ -11,7 +11,7 @@ resources:
 
 ---
 
-## Liebe Kinder, liebe Eltern, liebe Schulgemeinde,
+# Liebe Kinder, liebe Eltern, liebe Schulgemeinde,
 
 die Lilli-Jahn-Schule besuchen ungefähr 230 Kinder aus Immenhausen, Holzhausen und Mariendorf.
 

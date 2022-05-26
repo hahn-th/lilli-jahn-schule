@@ -14,3 +14,7 @@ hugo.linux
 
 # Dependency
 node_modules
+
+vendor/
+resources/
+/node_modules
