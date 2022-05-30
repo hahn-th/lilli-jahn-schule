@@ -48,5 +48,7 @@ module:
       target: assets/js/jquery.min.js
     - source: node_modules/popper.js/dist/popper.min.js
       target: assets/js/popper.min.js
+    - source: node_modules/feather-icons/dist/feather.min.js
+      target: assets/js/feather.min.js
     - source: assets
       target: assets
