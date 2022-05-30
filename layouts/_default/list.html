@@ -2,36 +2,20 @@
 
 <section id="content">
     <div class="container clearfix">
-        <div class="row">
+        <h1>{{ .Title }}</h1>
+        <section class="box">
+            {{.Content}}
+        </section>
 
-            <div class="col-md-9">
-                <section class="box">
-                    {{.Content}}
-                </section>
-                <section class="box">
-                    <h3>Neuigkeiten</h3>
-                    <div class="post-list">
-                        {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" "post") }}
-                        {{ range $pag.Pages }}
-                        {{ partial "list-item.html" . }}
-                        {{ end }}
-                    </div>
-                </section>
-
-                <div class="post-navigation">
-                    {{ partial "pagination.html" . }}
-                </div>
+        <section class="box">
+            <div class="container post-list-ul">
+                <ul>
+                {{ range .Pages }}
+                    <li><a href="{{ .Permalink }}" alt="{{ .Title }}">{{ .Title }}</a></li>
+                {{ end }}
+                </ul>
             </div>
-            <div class="col-md-3">
-                <aside>
-                    {{ partial "aside-kontakt.html" . }}
-                    
-                    {{ partial "aside-section-nav.html" . }}
-                </aside>
-            </div>
-        </div>
-
-
+        </section>
     </div>
 </section>
 

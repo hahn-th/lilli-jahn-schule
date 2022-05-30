@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu May 26 18:29:01 2022
+# Make data base, printed on Mon May 30 17:16:44 2022
 
 # Variables
 
@@ -29,7 +29,7 @@ ASSETS_DIR := assets/js/vendor/
 # environment
 LOCALAPPDATA = C:\Users\thoma\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-de4c939f-08ec-425c-a99a-e6d0b39fcd36-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-13c075df-a435-4c7b-9698-67f56a97316b-sock
 # environment
 VSCODE_CWD = C:\WINDOWS\system32
 # environment
@@ -47,7 +47,7 @@ GOPATH = C:\Users\thoma\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8372_AEKTACJQKBUJUIIW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16656_TTXPOKHDMAEIWRHB
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -83,7 +83,7 @@ CURDIR := t:/Projekte/Web/lillijahn
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -103,7 +103,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 8372
+VSCODE_PID = 16656
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -227,7 +227,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
 
 # Directories
 
-# . (key t:/Projekte/Web/lillijahn, mtime 1653560374): 22 files, no impossibilities.
+# . (key t:/Projekte/Web/lillijahn, mtime 1653587518): 22 files, no impossibilities.
 
 # 22 files, no impossibilities in 1 directories.
 
@@ -250,7 +250,7 @@ build-js:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-26 12:27:22
+#  Last modified 2022-05-26 19:51:50
 #  File has been updated.
 #  Successfully updated.
 
@@ -281,6 +281,6 @@ all:
 # strcache performance: lookups = 31 / hit rate = 16%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Thu May 26 18:29:01 2022
+# Finished Make data base on Mon May 30 17:16:44 2022
 
  
