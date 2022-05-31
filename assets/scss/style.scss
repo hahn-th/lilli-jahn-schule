@@ -20,6 +20,7 @@ body {
     letter-spacing: 1.18px;
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background: white url('/images/bg.png');
+    box-sizing: border-box;
 }
 
 /* HEADER und NAVIGATION */
@@ -113,12 +114,14 @@ navbar .active {
 }
 
 /* BREADCRUMB */
-.breadcrumb {
-    color: $mutedFontColor !important;
-    margin: 0;
+.breadcrumb-container {
     border-bottom: 1px dashed $mutedFontColor;
     padding-bottom: 20px;
     margin-bottom: 20px;
+}
+.breadcrumb {
+    color: $mutedFontColor !important;
+    margin: 0;
     font-size: 0.9rem;
 }
 .breadcrumb a {

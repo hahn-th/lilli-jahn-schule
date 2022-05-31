@@ -1,24 +1,17 @@
 {{ define "main" }}
 
-<section id="content">
-    <div class="container">
-        {{ partial "breadcrumb.html" . }}
-    </div>
-    <div class="container clearfix">
-        <div class="row gx-5">
 
-            <div class="col-lg-9 col-md-12">
+<section id="content">
+    
+    {{ partial "breadcrumb.html" . }}
+
+    <div class="container clearfix">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-md-10 col-sm-11">
                 <h1>{{ .Page.Title }}</h1>
                 <article>
                     {{ .Content }}
                 </article>
-            </div>
-            <div class="col-lg-3 col-md-12">
-                <aside>
-                    {{ partial "aside-section-nav.html" . }}
-                    {{ partial "aside-kontakt.html" . }}
-                    
-                </aside>
             </div>
         </div>
 

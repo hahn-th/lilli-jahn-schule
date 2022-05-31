@@ -2,18 +2,18 @@
 
 <section id="content">
 
-    <div class="container">
-        {{ partial "breadcrumb.html" . }}
-    </div>
+    {{ partial "breadcrumb.html" . }}
 
-    <div class="container clearfix justify-content-center d-flex">
-        <article class="post-container w-75" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="container clearfix ">
+        <div class="row justify-content-center">
+        <article class="post-container col-md-10 col-sm-11" itemscope="" itemtype="http://schema.org/BlogPosting">
             {{ partial "post-header.html" . }}
 
             {{ partial "post-content.html" . }}
 
             {{ partial "post-next-last-nav.html" . }}
         </article>
+    </div>
     </div>
 </section>
 {{ end }}
