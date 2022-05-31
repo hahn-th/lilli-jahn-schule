@@ -2,21 +2,29 @@
 
 
 <section id="content">
-    <div class="container clearfix">
-
-<div id="post-index" class="container">
-    {{ partial "post-intro.html" . }}
-
-    {{ $pag := .Paginate .Pages }}
-    {{ range $pag.Pages }}
-        {{ partial "list-item.html" . }}
-    {{ end }}
-
-    <div class="post-navigation">
-        {{ partial "pagination.html" . }}
+    <div class="container">
+        {{ partial "breadcrumb.html" . }}
     </div>
-</div>
-</div>
+    <div class="container">
+        <h1>{{ .Page.Title }}</h1>
+    </div>
+    <div class="container">
+        {{ .Content }}
+    </div>
+    <div class="container clearfix">
+        <div id="post-index" class="container">
+            {{ partial "post-intro.html" . }}
+
+            {{ $pag := .Paginate .Pages }}
+            {{ range $pag.Pages }}
+            {{ partial "list-item.html" . }}
+            {{ end }}
+
+            <div class="post-navigation">
+                {{ partial "pagination.html" . }}
+            </div>
+        </div>
+    </div>
 </section>
 
 {{ end }}
