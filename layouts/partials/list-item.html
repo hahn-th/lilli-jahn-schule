@@ -1,32 +1,29 @@
 <!--Section: News of the day-->
-<div class="row gx-5 list-item">
-    <div class="col-md-3 mb-4">
-        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
-            {{ if .Params.thumbnail }}
-                {{ with .Resources.GetMatch .Params.thumbnail }}
-                <img src="{{ .Permalink }}" class="img-fluid">
-                {{ else }}
-                    <img src="/images/vorschaubild-platzhalter.jpg" class="img-fluid">
-                {{ end }}
+<div class="row list-item">
+    <div class="col-md-3 p-0 m-0 list-item-image">
+        {{ if .Params.thumbnail }}
+            {{ with .Resources.GetMatch .Params.thumbnail }}
+            <img src="{{ .Permalink }}" class="img-fluid">
             {{ else }}
                 <img src="/images/vorschaubild-platzhalter.jpg" class="img-fluid">
             {{ end }}
+        {{ else }}
+            <img src="/images/vorschaubild-platzhalter.jpg" class="img-fluid">
+        {{ end }}
 
-            <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-            </a>
-        </div>
+        <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        </a>
     </div>
 
-    <div class="col-md-9 mb-4">
+    <div class="col-md-9">
         <!-- <span class="badge bg-danger px-2 py-1 shadow-1-strong mb-3">News of the day</span> -->
-        <h4><strong>{{ .Title }}</strong></h4>
-        <p class="text-muted">
+        <div class="fv_name">{{ .Title }}</div>
+        <div class="fv_funktion">
             {{ truncate 200 .Content | plainify }}
-        </p>
-        <a href="{{ .Permalink }}" itemprop="url" class="btn btn-warning" role="button">Weiterlesen</a>
+        </div>
+        <a href="{{ .Permalink }}" itemprop="url" class="btn btn-warning readmore" role="button">Weiterlesen...</a>
     </div>
-
 </div>
 
 <!--Section: News of the day-->
