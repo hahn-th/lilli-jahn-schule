@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 30 17:16:44 2022
+# Make data base, printed on Tue May 31 19:48:02 2022
 
 # Variables
 
@@ -29,7 +29,7 @@ ASSETS_DIR := assets/js/vendor/
 # environment
 LOCALAPPDATA = C:\Users\thoma\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-13c075df-a435-4c7b-9698-67f56a97316b-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f1a4f2ca-db0b-49ea-a3c9-c5c165391697-sock
 # environment
 VSCODE_CWD = C:\WINDOWS\system32
 # environment
@@ -47,7 +47,7 @@ GOPATH = C:\Users\thoma\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16656_TTXPOKHDMAEIWRHB
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16184_OSXDUCKBOIFECHON
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -103,7 +103,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 16656
+VSCODE_PID = 16184
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -281,6 +281,6 @@ all:
 # strcache performance: lookups = 31 / hit rate = 16%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Mon May 30 17:16:44 2022
+# Finished Make data base on Tue May 31 19:48:02 2022
 
  
