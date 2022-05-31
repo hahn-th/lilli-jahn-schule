@@ -10,17 +10,22 @@
                 </section>
                 <section class="box">
                     <h3>Neuigkeiten</h3>
-                    <div class="post-list">
+
+                          
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        
                         {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" "post") }}
                         {{ range $pag.Pages }}
-                        {{ partial "list-item.html" . }}
+                        {{ partial "list-card-item.html" . }}
                         {{ end }}
+    
                     </div>
+                    
+                    <div class="post-navigation">
+                        {{ partial "pagination.html" . }}
+                    </div>
+                               
                 </section>
-
-                <div class="post-navigation">
-                    {{ partial "pagination.html" . }}
-                </div>
             </div>
             <div class="col-md-3">
                 <aside>
