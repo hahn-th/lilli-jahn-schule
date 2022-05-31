@@ -17,7 +17,7 @@ body {
     margin: 0px;
     color: $gray-900;
     font-size: 14px;
-    letter-spacing: 1.28px;
+    letter-spacing: 1.18px;
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background: white url('/images/bg.png');
 }
@@ -172,12 +172,40 @@ article h2 {
     width: auto;
 }
 .list-item {
-    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    box-shadow: 0px 3px 10px lightgray;
+    margin-bottom: 2rem;
+}
+.list-item .fv_name {
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.list-item .fv_funktion {
+    display: block;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .list-item img {
-    box-shadow: 0 3px 10px gray;
-    border-radius: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0;
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
 }
+.list-item .readmore {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 .termin {
     background-color: rgb(240, 240, 240);
     border-radius: 15px;
@@ -222,6 +250,20 @@ aside .box li {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.post-list-ul {
+    list-style: none;
+}
+
+.post-list-ul li {
+    list-style: none;
+    font-size: 1.2em;
+    margin: 10px;
+    padding:10px;
+}
+.post-list-ul a:hover {
+    box-shadow: 0px 3px 10px lightgray;
 }
 
 .post-date {

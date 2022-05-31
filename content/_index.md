@@ -1,9 +1,10 @@
 ---
-title: Neuigkeiten
+title: Home
 date: 2022-05-09T20:33:52.000+02:00
 menu:
   main:
     weight: 1
+    pre: home
 resources:
 - src: "/images/schulhof1.jpeg"
 - src: "homepage-images/schulhof2.jpeg"

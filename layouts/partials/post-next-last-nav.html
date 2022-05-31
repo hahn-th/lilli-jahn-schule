@@ -1,6 +1,6 @@
 <div class="row single-page-nav">
-    <div class="col-md-6 text-left">{{if .NextInSection}}<i class="fa-solid fa-angles-left"></i> <a
+    <div class="col-md-6 text-left">{{if .NextInSection}}<i data-feather="chevrons-left"></i> <a
             href="{{.NextInSection.Permalink}}">{{.NextInSection.Title }} </a>{{end}}</div>
     <div class="col-md-6 text-end">{{if .PrevInSection}}<a href="{{.PrevInSection.Permalink}}">
-            {{.PrevInSection.Title }} <i class="fa-solid fa-angles-right"></i></a>{{end}}</div>
+            {{.PrevInSection.Title }} <i data-feather="chevrons-right"></i></a>{{end}}</div>
 </div>

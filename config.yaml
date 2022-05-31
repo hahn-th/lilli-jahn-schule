@@ -1,15 +1,15 @@
----
+title: Lilli-Jahn-Schule Immenhausen
+author: 
+  name: Lilli-Jahn-Schule Immenhausen
+
 baseURL: https://jocular-brioche-01f615.netlify.app/
 languageCode: de-de
 defaultContentLanguage: de
 languages:
   de:
     languagedirection: rtl
-    title: Deutsch
     weight: 1
-title: Lilli-Jahn-Schule Immenhausen
-author: 
-  name: Lilli-Jahn-Schule Immenhausen
+
 menu:
   footermenu:
   - Name: Intra.Net
@@ -48,5 +48,7 @@ module:
       target: assets/js/jquery.min.js
     - source: node_modules/popper.js/dist/popper.min.js
       target: assets/js/popper.min.js
+    - source: node_modules/feather-icons/dist/feather.min.js
+      target: assets/js/feather.min.js
     - source: assets
       target: assets

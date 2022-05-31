@@ -26,13 +26,16 @@
                         {{ $count := 0 }}
                         {{ range .Site.Menus.main }}
                             {{ $count = add $count 1 }}
-                            
                             {{ if .HasChildren }}
                                 <!-- sub menus -->
                                 <li class="custom-nav nav-item dropdown {{ printf "nav%d" $count }} {{ if $currentPage.HasMenuCurrent "main" . }} active {{ end }}">
                                     <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
                                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        {{ .Name }}
+                                        {{ with .Pre }}
+                                            <i data-feather="{{ . }}"></i>
+                                        {{ else }}
+                                            {{ .Name }}
+                                        {{ end }}
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                                         {{ range .Children }}
@@ -43,7 +46,13 @@
                             {{ else }}
                                 <!-- top level menues -->
                                 <li class="custom-nav nav-item {{ printf "nav%d" $count }} {{ if $currentPage.IsMenuCurrent "main" . }} active {{end}}">
-                                    <a class="nav-link" {{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page"{{ end }} href="{{ .URL }}">{{ .Name }}</a>
+                                    <a class="nav-link" {{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page"{{ end }} href="{{ .URL }}">
+                                        {{ with .Pre }}
+                                            <i data-feather="{{ . }}"></i>
+                                        {{ else }}
+                                            {{ .Name }}
+                                        {{ end }}
+                                    </a>
                                 </li>
                             {{ end }}
                         {{ end }}
