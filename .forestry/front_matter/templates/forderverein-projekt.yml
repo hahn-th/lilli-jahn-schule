@@ -1,0 +1,16 @@
+---
+label: Förderverein Projekt
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: text
+  name: type
+  label: type
