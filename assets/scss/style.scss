@@ -137,12 +137,13 @@ navbar .active {
 }
 
 
-article h1 {
+h1 {
     /* border-bottom: 1px dotted rgb(67, 90, 109);; */
     border-bottom: 2px solid $primary;
     font-family: "Cabin Sketch";
-    margin: 0 0 40px 0;
+    margin: 0 0 50px 0;
     font-size: 40px;
+    font-weight: bold;
 }
 
 article h2 {
@@ -161,12 +162,6 @@ h6 {
 
 article h2 {
     font-size: 24px;
-}
-
-
-#content h1 {
-    border-bottom: 2px solid $primary;
-    font-family: "Cabin Sketch";
 }
 
 #content img {
@@ -222,6 +217,7 @@ article h2 {
 }
 .box h3 {
     border-bottom: 2px solid $primary;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 aside .box {
@@ -273,6 +269,23 @@ aside .box li {
     font-size: 0.9rem;
     color: $gray-700;
 }
+
+/* Post und FV_Projekte */
+.post-header h1 {
+    margin-bottom: 1rem;
+}
+.post-featured-image {
+    justify-items: center;
+    text-align: center;
+}
+.post-featured-image img {
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 3px rgba(67, 90, 109, 0.2);
+    margin: 2rem;
+    width: auto;
+    max-height: 500px;
+}
+
 
 .footer {
     background: $primary;

@@ -11,7 +11,7 @@
         <img src="{{ $image }}" class="card-img-top">
         <div class="card-body">
             <h5 class="card-title">{{ .Title }}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">{{ .Date | time.Format ":date_long" }}</h6>
+            <h6 class="card-subtitle mb-2 text-muted">{{ time.Format "Monday, 02. January, 2006" .Date }}</h6>
             <p class="card-text">
                 {{ truncate 120 .Content | plainify }}
             </p>

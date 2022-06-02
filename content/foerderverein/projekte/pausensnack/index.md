@@ -3,6 +3,7 @@ title: "Lilli-Jahn-Schule verkauft Pausensnacks"
 date: 2016-05-16T19:53:49+02:00
 draft: false
 thumbnail: "images/IMG-20190515-WA0004.jpg"
+type: "fv_projekt"
 ---
 
 Auch in diesem Jahr haben Kinder der Lilli-Jahn-Schule in der Zeit von März bis April jeden Mittwoch mit viel Einsatzbereitschaft in den großen Pausen  ihre selbst hergestellten Snacks verkauft.
