@@ -42,7 +42,7 @@ collections:
     label: "Pages"
     files:
       - file: "content/_index.md"
-        label: "Homepage"f
+        label: "Homepage"
       - file: "content/datenschutz.md"
         label: "Datenschutz"
       - file: "content/impressum.md"
