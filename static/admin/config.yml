@@ -31,3 +31,12 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/_index.md"
+        label: "Homepage"
+      - file: "content/datenschutz.md"
+        label: "Datenschutz"
+      - file: "content/impressum.md"
+        label: "Impressum"
