@@ -1,0 +1,7 @@
+{{ with .Param "categories" }}
+    <ul class="categorie-list">
+    {{ range $index, $cat := . }}
+        <li><span class="badge bg-primary">{{ $cat }}</span></li>
+    {{- end -}}
+    </ul>
+{{ end }}

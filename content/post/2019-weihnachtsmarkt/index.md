@@ -3,7 +3,7 @@ title: "2019 Weihnachtsmarkt"
 date: 2019-05-16T19:16:49+02:00
 draft: false
 thumbnail: "images/2019-weihnachtsmarkt-2.jpg"
-type: "fv_projekt"
+categories: ['Förderverein']
 ---
 Auch in diesem Jahr war der Förderverein der Lilli-Jahn-Schule Immenhausen mit einem Stand auf dem Immenhäuser Weihnachtsmarkt am 08.12 und 09.12.2019 vertreten. Der Förderverein hat Glühwein, Kinderwunsch und Herzwaffeln verkauft. 
 
