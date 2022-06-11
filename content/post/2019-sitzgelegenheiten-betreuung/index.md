@@ -3,7 +3,7 @@ title: "2019 Sitzgelegenheiten Betreuung"
 date: 2019-05-16T19:46:32+02:00
 draft: false
 thumbnail: "images/1.jpg"
-type: "fv_projekt"
+categories: ['Förderverein']
 ---
 
 #### NEUES SITZELEMENT FÜR DEN BETREUUNGSRAUM DER LILLI-JAHN-SCHULE IMMENHAUSEN

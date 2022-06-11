@@ -3,6 +3,7 @@ title: G7 wollen von Russland verschobene Grenzen in Ukraine »niemals« anerken
 date: 2022-05-14T11:30:53+02:00
 thumbnail: /images/uploads/vorschaubild-platzhalter.jpg
 draft: false
+categories: ['Aktuelles']
 ---
 Die G7-Gruppe führender Industrienationen hat erklärt, dass sie von Russland durch den Angriffskrieg in der Ukraine angestrebte neue Grenzziehungen »niemals« akzeptieren werde. »Wir werden niemals Grenzen anerkennen, die Russland durch militärische Aggression zu verschieben versucht hat«, heißt es in einer Erklärung der G7-Außenminister vom Samstag zum Abschluss ihrer Beratungen im schleswig-holsteinischen Weissenhaus.
 

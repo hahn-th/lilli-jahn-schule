@@ -1,5 +1,6 @@
 <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ .Title }}</h1>
+    <p class="post-categories">{{ partial "categories.html" . }}</p>
     <p class="post-date{{ if not .Site.Params.readingTime }} post-line{{ end }}">
         <span>{{ time.Format "Monday, 02. January, 2006" .Date }} | {{ .Params.author | default .Site.Author.name }}</span>
     </p>

@@ -3,7 +3,7 @@ title: "2021 Einschulungsfeier"
 date: 2021-09-01T19:43:56+02:00
 draft: false
 thumbnail: "images/IMG-20180910-WA0012.jpg"
-type: "fv_projekt"
+categories: ['Förderverein']
 ---
 Einschulungsfeier der 1. Klassen und Vorklasse der Förderverein der Lilli-Jahn-Schule verkaufte zur Einschulungsfeier Kaffee, Kuchen und Wasser.
 

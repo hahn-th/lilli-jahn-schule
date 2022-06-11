@@ -429,3 +429,12 @@ aside .box li {
     color: $gray-700 !important;
 }
 
+/* Category List */
+.categorie-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.categorie-list li {
+    display: inline;
+}

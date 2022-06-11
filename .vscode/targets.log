@@ -8,12 +8,10 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun 01 20:12:25 2022
+# Make data base, printed on Sat Jun 11 18:40:26 2022
 
 # Variables
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -29,9 +27,9 @@ ASSETS_DIR := assets/js/vendor/
 # environment
 LOCALAPPDATA = C:\Users\thoma\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-9cae823e-8c34-4fb3-863a-2fb28fe8d160-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-16f6924c-68ae-4b41-9abc-580e09d5096b-sock
 # environment
-VSCODE_CWD = C:\WINDOWS\System32
+VSCODE_CWD = C:\Users\thoma\AppData\Local\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -47,9 +45,7 @@ GOPATH = C:\Users\thoma\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13784_TMSNMZMFCLRTRVDE
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1840_BWSLIONQFFZVRIWS
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -63,7 +59,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\thoma\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = C:\Users\thoma\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
 # environment
 LANG = C
 # default
@@ -103,7 +99,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 13784
+VSCODE_PID = 1840
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -135,7 +131,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\php\php;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\Program Files\Go\bin;C:\Ruby31-x64\bin;C:\Users\thoma\AppData\Local\Microsoft\WindowsApps;C:\Users\thoma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thoma\AppData\Local\Programs\Python\Python38;C:\Users\thoma\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\thoma\.dotnet\tools;C:\Program Files (x86)\Nmap;C:\Users\thoma\AppData\Local\Microsoft\WindowsApps;C:\Users\thoma\.dotnet\tools;C:\Users\thoma\AppData\Roaming\npm;C:\Users\thoma\go\bin
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\php\php;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\Program Files\Go\bin;C:\Program Files\WireGuard\;C:\Ruby31-x64\bin;C:\Users\thoma\AppData\Local\Microsoft\WindowsApps;C:\Users\thoma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thoma\AppData\Local\Programs\Python\Python38;C:\Users\thoma\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\thoma\.dotnet\tools;C:\Program Files (x86)\Nmap;C:\Users\thoma\AppData\Local\Microsoft\WindowsApps;C:\Users\thoma\.dotnet\tools;C:\Users\thoma\AppData\Roaming\npm;C:\Users\thoma\go\bin
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -201,7 +197,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\thoma\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\904656864a101bc8cc628d743a1f0676-1.67.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\904656864a101bc8cc628d743a1f0676-1.68.0-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -219,7 +215,7 @@ PROCESSOR_REVISION = 7e05
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
 # variable set hash-table stats:
-# Load=103/1024=10%, Rehash=0, Collisions=10/130=8%
+# Load=101/1024=10%, Rehash=0, Collisions=9/128=7%
 
 # Pattern-specific Variable Values
 
@@ -281,6 +277,6 @@ all:
 # strcache performance: lookups = 31 / hit rate = 16%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Wed Jun 01 20:12:25 2022
+# Finished Make data base on Sat Jun 11 18:40:26 2022
 
  

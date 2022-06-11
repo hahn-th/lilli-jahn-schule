@@ -6,6 +6,3 @@ menu:
   main:
     weight: 2
 ---
-# Aktuelles
-
-Lesen sie die 
