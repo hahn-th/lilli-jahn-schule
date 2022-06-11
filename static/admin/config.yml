@@ -16,11 +16,10 @@ collections:
     public_folder: "images"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Hauptbild", name: "thumbnail", widget: "image"}
+      - {label: "Kategorie(n)", name: "categories", widget: "list", allow_add: true}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Kategorie(n)"
-        name: "categories"
-        widget: "list"
   - name: unsere-schule
     label: "Unsere Schule"
     folder: "/content/unsere-schule"
