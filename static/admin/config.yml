@@ -8,7 +8,7 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 
 collections:
   - name: post
-    label: "Neuigkeiten"
+    label: "Posts"
     folder: /content/post
     create: true
     path: "{{slug}}/index"
@@ -18,17 +18,9 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: foerderverein_projekt
-    label: "Förderverein Projekte"
-    folder: /content/foerderverein/projekte
-    create: true
-    path: "{{slug}}/index"
-    media_folder: "images"
-    public_folder: "images"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Kategorie(n)"
+        name: "categories"
+        widget: "list"
   - name: unsere-schule
     label: "Unsere Schule"
     folder: "/content/unsere-schule"
@@ -41,9 +33,18 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "content/_index.md"
+      - name: homepage
+        file: "content/_index.md"
         label: "Homepage"
-      - file: "content/datenschutz.md"
+        fields: 
+          - {label: "Body", name: "body", widget: "markdown"}
+      - name: datenschutz
+        file: "content/datenschutz.md"
         label: "Datenschutz"
-      - file: "content/impressum.md"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+      - name: impressum
+        file: "content/impressum.md"
         label: "Impressum"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}

@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 11 18:40:26 2022
+# Make data base, printed on Sat Jun 11 19:51:36 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -27,7 +29,7 @@ ASSETS_DIR := assets/js/vendor/
 # environment
 LOCALAPPDATA = C:\Users\thoma\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-16f6924c-68ae-4b41-9abc-580e09d5096b-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f7e95340-7884-4f0f-aed1-24e5f58458fa-sock
 # environment
 VSCODE_CWD = C:\Users\thoma\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -45,7 +47,9 @@ GOPATH = C:\Users\thoma\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1840_BWSLIONQFFZVRIWS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7840_DDDGYSBNPMYPXBBD
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -75,11 +79,11 @@ MAKEFLAGS = pqrR
 # environment
 ONEDRIVE = C:\Users\thoma\OneDrive
 # makefile
-CURDIR := t:/Projekte/Web/lillijahn
+CURDIR := t:/Projekte/Web/lilli-jahn-schule
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -99,7 +103,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 1840
+VSCODE_PID = 7840
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -215,7 +219,7 @@ PROCESSOR_REVISION = 7e05
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
 # variable set hash-table stats:
-# Load=101/1024=10%, Rehash=0, Collisions=9/128=7%
+# Load=103/1024=10%, Rehash=0, Collisions=10/130=8%
 
 # Pattern-specific Variable Values
 
@@ -223,9 +227,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
 
 # Directories
 
-# . (key t:/Projekte/Web/lillijahn, mtime 1653587518): 22 files, no impossibilities.
+# . (key t:/Projekte/Web/lilli-jahn-schule, mtime 1654969890): 18 files, no impossibilities.
 
-# 22 files, no impossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -246,7 +250,7 @@ build-js:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-26 19:51:50
+#  Last modified 2022-06-11 19:51:24
 #  File has been updated.
 #  Successfully updated.
 
@@ -271,12 +275,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 233 B / avg = 8 B
-# current buf: size = 8174 B / used = 233 B / count = 26 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 186 B / avg = 8 B
+# current buf: size = 8174 B / used = 186 B / count = 22 / avg = 8 B
 
-# strcache performance: lookups = 31 / hit rate = 16%
+# strcache performance: lookups = 27 / hit rate = 18%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Sat Jun 11 18:40:26 2022
+# Load=22/8192=0%, Rehash=0, Collisions=0/27=0%
+# Finished Make data base on Sat Jun 11 19:51:36 2022
 
  
