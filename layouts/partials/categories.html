@@ -2,9 +2,8 @@
 {{ with .Param $taxo }}
     <strong>Kategorie{{ if gt (len .) 1 }}n{{ end }}:</strong>
     {{ range $index, $director := . }}
-        {{- if gt $index 0 }}, {{ end -}}
         {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
-            <a href="{{ .Permalink }}">{{ $director }}</a>
+        <a href="{{ .Permalink }}"><span class="badge bg-primary">{{ $director }}</span></a>
         {{- end -}}
     {{- end -}}
 {{ end }}

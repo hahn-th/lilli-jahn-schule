@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 11 19:51:36 2022
+# Make data base, printed on Mon Jun 13 14:41:42 2022
 
 # Variables
 
@@ -29,7 +29,7 @@ ASSETS_DIR := assets/js/vendor/
 # environment
 LOCALAPPDATA = C:\Users\thoma\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f7e95340-7884-4f0f-aed1-24e5f58458fa-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-404b4ce3-5c64-4d30-9ab0-f37ba636e61f-sock
 # environment
 VSCODE_CWD = C:\Users\thoma\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -47,7 +47,7 @@ GOPATH = C:\Users\thoma\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7840_DDDGYSBNPMYPXBBD
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21012_HKXFLOIWUWONFTGR
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -83,7 +83,7 @@ CURDIR := t:/Projekte/Web/lilli-jahn-schule
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -103,7 +103,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 7840
+VSCODE_PID = 21012
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -227,9 +227,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
 
 # Directories
 
-# . (key t:/Projekte/Web/lilli-jahn-schule, mtime 1654969890): 18 files, no impossibilities.
+# . (key t:/Projekte/Web/lilli-jahn-schule, mtime 1654979297): 22 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 22 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -275,12 +275,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 186 B / avg = 8 B
-# current buf: size = 8174 B / used = 186 B / count = 22 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 233 B / avg = 8 B
+# current buf: size = 8174 B / used = 233 B / count = 26 / avg = 8 B
 
-# strcache performance: lookups = 27 / hit rate = 18%
+# strcache performance: lookups = 31 / hit rate = 16%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=0/27=0%
-# Finished Make data base on Sat Jun 11 19:51:36 2022
+# Load=26/8192=0%, Rehash=0, Collisions=0/31=0%
+# Finished Make data base on Mon Jun 13 14:41:42 2022
 
  
