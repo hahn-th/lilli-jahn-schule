@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:https://www.lilli-jahn-schule.de
+BEGIN:VTIMEZONE
+TZID:CET
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:Central European Summer Time
+DTSTART:20160327T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:Central European Time
+DTSTART:20161030T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+END:VTIMEZONE
+{{ range .Site.Data.termine.termine }}
+{{ $datum := replaceRE `(\d{1,2}).(\d{1,2}).(\d{2,4})` "$3-$2-$1" .datum }}
+{{ $datumEnde := replaceRE `(\d{1,2}).(\d{1,2}).(\d{2,4})` "$3-$2-$1" .enddatum }}
+BEGIN:VEVENT
+SUMMARY:{{ .name }}
+DESCRIPTION:{{ .name }}
+CLASS:PUBLIC
+DTSTART;TZID=CET:{{dateFormat "20060102T150405" $datum}}
+{{ if .enddatum }}
+DTEND;TZID=CET:{{dateFormat "20060102T150405" $datumEnde}}
+{{ else }}
+DTEND;TZID=CET:{{dateFormat "20060102T150405" $datum}}
+{{ end }}
+DTSTAMP:{{dateFormat "20060102T150405" $datum}}
+END:VEVENT
+{{ end }}
+END:VCALENDAR

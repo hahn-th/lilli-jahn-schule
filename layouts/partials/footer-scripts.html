@@ -1,8 +1,9 @@
-{{ $popper := resources.Get "js/popper.min.js" }}
-{{ $bootstrap := resources.Get "js/bootstrap.min.js" }}
 
-<script src="{{ $popper.RelPermalink  }}"></script>
+{{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+{{ $custom := resources.Get "js/custom.js" }}
+
 <script src="{{ $bootstrap.RelPermalink }}"></script>
+<script src="{{ $custom.RelPermalink }}"></script>
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
