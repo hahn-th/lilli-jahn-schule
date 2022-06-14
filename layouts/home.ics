@@ -17,14 +17,14 @@ TZNAME:Central European Time
 DTSTART:20161030T030000
 RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
 END:STANDARD
-END:VTIMEZONE{{ $dateFormat	:= "20060102T150405" }}{{ range .Site.Data.termine.termine }}{{ $datum := replaceRE `(\d{1,2}).(\d{1,2}).(\d{2,4})` "$3-$2-$1" .datum }}{{ $datumEnde := replaceRE `(\d{1,2}).(\d{1,2}).(\d{2,4})` "$3-$2-$1" .enddatum }}
+END:VTIMEZONE{{ range .Site.Data.termine.termine }}{{ $datum := replaceRE `(\d{1,2}).(\d{1,2}).(\d{2,4})` "$3-$2-$1" .datum }}{{ $datumEnde := replaceRE `(\d{1,2}).(\d{1,2}).(\d{2,4})` "$3-$2-$1" .enddatum }}
 BEGIN:VEVENT
 UID:{{ print (dateFormat "20060102T150405" $datum) (substr (md5 .name) 0 10 ) }}
 SUMMARY:{{ .name }}
 DESCRIPTION:{{ .name }}
 CLASS:PUBLIC
 DTSTART:{{dateFormat "20060102T150405" $datum}}
-{{ if .enddatum }}DTEND:{{dateFormat "20060102T150405" $datumEnde}}{{ else }}DTEND:{{dateFormat "20060102T150405" $datum}}{{ end }}
+{{ if .enddatum }}DTEND:{{ $datumEndeAsZeit := $datumEnde | time.AsTime }}{{ $datumEndeAsZeit.AddDate 0 0 1 | time.Format "20060102T150405" }}{{ else }}DTEND:{{dateFormat "20060102T150405" $datum}}{{ end }}
 DTSTAMP:{{dateFormat "20060102T150405" $datum}}
 END:VEVENT{{ end }}
 END:VCALENDAR
