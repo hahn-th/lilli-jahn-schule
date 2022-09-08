@@ -1,0 +1,31 @@
+{{ $image := "/images/vorschaubild-platzhalter.jpg" }}
+
+{{ if .Params.thumbnail }}
+    {{ with .Resources.GetMatch .Params.thumbnail }}
+        {{ $image = .Permalink }}
+    {{ end }}
+{{ end }}
+
+<div class="col">
+    <div class="row">
+        <div class="col-sm-5 col-md-3 col-lg-2">
+                <span class="fw-bold fs-3">{{ time.Format "02. January" .Date }}</span>&nbsp;<span class="fw-light fs-3">{{ time.Format "2006" .Date }}</span>
+                {{ partial "categories-preview.html" . }}
+        </div>
+        <div class="col-sm-3 col-md-2 col-lg-2">
+            <img src="{{ $image }}" class="card-img-top" >
+        </div>
+        <div class="col-sm-4 col-md-7 col-lg-8">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h3 class="mt-0 fw-bold fs-3">{{ .Title }}</h3> 
+                    <p class="card-text">
+                        {{ truncate 120 .Content | plainify }}
+                    </p>
+                    <a href="{{ .Permalink }}" itemprop="url" class="btn btn-warning readmore" role="button">Weiterlesen...</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

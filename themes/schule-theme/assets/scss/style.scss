@@ -1,0 +1,171 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* HEADER und NAVIGATION */
+.header {
+    padding: 0;
+}
+
+header .header-1 {
+    background: #fff;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+header .header-1 .logo {
+    color: $primary;
+    font-size: 25px;
+}
+
+header .header-1 form {
+    display: flex;
+}
+
+.navbar-div {
+    background-color: $primary;
+}
+
+/* FOOTER */
+.footer {
+    background: $primary;
+    margin-top: 30px;
+    padding: 20px 0 20px 0;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.developedby {
+    border-top: 1px dotted #000;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.developedby a {
+    margin-left: 10px;
+}
+
+.developedby a:hover {
+    font-weight: 700;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+#footer-nav ul {
+    list-style: circle;
+    margin: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: $gray-900  !important;
+}
+
+.footer a:hover {
+    color: $gray-700  !important;
+}
+
+/* CONTENT */
+#content {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 10px;
+}
+
+/* H1 ... H6 */
+h3 {
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+h4 {
+    font-size: 1em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+#content h1 {
+    font-weight: bold;
+}
+
+#content a {
+    color: $gray-900;
+    background-color: $primary;
+}
+#content a:hover {
+    color: $gray-700;
+}
+
+
+/* UTILS */
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.btn-circle-inner {
+    position: relative;
+    top: -3px;
+    width: 16px;
+    height: 16px;
+}
+
+.lightbox-img img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px 3px rgba(67, 90, 109, 0.2);
+    margin: 10px;
+}
+#page-image {
+    height: 200px;
+}
+
+#page-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Mitglieder Liste mit Fotos */
+.fv_mitglied {
+    border: 1px solid #eee;
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 3px 10px lightgray;
+}
+
+.fv_mitglied .fv_name {
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.fv_mitglied .fv_position {
+    display: block;
+    font-weight: 300;
+}
+.fv_mitglied img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Category List */
+.categorie-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.categorie-list li {
+    display: inline;
+}

@@ -22,7 +22,10 @@ markup:
 params:
   DateForm: "2.1.2006"
 
-theme: "hugo-shortcode-gallery"
+theme:
+  - hugo-shortcode-gallery
+  - schule-theme
+
 galleryShowExif: false
 galleryLastRow: "nojustify"
 outputs:
