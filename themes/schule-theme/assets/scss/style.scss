@@ -28,7 +28,8 @@ header .header-1 form {
 }
 
 .navbar-div {
-    background-color: $primary;
+    /* background-color: $primary; */
+    background-color: white;
 }
 
 /* FOOTER */
@@ -199,5 +200,9 @@ p {
 
 .hero-img {
     max-height: 370px;
-    border-radius: 20px;
+    border-radius: 15px;
+}
+
+.sticky-shadow {
+    box-shadow: 0px 5px 5px #ccc;
 }
