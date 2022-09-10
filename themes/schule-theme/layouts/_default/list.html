@@ -1,28 +1,27 @@
 {{ define "main" }}
 
+{{ partial "hero.html" . }}
 
 <section id="content">
-       
-    <div class="container clearfix">
-        <h1>{{ .Title }}</h1>
-        <section class="box">
-            {{.Content}}
-        </section>
 
-        <section class="box">
-            <div class="container justify-content-center">
-<div class="row">
-                <div class="post-list-ul c0l-9">
-                    <ul>
-                        {{ range .Pages }}
-                        <li><a href="{{ .Permalink }}" alt="{{ .Title }}">{{ .Title }}</a></li>
-                        {{ end }}
-                    </ul>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12 col-12">
+                <h1>{{ .Title }}</h1>
+
+                {{ .Content }}
+
+                <hr>
+
+                <div class="post-list-ul">
+                    {{ range .Pages }}
+                    <li><a href="{{ .Permalink }}" alt="{{ .Title }}">{{ .Title }}</a></li>
+                    {{ end }}
                 </div>
             </div>
-            </div>
-        </section>
+        </div>
     </div>
+
 </section>
 
 {{ end }}

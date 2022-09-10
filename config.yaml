@@ -25,7 +25,7 @@ params:
 theme:
   - hugo-shortcode-gallery
   - schule-theme
-
+  
 galleryShowExif: false
 galleryLastRow: "nojustify"
 outputs:

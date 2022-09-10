@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Jost&display=swap');
 html,
 body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Jost", sans-serif;
 }
 
 /* HEADER und NAVIGATION */
@@ -72,27 +74,52 @@ header .header-1 form {
     color: $gray-700  !important;
 }
 
-/* CONTENT */
+
 #content {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 10px;
+    padding: 70px 0 170px;
 }
 
 /* H1 ... H6 */
-h3 {
-    font-size: 1.3em;
-    margin-top: 1em;
-}
-h4 {
-    font-size: 1em;
-    margin-top: 1em;
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .h {
+    font-family: inherit;
     font-weight: bold;
+    margin: 0 0 0.5em;
+    color: inherit;
 }
+h1, .h1 {
+    font-size: 42px;
+}
+h2, .h2 {
+    font-size: 33px;
+}
+h3, .h3 {
+    font-size: 26px;
+}
+h4, .h4 {
+    font-size: 20px;
+}
+h5, .h5 {
+    font-size: 16px;
+}
+h6, .h6 {
+    font-size: 14px;
+}
+p {
+    margin: 0 0 1em;
+}
+// h3 {
+//     font-size: 1.3em;
+//     margin-top: 1em;
+// }
+// h4 {
+//     font-size: 1em;
+//     margin-top: 1em;
+//     font-weight: bold;
+// }
 
-#content h1 {
-    font-weight: bold;
-}
+// #content h1 {
+//     font-weight: bold;
+// }
 
 #content a {
     color: $gray-900;
@@ -168,4 +195,9 @@ h4 {
 }
 .categorie-list li {
     display: inline;
+}
+
+.hero-img {
+    max-height: 370px;
+    border-radius: 20px;
 }
