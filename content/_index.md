@@ -1,10 +1,9 @@
 ---
-title: Home
+title: Start
 date: 2022-05-09T20:33:52.000+02:00
 menu:
   main:
     weight: 1
-    pre: home
 ---
 
 # Liebe Kinder, liebe Eltern, liebe Schulgemeinde,

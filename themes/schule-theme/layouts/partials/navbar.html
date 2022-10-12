@@ -30,7 +30,7 @@
                         {{ if .HasChildren }}
                         <!-- sub menus -->
                         <li class="custom-nav nav-item dropdown {{ printf " nav%d" $count }} {{ if
-                            $currentPage.HasMenuCurrent "main" . }} active {{ end }}">
+                            $currentPage.HasMenuCurrent "main" . }} active {{ printf " nav-item-aktiv-%d" $count }} {{ end }}">
                             <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 {{ with .Pre }}
@@ -49,7 +49,7 @@
                         {{ else }}
                         <!-- top level menues -->
                         <li class="custom-nav nav-item {{ printf " nav%d" $count }} {{ if
-                            $currentPage.IsMenuCurrent "main" . }} active {{end}}">
+                            $currentPage.IsMenuCurrent "main" . }} active{{ printf " nav-item-aktiv-%d" $count }}{{end}}">
                             <a class="nav-link" {{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page" {{ end
                                 }} href="{{ .URL }}">
                                 {{ with .Pre }}

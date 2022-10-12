@@ -16,6 +16,7 @@ body {
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
+    font-size: 18px;
 }
 
 /* HEADER und NAVIGATION */
@@ -42,6 +43,67 @@ header .header-1 form {
     /* background-color: $primary; */
     background-color: white;
 }
+.nav-item > a {
+    display: block;
+    margin-right: 1em;
+    padding: 5px 10px !important;
+    margin-bottom: 3px;
+}
+.active > a {
+    color: black !important;
+    font-weight: bold;
+}
+
+.nav1 > a:hover {
+    border-bottom: 3px solid $color_1;
+    margin-bottom: 0px;
+}
+.nav2 > a:hover {
+    border-bottom: 3px solid $color_2;
+    margin-bottom: 0px;
+}
+.nav3 > a:hover {
+    border-bottom: 3px solid $color_3;
+    margin-bottom: 0px;
+}
+.nav4 > a:hover {
+    border-bottom: 3px solid $color_4;
+    margin-bottom: 0px;
+}
+.nav5 > a:hover {
+    border-bottom: 3px solid $color_5;
+    margin-bottom: 0px;
+}
+.nav6 > a:hover {
+    border-bottom: 3px solid $color_6;    
+    margin-bottom: 0px;
+}
+.nav-item-aktiv-1 > a {
+    background-color: $color_1;
+    color: white !important;
+}
+.nav-item-aktiv-2 > a {
+    background-color: $color_2;
+    color: white !important;
+}
+.nav-item-aktiv-3 > a {
+    background-color: $color_3;
+    color: white !important;
+}
+.nav-item-aktiv-4 > a {
+    background-color: $color_4;
+    color: white !important;
+}
+.nav-item-aktiv-5 > a {
+    background-color: $color_5;
+    color: white !important;
+}
+.nav-item-aktiv-6  a {
+    background-color: $color_6;
+    color: white !important;
+}
+
+
 
 /* FOOTER */
 .footer {

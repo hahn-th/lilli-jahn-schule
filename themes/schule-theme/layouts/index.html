@@ -8,6 +8,8 @@
             <div class="col-lg-8 col-md-12 col-12">
                 {{ .Content }}
 
+                <hr>
+
                 <h2>Aktuelles</h2>
                 {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" "post") }}
                 {{ range $pag.Pages }}
