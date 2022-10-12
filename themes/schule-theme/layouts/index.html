@@ -8,11 +8,12 @@
             <div class="col-lg-8 col-md-12 col-12">
                 {{ .Content }}
 
+                <h2>Aktuelles</h2>
                 {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" "post") }}
                 {{ range $pag.Pages }}
-                    <div class="row mb-5">
-                        {{ partial "list-card-item.html" . }}
-                    </div>
+                    {{ partial "list-card-item.html" . }}
+
+                    <hr>
                 {{ end }}
 
                 

@@ -1,10 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Jost&display=swap');
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Thin.ttf');font-weight:100;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-ExtraLight.ttf');font-weight:200;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Light.ttf');font-weight:300;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Regular.ttf');font-weight:400;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Medium.ttf');font-weight:500;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-SemiBold.ttf');font-weight:600;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Bold.ttf');font-weight:700;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-ExtraBold.ttf');font-weight:800;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Black.ttf');font-weight:900;font-style: normal;}
+
+
+
 html,
 body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: "Jost", sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 
 /* HEADER und NAVIGATION */

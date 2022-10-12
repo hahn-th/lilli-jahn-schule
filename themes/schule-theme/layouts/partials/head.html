@@ -9,6 +9,9 @@
 {{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
 
 <link rel="alternate" type="application/rss+xml" href='{{ "feed.xml" | absURL }}' />
 <link rel="alternate" type="text/calendar+ics" href='{{ "termine-lilli-jahn-schule.ics" | absURL }}' />
