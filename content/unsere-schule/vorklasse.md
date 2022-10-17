@@ -1,13 +1,13 @@
 ---
 title: Vorklasse
 date: 2022-05-09T20:33:43.000+02:00
-weight: 3
+weight: 2
 menu:
   main:
-    weight: 3
+    weight: 2
     parent: unsereschule
-
 ---
+
 Zum Profil der Lilli-Jahn-Schule gehört die Vorklasse. Sie bietet Kindern, denen man noch ein Jahr lang Erfahrungsmöglichkeiten geben möchte, eine an ihrem individuellen Entwicklungs- und Lernstand ansetzende Förderung, die sie auf einen erfolgreichen Übergang in die erste Klasse vorbereiten soll.
 
 Als Aufnahmekriterium gilt: Wenn ein Kind bis zum 30 Juni sechs Jahre alt geworden ist und nach den Hessischen Schulsommerferien schulpflichtig wird, kann es bei Förderbedarf in Absprache mit den Eltern und der Schule zunächst die Vorklasse besuchen. Nachträglich können noch Kinder aufgenommen werden, die bereits im August eingeschult worden waren, bei denen sich aber im Laufe des Herbstes Überforderungen in der ersten Klasse herausstellten.

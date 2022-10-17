@@ -47,36 +47,29 @@ header .header-1 form {
     display: block;
     margin-right: 1em;
     padding: 5px 10px !important;
-    margin-bottom: 3px;
 }
 .active > a {
     color: black !important;
     font-weight: bold;
 }
 
-.nav1 > a:hover {
-    border-bottom: 3px solid $color_1;
-    margin-bottom: 0px;
+.nav1 a:hover {
+    background-color: $color_1_light;
 }
-.nav2 > a:hover {
-    border-bottom: 3px solid $color_2;
-    margin-bottom: 0px;
+.nav2 a:hover {
+    background-color: $color_2_light;
 }
-.nav3 > a:hover {
-    border-bottom: 3px solid $color_3;
-    margin-bottom: 0px;
+.nav3 a:hover {
+    background-color: $color_3_light;
 }
-.nav4 > a:hover {
-    border-bottom: 3px solid $color_4;
-    margin-bottom: 0px;
+.nav4 a:hover {
+    background-color: $color_4_light;
 }
-.nav5 > a:hover {
-    border-bottom: 3px solid $color_5;
-    margin-bottom: 0px;
+.nav5 a:hover {
+    background-color: $color_5_light;
 }
-.nav6 > a:hover {
-    border-bottom: 3px solid $color_6;    
-    margin-bottom: 0px;
+.nav6 a:hover {
+    background-color: $color_6_light;
 }
 .nav-item-aktiv-1 > a {
     background-color: $color_1;
@@ -102,7 +95,6 @@ header .header-1 form {
     background-color: $color_6;
     color: white !important;
 }
-
 
 
 /* FOOTER */
@@ -154,6 +146,9 @@ header .header-1 form {
 }
 
 /* H1 ... H6 */
+#content h2, #content h3, #content h4, #content h5 {
+    margin: 1.5em 0 0.5em;
+}
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .h {
     font-family: inherit;
     font-weight: bold;
@@ -211,7 +206,6 @@ p {
     line-height: 30px;
     text-align: center;
     padding: 0;
-    border-radius: 50%;
 }
 
 .btn-circle-inner {
@@ -239,10 +233,10 @@ p {
 /* Mitglieder Liste mit Fotos */
 .fv_mitglied {
     border: 1px solid #eee;
-    border-radius: 15px;
+    border-radius: 0px; // alter Wert 15
     background-color: #F5F5F5;
     text-align: center;
-    padding: 10px;
+    padding: 0px; // alter Wert 10
     box-shadow: 0px 3px 10px lightgray;
 }
 
@@ -257,8 +251,9 @@ p {
     font-weight: 300;
 }
 .fv_mitglied img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 0px; // alter Wert 10
+    border-top-right-radius: 0px; // alter Wert 10
+    height: auto;
 }
 
 /* Category List */
@@ -273,9 +268,28 @@ p {
 
 .hero-img {
     max-height: 370px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sticky-shadow {
     box-shadow: 0px 5px 5px #ccc;
+}
+
+.info-box {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.info-box-icon {
+    background-color: $primary;
+    color: white;
+    padding: 1em;
+}
+
+.info-box-content  {
+    background-color: #F5F5F5;
+    padding: 1em;
+}
+.info-box .title {
+    font-size: 26px;
+    font-weight: bolder;
 }

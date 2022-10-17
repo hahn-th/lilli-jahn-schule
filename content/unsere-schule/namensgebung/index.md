@@ -1,16 +1,15 @@
 ---
-title: Lilli Jahn
+title: Namensgebung
 date: 2022-05-09T20:33:30.000+02:00
-weight: 2
 menu:
   main:
-    weight: 2
+    weight: 6
     parent: unsereschule
 ---
 
 ## So hat unsere Schule ihren Namen bekommen!
 
-{{<lightbox_image size="1000x1000" src="lilli-portraet.jpg" title="Lilli Jahn" class="float-center" >}}
+{{<lightbox_image src="lilli-portraet.jpg" title="Lilli Jahn" class="float-end" >}}
 
 Unsere Schule hieß immer nur Grundschule Immenhausen. Dann haben unsere Lehrer und Eltern überlegt, wie unsere Schule heißen soll. Nach langem Überlegen haben sie sich auf den Namen Lilli Jahn geeinigt.
 
