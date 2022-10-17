@@ -1,9 +1,0 @@
-{{ $taxo := "categories" }} <!-- Use the plural form here -->
-{{ with .Param $taxo }}
-    <strong>Kategorie{{ if gt (len .) 1 }}n{{ end }}:</strong>
-    {{ range $index, $director := . }}
-        {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
-        <a href="{{ .Permalink }}"><span class="badge bg-primary">{{ $director }}</span></a>
-        {{- end -}}
-    {{- end -}}
-{{ end }}

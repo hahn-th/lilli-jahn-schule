@@ -8,12 +8,10 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jun 13 14:41:42 2022
+# Make data base, printed on Fri Sep 02 12:16:55 2022
 
 # Variables
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -28,8 +26,6 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 ASSETS_DIR := assets/js/vendor/
 # environment
 LOCALAPPDATA = C:\Users\thoma\AppData\Local
-# environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-404b4ce3-5c64-4d30-9ab0-f37ba636e61f-sock
 # environment
 VSCODE_CWD = C:\Users\thoma\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -47,9 +43,7 @@ GOPATH = C:\Users\thoma\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21012_HKXFLOIWUWONFTGR
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17168_QMGQUDTTIFRQOTQU
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -58,12 +52,10 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
-# environment
-VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\thoma\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = C:\Users\thoma\AppData\Roaming\Code\CachedData\784b0177c56c607789f9638da7b6bf3230d47a8c
 # environment
 LANG = C
 # default
@@ -80,8 +72,6 @@ MAKEFLAGS = pqrR
 ONEDRIVE = C:\Users\thoma\OneDrive
 # makefile
 CURDIR := t:/Projekte/Web/lilli-jahn-schule
-# environment
-VSCODE_PIPE_LOGGING = true
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -101,9 +91,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 21012
+VSCODE_PID = 17168
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -111,7 +99,7 @@ VSCODE_PID = 21012
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"de","availableLanguages":{"*":"de"},"_languagePackId":"0618824fb9f5769483a7597afd5fbb5e.de","_translationsConfigFile":"C:\\Users\\thoma\\AppData\\Roaming\\Code\\clp\\0618824fb9f5769483a7597afd5fbb5e.de\\tcf.json","_cacheRoot":"C:\\Users\\thoma\\AppData\\Roaming\\Code\\clp\\0618824fb9f5769483a7597afd5fbb5e.de","_resolvedLanguagePackCoreLocation":"C:\\Users\\thoma\\AppData\\Roaming\\Code\\clp\\0618824fb9f5769483a7597afd5fbb5e.de\\784b0177c56c607789f9638da7b6bf3230d47a8c","_corruptedFile":"C:\\Users\\thoma\\AppData\\Roaming\\Code\\clp\\0618824fb9f5769483a7597afd5fbb5e.de\\corrupted.info","_languagePackSupport":true}
 # environment
 ONEDRIVECONSUMER = C:\Users\thoma\OneDrive
 # default
@@ -135,7 +123,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\php\php;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\Program Files\Go\bin;C:\Program Files\WireGuard\;C:\Ruby31-x64\bin;C:\Users\thoma\AppData\Local\Microsoft\WindowsApps;C:\Users\thoma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thoma\AppData\Local\Programs\Python\Python38;C:\Users\thoma\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\thoma\.dotnet\tools;C:\Program Files (x86)\Nmap;C:\Users\thoma\AppData\Local\Microsoft\WindowsApps;C:\Users\thoma\.dotnet\tools;C:\Users\thoma\AppData\Roaming\npm;C:\Users\thoma\go\bin
+PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\php\php;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files\Go\bin;C:\Program Files\WireGuard\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\thoma\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\thoma\AppData\Local\Programs\Python\Python39\;C:\Users\thoma\AppData\Local\Microsoft\WindowsApps;C:\Users\thoma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thoma\AppData\Local\Programs\Python\Python38;C:\Users\thoma\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\thoma\.dotnet\tools;C:\Program Files (x86)\Nmap;C:\Users\thoma\AppData\Local\Microsoft\WindowsApps;C:\Users\thoma\.dotnet\tools;C:\Users\thoma\AppData\Roaming\npm;C:\Users\thoma\go\bin;C:\Users\thoma\AppData\Local\atom\bin
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -151,8 +139,6 @@ CHOCOLATEYLASTPATHUPDATE = 132960724412242755
 # environment
 LOGONSERVER = \\LAPTOPTHOMAS
 # environment
-VSCODE_LOG_NATIVE = false
-# environment
 USERNAME = thoma
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
@@ -161,7 +147,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
 +F = $(notdir $+)
 # environment
@@ -201,7 +187,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\thoma\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\904656864a101bc8cc628d743a1f0676-1.68.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\904656864a101bc8cc628d743a1f0676-1.71.0-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -219,7 +205,7 @@ PROCESSOR_REVISION = 7e05
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
 # variable set hash-table stats:
-# Load=103/1024=10%, Rehash=0, Collisions=10/130=8%
+# Load=96/1024=9%, Rehash=0, Collisions=8/123=7%
 
 # Pattern-specific Variable Values
 
@@ -281,6 +267,6 @@ all:
 # strcache performance: lookups = 31 / hit rate = 16%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Mon Jun 13 14:41:42 2022
+# Finished Make data base on Fri Sep 02 12:16:55 2022
 
  

@@ -1,0 +1,295 @@
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Thin.ttf');font-weight:100;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-ExtraLight.ttf');font-weight:200;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Light.ttf');font-weight:300;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Regular.ttf');font-weight:400;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Medium.ttf');font-weight:500;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-SemiBold.ttf');font-weight:600;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Bold.ttf');font-weight:700;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-ExtraBold.ttf');font-weight:800;font-style: normal;}
+@font-face {font-family: "Jost";src: url('/fonts/Jost-Black.ttf');font-weight:900;font-style: normal;}
+
+
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+
+/* HEADER und NAVIGATION */
+.header {
+    padding: 0;
+}
+
+header .header-1 {
+    background: #fff;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+header .header-1 .logo {
+    color: $primary;
+    font-size: 25px;
+}
+
+header .header-1 form {
+    display: flex;
+}
+
+.navbar-div {
+    /* background-color: $primary; */
+    background-color: white;
+}
+.nav-item > a {
+    display: block;
+    margin-right: 1em;
+    padding: 5px 10px !important;
+}
+.active > a {
+    color: black !important;
+    font-weight: bold;
+}
+
+.nav1 a:hover {
+    background-color: $color_1_light;
+}
+.nav2 a:hover {
+    background-color: $color_2_light;
+}
+.nav3 a:hover {
+    background-color: $color_3_light;
+}
+.nav4 a:hover {
+    background-color: $color_4_light;
+}
+.nav5 a:hover {
+    background-color: $color_5_light;
+}
+.nav6 a:hover {
+    background-color: $color_6_light;
+}
+.nav-item-aktiv-1 > a {
+    background-color: $color_1;
+    color: white !important;
+}
+.nav-item-aktiv-2 > a {
+    background-color: $color_2;
+    color: white !important;
+}
+.nav-item-aktiv-3 > a {
+    background-color: $color_3;
+    color: white !important;
+}
+.nav-item-aktiv-4 > a {
+    background-color: $color_4;
+    color: white !important;
+}
+.nav-item-aktiv-5 > a {
+    background-color: $color_5;
+    color: white !important;
+}
+.nav-item-aktiv-6  a {
+    background-color: $color_6;
+    color: white !important;
+}
+
+
+/* FOOTER */
+.footer {
+    background: $primary;
+    margin-top: 30px;
+    padding: 20px 0 20px 0;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.developedby {
+    border-top: 1px dotted #000;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.developedby a {
+    margin-left: 10px;
+}
+
+.developedby a:hover {
+    font-weight: 700;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+#footer-nav ul {
+    list-style: circle;
+    margin: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: $gray-900  !important;
+}
+
+.footer a:hover {
+    color: $gray-700  !important;
+}
+
+
+#content {
+    padding: 70px 0 170px;
+}
+
+/* H1 ... H6 */
+#content h2, #content h3, #content h4, #content h5 {
+    margin: 1.5em 0 0.5em;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .h {
+    font-family: inherit;
+    font-weight: bold;
+    margin: 0 0 0.5em;
+    color: inherit;
+}
+h1, .h1 {
+    font-size: 42px;
+}
+h2, .h2 {
+    font-size: 33px;
+}
+h3, .h3 {
+    font-size: 26px;
+}
+h4, .h4 {
+    font-size: 20px;
+}
+h5, .h5 {
+    font-size: 16px;
+}
+h6, .h6 {
+    font-size: 14px;
+}
+p {
+    margin: 0 0 1em;
+}
+// h3 {
+//     font-size: 1.3em;
+//     margin-top: 1em;
+// }
+// h4 {
+//     font-size: 1em;
+//     margin-top: 1em;
+//     font-weight: bold;
+// }
+
+// #content h1 {
+//     font-weight: bold;
+// }
+
+#content a {
+    color: $gray-900;
+    background-color: $primary;
+}
+#content a:hover {
+    color: $gray-700;
+}
+
+
+/* UTILS */
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+}
+
+.btn-circle-inner {
+    position: relative;
+    top: -3px;
+    width: 16px;
+    height: 16px;
+}
+
+.lightbox-img img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px 3px rgba(67, 90, 109, 0.2);
+    margin: 10px;
+}
+#page-image {
+    height: 200px;
+}
+
+#page-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Mitglieder Liste mit Fotos */
+.fv_mitglied {
+    border: 1px solid #eee;
+    border-radius: 0px; // alter Wert 15
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 0px; // alter Wert 10
+    box-shadow: 0px 3px 10px lightgray;
+}
+
+.fv_mitglied .fv_name {
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.fv_mitglied .fv_position {
+    display: block;
+    font-weight: 300;
+}
+.fv_mitglied img {
+    border-top-left-radius: 0px; // alter Wert 10
+    border-top-right-radius: 0px; // alter Wert 10
+    height: auto;
+}
+
+/* Category List */
+.categorie-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.categorie-list li {
+    display: inline;
+}
+
+.hero-img {
+    max-height: 370px;
+    border-radius: 5px;
+}
+
+.sticky-shadow {
+    box-shadow: 0px 5px 5px #ccc;
+}
+
+.info-box {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.info-box-icon {
+    background-color: $primary;
+    color: white;
+    padding: 1em;
+}
+
+.info-box-content  {
+    background-color: #F5F5F5;
+    padding: 1em;
+}
+.info-box .title {
+    font-size: 26px;
+    font-weight: bolder;
+}

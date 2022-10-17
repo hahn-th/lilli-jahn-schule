@@ -32,9 +32,6 @@ personen:
 - name: Frau Schnittker
   funktion: Lehrerin
   image: lehrerin/frau_schnittker.jpg
-- name: Frau Dettmer
-  funktion: Lehrerin
-  image: lehrerin/0644.jpg
 - name: Herr Hügues
   funktion: Sozialpädagoge Schulsozialarbeit
 - name: Frau Gundlach

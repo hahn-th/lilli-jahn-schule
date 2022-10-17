@@ -2,23 +2,27 @@
 title: Kollegium
 date: 2022-05-09T20:33:52.000+02:00
 featureimage: 2018-03-14-ernennung-minister-ls.jpg
-weight: 5
+weight: 3
 menu:
   main:
-    weight: 8
+    weight: 3
     parent: unsereschule
-
 ---
-#### Schulleitung
+
+## Schulleitung
+
 {{< personen "kollegium_leitung" >}}
 
-#### Lehrer/in
+## Lehrer/in
+
 {{< personen "kollegium_lehrerin" >}}
 
-#### Sekretariat
+## Sekretariat
+
 {{< personen "kollegium_sekretariat" >}}
 
-#### Soziale Arbeit
+## Soziale Arbeit
+
 Soziale Arbeit durch Silke Meister und Ramona Pfannkuche
 
 Landkreis Kassel  
@@ -36,18 +40,25 @@ Nordweg 10
 
 Lucas-Lossius-Schule  
 Graseweg 1  
-34359 Reinhardshagen  
+34359 Reinhardshagen
 
 **Träger:**
 
 AGIL, gemeinnützige Arbeitsförderungsgesellschaft im Landkreis Kassel mbH
 34466 Wolfhagen
 
-#### Betreuungskräfte
+## Betreuungskräfte
+
 {{< personen "kollegium_betreuung">}}
 
-#### Hausaufgabenbetreuung
+## Hausaufgabenbetreuung
+
 {{< personen "kollegium_hausaufgabenbetreuung" >}}
 
-#### Hausmeister
+## Hausmeister
+
 {{< personen "kollegium_hausmeister" >}}
+
+## Schulhund
+
+{{< personen "kollegium_schulhund" >}}

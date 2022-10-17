@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+<section id="content">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12 col-12">
+                <h1>{{ .Title }}</h1>
+
+                {{ .Content }}
+
+                <hr>
+
+                <div class="post-list-ul">
+                    {{ range .Pages }}
+                    <li><a href="{{ .Permalink }}" alt="{{ .Title }}">{{ .Title }}</a></li>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{{ end }}

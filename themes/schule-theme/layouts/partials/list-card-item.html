@@ -1,0 +1,12 @@
+{{ $image := "/images/vorschaubild-platzhalter.jpg" }}
+
+{{ if .Params.thumbnail }}
+    {{ with .Resources.GetMatch .Params.thumbnail }}
+        {{ $image = .Permalink }}
+    {{ end }}
+{{ end }}
+<p>
+    <span class="text-muted">{{ time.Format "02. January" .Date }}</span>&nbsp;<span class="text-muted ">{{ time.Format "2006" .Date }}</span>
+    <h4>{{ .Title }}</h4>
+    <p>{{ .Content | plainify }}</p>
+</p>

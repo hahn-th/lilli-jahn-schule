@@ -1,0 +1,14 @@
+
+{{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+{{ $custom := resources.Get "js/custom.js" }}
+{{ $scripts := resources.Get "js/scripts.js" }}
+
+<script src="{{ $bootstrap.RelPermalink }}"></script>
+<script src="{{ $custom.RelPermalink }}"></script>
+<script src="{{ $scripts.RelPermalink }}"></script>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<script>
+    feather.replace()
+</script>
