@@ -6,8 +6,6 @@ menu:
     weight: 1
 ---
 
-## Liebe Kinder, liebe Eltern, liebe Schulgemeinde,
-
 die Lilli-Jahn-Schule besuchen ungefähr 230 Kinder aus Immenhausen, Holzhausen und Mariendorf.
 
 Sie ist eine Grundschule mit Vorklasse und den Jahrgangsstufen 1 bis 4.

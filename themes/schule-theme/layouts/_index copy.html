@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+
+<section id="content">
+    <article class="article"> 
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12 col-12">
+                <h1>{{ .Page.Title }}</h1>
+                {{ .Content }}
+            </div>
+        </div>
+        </div>
+    </article>  
+</section>
+
+<section id="content">
+
+
+    <article class="article"> 
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12 col-12">
+                {{ .Content }}
+
+                <hr>
+
+                <h2>Aktuelles</h2>
+                {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" "post") }}
+                {{ range $pag.Pages }}
+                    {{ partial "list-card-item.html" . }}
+
+                    <hr>
+                {{ end }}
+
+                
+                <div class="post-navigation">
+                    {{ partial "pagination.html" . }}
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </article>  
+       
+</section>
+
+
+<section id="content">
+    <div class="container clearfix">
+        <section class="aktuelles">                  
+            <!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
+            {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" "post") }}
+            {{ range $pag.Pages }}
+                <div class="row mb-5">
+                    {{ partial "list-card-item.html" . }}
+                </div>
+            {{ end }}
+
+            
+            <div class="post-navigation">
+                {{ partial "pagination.html" . }}
+            </div>
+                       
+        </section>
+    </div>
+</section>
+
+{{ end }}
