@@ -5,17 +5,18 @@ draft: false
 menu:
   main:
     weight: 7
-    parent: unsereschule
+    parent: unsere-schule
 ---
 
 Das Schulprogramm der Lilli-Jahn-Schule Immenhausen liegt in einer digitalen-Version vor, um dem bildungspolitischen Anspruch eines „Schulprogramms als Arbeitsplan“ durch jederzeit mögliche und schnelle Überarbeitung und Ergänzung gerecht zu werden. Die vorliegende mindmap soll einen schnellen Überblick der vorhanden Dateien und Dokumente geben.
 
- 
 Die Haupthandlungsstränge sind:
+
 - Leitbild
 - Konzepte
- 
+
 und die priorisierten Arbeitsvorhaben:
+
 - BEP
 - Kompetenzorientiert Unterrichten
 - Weiterentwicklung eines kompetenzorientierten Mathematikunterrichts

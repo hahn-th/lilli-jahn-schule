@@ -5,7 +5,7 @@ weight: 4
 menu:
   main:
     weight: 4
-    parent: unsereschule
+    parent: unsere-schule
 resources:
   - src: schulordnung.pdf
     title: Schulordnung

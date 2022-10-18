@@ -5,9 +5,9 @@ weight: 6
 menu:
   main:
     weight: 9
-    parent: unsereschule
-
+    parent: unsere-schule
 ---
+
 {{<lightbox_image src="maske_lilly.jpg" title="Schuldhund Lilli erklärt, wie man eine Maske trägt" class="float-start">}}
 
 Unser Schulhund Lilli ist immer mit dabei. Heute erklärt sie, wie man die Maske richtig trägt.

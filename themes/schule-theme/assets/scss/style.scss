@@ -45,7 +45,7 @@ header .header-1 form {
 }
 .nav-item > a {
     display: block;
-    margin-right: 1em;
+    margin-right: 0.3em;
     padding: 5px 10px !important;
 }
 .active > a {
@@ -53,49 +53,72 @@ header .header-1 form {
     font-weight: bold;
 }
 
-.nav1 a:hover {
-    background-color: $color_1_light;
-}
-.nav2 a:hover {
-    background-color: $color_2_light;
-}
-.nav3 a:hover {
-    background-color: $color_3_light;
-}
-.nav4 a:hover {
-    background-color: $color_4_light;
-}
-.nav5 a:hover {
-    background-color: $color_5_light;
-}
-.nav6 a:hover {
-    background-color: $color_6_light;
-}
-.nav-item-aktiv-1 > a {
-    background-color: $color_1;
-    color: white !important;
-}
-.nav-item-aktiv-2 > a {
-    background-color: $color_2;
-    color: white !important;
-}
-.nav-item-aktiv-3 > a {
-    background-color: $color_3;
-    color: white !important;
-}
-.nav-item-aktiv-4 > a {
-    background-color: $color_4;
-    color: white !important;
-}
-.nav-item-aktiv-5 > a {
-    background-color: $color_5;
-    color: white !important;
-}
-.nav-item-aktiv-6  a {
-    background-color: $color_6;
-    color: white !important;
+// .nav1 a:hover {
+//     background-color: $color_1_light;
+// }
+// .nav2 a:hover {
+//     background-color: $color_2_light;
+// }
+// .nav3 a:hover {
+//     background-color: $color_3_light;
+// }
+// .nav4 a:hover {
+//     background-color: $color_4_light;
+// }
+// .nav5 a:hover {
+//     background-color: $color_5_light;
+// }
+// .nav6 a:hover {
+//     background-color: $color_6_light;
+// }
+// .nav-item-aktiv-1 > a {
+//     background-color: $color_1;
+//     color: white !important;
+// }
+// .nav-item-aktiv-2 > a {
+//     background-color: $color_2;
+//     color: white !important;
+// }
+// .nav-item-aktiv-3 > a {
+//     background-color: $color_3;
+//     color: white !important;
+// }
+// .nav-item-aktiv-4 > a {
+//     background-color: $color_4;
+//     color: white !important;
+// }
+// .nav-item-aktiv-5 > a {
+//     background-color: $color_5;
+//     color: white !important;
+// }
+// .nav-item-aktiv-6  a {
+//     background-color: $color_6;
+//     color: white !important;
+// }
+
+$colors: (#f68235,#bd3d94,#2b7abf,#2cb1d0,#97ca51,#f7d22b);
+$colorsLight: (#ffae84,#cc73ad,#67a0d7,#6dcee1,#b8d877,#f4e17a);
+$foreColors: (white, white, white, white, white, white);
+
+@for $i from 1 through 6 {
+    .nav#{$i} a:hover {
+        background-color: nth($colorsLight, $i);
+    }
 }
 
+@for $i from 1 through 6 {
+    .nav-item-aktiv-#{$i}  a {
+        background-color: nth($colors, $i);
+        color: nth($foreColors, $i) !important;
+    }
+}
+
+@for $i from 1 through 6 {
+  .page-header-#{$i} { 
+    border-left: 1em solid nth($colors, $i);
+    padding-left: 0.5em;
+  }
+}
 
 /* FOOTER */
 .footer {
@@ -142,7 +165,7 @@ header .header-1 form {
 
 
 #content {
-    padding: 70px 0 170px;
+    padding: 70px 0 130px;
 }
 
 /* H1 ... H6 */
@@ -156,16 +179,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .h {
     color: inherit;
 }
 h1, .h1 {
-    font-size: 42px;
+    font-size: 38px;
 }
 h2, .h2 {
-    font-size: 33px;
+    font-size: 30px;
 }
 h3, .h3 {
-    font-size: 26px;
+    font-size: 23px;
 }
 h4, .h4 {
-    font-size: 20px;
+    font-size: 18px;
 }
 h5, .h5 {
     font-size: 16px;

@@ -8,7 +8,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button>   
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel d-flex">
                 <div class="offcanvas-header">
@@ -23,21 +23,17 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav flex-grow-1 flex">
 
+
                         {{ $currentPage := . }}
-                        {{ $count := 0 }}
                         {{ range .Site.Menus.main }}
-                        {{ $count = add $count 1 }}
+                        {{ $count := .Params.styleIndex }}
                         {{ if .HasChildren }}
                         <!-- sub menus -->
                         <li class="custom-nav nav-item dropdown {{ printf " nav%d" $count }} {{ if
                             $currentPage.HasMenuCurrent "main" . }} active {{ printf " nav-item-aktiv-%d" $count }} {{ end }}">
                             <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                {{ with .Pre }}
-                                <i data-feather="{{ . }}"></i>
-                                {{ else }}
                                 {{ .Name }}
-                                {{ end }}
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                                 {{ range .Children }}
@@ -52,11 +48,7 @@
                             $currentPage.IsMenuCurrent "main" . }} active{{ printf " nav-item-aktiv-%d" $count }}{{end}}">
                             <a class="nav-link" {{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page" {{ end
                                 }} href="{{ .URL }}">
-                                {{ with .Pre }}
-                                <i data-feather="{{ . }}"></i>
-                                {{ else }}
                                 {{ .Name }}
-                                {{ end }}
                             </a>
                         </li>
                         {{ end }}
@@ -66,4 +58,6 @@
             </div>
         </nav>
     </div>
+
 </div>
+

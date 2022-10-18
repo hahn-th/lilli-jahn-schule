@@ -5,11 +5,10 @@ draft: false
 weight: 1
 menu:
   main:
-    weight: 1
     parent: fuereltern
 ---
-Seit dem Sommer 2022 wird an der Lilli-Jahn-Schule die Stay-Informed App verwendet, um die Kommunikation zwischen Schule und Eltern zu erleichtern. Viele werden die App sicherlich aus dem Kindergarten in Immenhausen kennen. Informationen zum Hersteller können unter folgender Adresse gefunden werden: <a href="https://www.stayinformed.de/" target="_blank">Stay Informed GmbH</a>.
 
+Seit dem Sommer 2022 wird an der Lilli-Jahn-Schule die Stay-Informed App verwendet, um die Kommunikation zwischen Schule und Eltern zu erleichtern. Viele werden die App sicherlich aus dem Kindergarten in Immenhausen kennen. Informationen zum Hersteller können unter folgender Adresse gefunden werden: <a href="https://www.stayinformed.de/" target="_blank">Stay Informed GmbH</a>.
 
 <div class="container-fluid info-box">
     <div class="row">

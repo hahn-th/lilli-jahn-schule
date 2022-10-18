@@ -15,6 +15,34 @@ menu:
   - Name: Intra.Net
     Weight: 100
     weight: 3
+  main:
+  - identifier: start
+    weight: 1
+    name: "Start"
+    pageRef: "/_index.md"
+    params:
+      styleIndex: 6
+  - identifier: unsere-schule
+    weight: 2
+    name: "Unsere Schule"
+    params:
+      styleIndex: 2
+  - identifier: fuereltern
+    weight: 3
+    name: "Eltern Informationen"
+    params:
+      styleIndex: 3
+  - identifier: foerderverein
+    weight: 4
+    name: "Förderverein"
+    params:
+      styleIndex: 4
+  - identifier: kontakt
+    weight: 5
+    name: "Kontakt"
+    pageRef: kontakt
+    params:
+      styleIndex: 5
 markup:
   goldmark:
     renderer:

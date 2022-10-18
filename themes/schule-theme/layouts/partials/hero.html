@@ -1,6 +1,8 @@
 {{ $image := resources.Get "images/hero/schulhof1.jpeg" }}
-{{ $image := $image.Resize "1300x" }}
-{{ $image := $image.Crop "1300x370" }}
+{{ with .Params.hero }}
+    {{ $image = (resources.Get (printf "%s%s" "images/hero/" $.Params.hero)) }}
+{{ end }}
+
 <section id="hero">
     <div class="container">
         <img src="{{ $image.RelPermalink }}" class="img-fluid hero-img">

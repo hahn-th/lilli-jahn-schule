@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row justify-content-center">
             <div class="col-lg-8 col-md-12 col-12">
-                <h1>{{ .Page.Title }}</h1>
+                {{ partial "page-title.html" . }}
                 {{ .Content }}
             </div>
         </div>

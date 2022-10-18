@@ -5,7 +5,7 @@ weight: 1
 menu:
   main:
     weight: 1
-    parent: unsereschule
+    parent: unsere-schule
 ---
 
 Die hessischen Schulen sichern Eltern feste Betreuungszeiten zu - auch bei kurzfristigem Ausfall von Lehrkräften. Das Konzept nennt sich **Verlässliche Schule**. Mehr Informationen zu dem Thema finden sie unter <a href="https://schulaemter.hessen.de/schulqualitaet/verlaessliche-schulen" target="_blank">https://schulaemter.hessen.de/schulqualitaet/verlaessliche-schulen</a>.
