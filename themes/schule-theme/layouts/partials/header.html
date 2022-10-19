@@ -1,20 +1,16 @@
-<div class="header-1">
-    <div class="container d-flex justify-content-center header-1">
-            <a href="/" class="logo d-flex align-items-center me-auto text-dark text-decoration-none">
-                <img id="logo" src="/images/lilli-jahn-schule-logo.png" alt="logo Lilli-Jahn-Schule">
+<div class="header-contact">
+    <div class="container">
+        <div class="d-flex justify-content-end">
+            <a class="btn" href="mailto:poststelle@grundschule.immenhausen.schulverwaltung.hessen.de" role="button">
+                <i data-feather="mail" class="btn-circle-inner"></i>
             </a>
-            
-            <div class="d-flex">
-                    <a class="btn" href="mailto:poststelle@grundschule.immenhausen.schulverwaltung.hessen.de" role="button">
-                        <i data-feather="mail" class="btn-circle-inner"></i>
-                    </a>
-                    <a class="btn" href="tel:056732651" role="button">
-                        <i data-feather="phone" class="btn-circle-inner"></i>
-                    </a>
-            </div>
-    </div>
+            <a class="btn" href="tel:056732651" role="button">
+                <i data-feather="phone" class="btn-circle-inner"></i>
+            </a>
+        </div>
+    </div>  
 </div>
 
-<header class="header sticky-top">
+<header id="navbar">
     {{ partial "navbar.html" . }}
 </header>

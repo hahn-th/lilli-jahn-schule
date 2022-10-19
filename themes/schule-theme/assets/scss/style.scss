@@ -1,12 +1,65 @@
-@font-face {font-family: "Jost";src: url('/fonts/Jost-Thin.ttf');font-weight:100;font-style: normal;}
-@font-face {font-family: "Jost";src: url('/fonts/Jost-ExtraLight.ttf');font-weight:200;font-style: normal;}
-@font-face {font-family: "Jost";src: url('/fonts/Jost-Light.ttf');font-weight:300;font-style: normal;}
-@font-face {font-family: "Jost";src: url('/fonts/Jost-Regular.ttf');font-weight:400;font-style: normal;}
-@font-face {font-family: "Jost";src: url('/fonts/Jost-Medium.ttf');font-weight:500;font-style: normal;}
-@font-face {font-family: "Jost";src: url('/fonts/Jost-SemiBold.ttf');font-weight:600;font-style: normal;}
-@font-face {font-family: "Jost";src: url('/fonts/Jost-Bold.ttf');font-weight:700;font-style: normal;}
-@font-face {font-family: "Jost";src: url('/fonts/Jost-ExtraBold.ttf');font-weight:800;font-style: normal;}
-@font-face {font-family: "Jost";src: url('/fonts/Jost-Black.ttf');font-weight:900;font-style: normal;}
+@font-face {
+    font-family: "Jost";
+    src: url('/fonts/Jost-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url('/fonts/Jost-ExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url('/fonts/Jost-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url('/fonts/Jost-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url('/fonts/Jost-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url('/fonts/Jost-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url('/fonts/Jost-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url('/fonts/Jost-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url('/fonts/Jost-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
 
 
 
@@ -15,109 +68,224 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
+    /* font-family: 'Jost', sans-serif;*/
+    font-family: "Montserrat", Arial, sans-serif;
 }
 
 /* HEADER und NAVIGATION */
-.header {
-    padding: 0;
+:root {
+    --navbar-bg-color: white;
+    --navbar-text-color: hsl(0, 0%, 30%);
+    --navbar-text-color-focus: black;
+    --navbar-bg-contrast: hsl(0, 0%, 25%);
+    --navbar-height: 79px;
 }
 
-header .header-1 {
-    background: #fff;
-    width: 100%;
-    padding: 10px 20px;
+#navbar {
+    position: fixed;
+    height: var(--navbar-height);
+    background-color: var(--navbar-bg-color);
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
 
-header .header-1 .logo {
-    color: $primary;
-    font-size: 25px;
-}
-
-header .header-1 form {
+.navbar-container {
     display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
 }
 
-.navbar-div {
-    /* background-color: $primary; */
-    background-color: white;
+.navbar-item {
+    margin: 0.1em;
+    width: 100%;
 }
-.nav-item > a {
+
+.home-link,
+.navbar-link {
+    color: var(--navbar-text-color);
+    text-decoration: none;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+}
+
+// .home-link:is(:focus, :hover) {
+//     color: var(--navbar-text-color-focus);
+// }
+
+.navbar-link {
+    justify-content: center;
+    width: 100%;
+    padding: 0.3em 0.5em;
+}
+
+.navbar-logo {}
+
+// .navbar-link:is(:focus, :hover) {
+//     color: var(--navbar-text-color-focus);
+//     background-color: var(--navbar-bg-contrast);
+// }
+
+#navbar-toggle {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-bar {
     display: block;
-    margin-right: 0.3em;
-    padding: 5px 10px !important;
-}
-.active > a {
-    color: black !important;
-    font-weight: bold;
+    width: 25px;
+    height: 4px;
+    margin: 2px;
+    background-color: var(--navbar-text-color);
 }
 
-// .nav1 a:hover {
-//     background-color: $color_1_light;
-// }
-// .nav2 a:hover {
-//     background-color: $color_2_light;
-// }
-// .nav3 a:hover {
-//     background-color: $color_3_light;
-// }
-// .nav4 a:hover {
-//     background-color: $color_4_light;
-// }
-// .nav5 a:hover {
-//     background-color: $color_5_light;
-// }
-// .nav6 a:hover {
-//     background-color: $color_6_light;
-// }
-// .nav-item-aktiv-1 > a {
-//     background-color: $color_1;
-//     color: white !important;
-// }
-// .nav-item-aktiv-2 > a {
-//     background-color: $color_2;
-//     color: white !important;
-// }
-// .nav-item-aktiv-3 > a {
-//     background-color: $color_3;
-//     color: white !important;
-// }
-// .nav-item-aktiv-4 > a {
-//     background-color: $color_4;
-//     color: white !important;
-// }
-// .nav-item-aktiv-5 > a {
-//     background-color: $color_5;
-//     color: white !important;
-// }
-// .nav-item-aktiv-6  a {
-//     background-color: $color_6;
-//     color: white !important;
-// }
+#navbar-toggle:is(:focus, :hover) .icon-bar {
+    background-color: var(--navbar-text-color-focus);
+}
 
-$colors: (#f68235,#bd3d94,#2b7abf,#2cb1d0,#97ca51,#f7d22b);
-$colorsLight: (#ffae84,#cc73ad,#67a0d7,#6dcee1,#b8d877,#f4e17a);
-$foreColors: (white, white, white, white, white, white);
+#navbar-toggle[aria-expanded='true'] .icon-bar:is(:first-child, :last-child) {
+    position: absolute;
+    margin: 0;
+    width: 30px;
+}
+
+#navbar-toggle[aria-expanded='true'] .icon-bar:first-child {
+    transform: rotate(45deg);
+}
+
+#navbar-toggle[aria-expanded='true'] .icon-bar:nth-child(2) {
+    opacity: 0;
+}
+
+#navbar-toggle[aria-expanded='true'] .icon-bar:last-child {
+    transform: rotate(-45deg);
+}
+
+#navbar-toggle[aria-expanded='true']+#navbar-menu {
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 1;
+    visibility: visible;
+}
+
+#navbar-menu {
+    position: fixed;
+    top: var(--navbar-height);
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    left: 0;
+    right: 0;
+}
+
+.navbar-links {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: var(--navbar-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+  }
+
+#navbar-toggle[aria-expanded='true']+#navbar-menu .navbar-links {
+    padding: 1em;
+}
+
+@media screen and (min-width: 992px) {
+
+    #navbar-toggle,
+    #navbar-toggle[aria-expanded='true'] {
+        display: none;
+    }
+
+    #navbar-menu,
+    #navbar-toggle[aria-expanded='true']+#navbar-menu {
+        visibility: visible;
+        opacity: 1;
+        position: static;
+        display: block;
+        height: 100%;
+    }
+
+    .navbar-links,
+    #navbar-toggle[aria-expanded='true']+#navbar-menu .navbar-links {
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        position: static;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+$colors: (
+    #f68235,
+    #bd3d94,
+    #2b7abf,
+    #2cb1d0,
+    #97ca51,
+    #f7d22b
+);
+$colorsLight: (
+    #ffae84,
+    #cc73ad,
+    #67a0d7,
+    #6dcee1,
+    #b8d877,
+    #f4e17a
+);
+$foreColors: (
+    white,
+    white,
+    white,
+    white,
+    white,
+    white
+);
 
 @for $i from 1 through 6 {
     .nav#{$i} a:hover {
         background-color: nth($colorsLight, $i);
+        color: black;
     }
-}
-
-@for $i from 1 through 6 {
-    .nav-item-aktiv-#{$i}  a {
+    
+    .nav-item-aktiv-#{$i} a {
         background-color: nth($colors, $i);
         color: nth($foreColors, $i) !important;
     }
+    
+    .page-header-#{$i} {
+        border-left: 1em solid nth($colors, $i);
+        padding-left: 0.5em;
+    }
+
 }
 
-@for $i from 1 through 6 {
-  .page-header-#{$i} { 
-    border-left: 1em solid nth($colors, $i);
-    padding-left: 0.5em;
-  }
+
+/* HERO */
+#hero {
+    padding-top: var(--navbar-height);
+}
+.hero-img {
+    max-height: 370px;
+    border-radius: 5px;
+}
+
+.sticky-shadow {
+    /*box-shadow: 0px 5px 5px #ccc;*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* FOOTER */
@@ -156,11 +324,11 @@ $foreColors: (white, white, white, white, white, white);
 }
 
 .footer a {
-    color: $gray-900  !important;
+    color: $gray-900 !important;
 }
 
 .footer a:hover {
-    color: $gray-700  !important;
+    color: $gray-700 !important;
 }
 
 
@@ -169,36 +337,66 @@ $foreColors: (white, white, white, white, white, white);
 }
 
 /* H1 ... H6 */
-#content h2, #content h3, #content h4, #content h5 {
+#content h2,
+#content h3,
+#content h4,
+#content h5 {
     margin: 1.5em 0 0.5em;
 }
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .h {
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+.h {
     font-family: inherit;
     font-weight: bold;
     margin: 0 0 0.5em;
     color: inherit;
 }
-h1, .h1 {
-    font-size: 38px;
+
+h1,
+.h1 {
+    font-size: 2em;
 }
-h2, .h2 {
-    font-size: 30px;
+
+h2,
+.h2 {
+    font-size: 1.6em;
 }
-h3, .h3 {
-    font-size: 23px;
+
+h3,
+.h3 {
+    font-size: 1.4em;
 }
-h4, .h4 {
-    font-size: 18px;
+
+h4,
+.h4 {
+    font-size: 1.2em;
 }
-h5, .h5 {
-    font-size: 16px;
+
+h5,
+.h5 {
+    font-size: 1em;
 }
-h6, .h6 {
-    font-size: 14px;
+
+h6,
+.h6 {
+    font-size: 1em;
 }
+
 p {
     margin: 0 0 1em;
 }
+
 // h3 {
 //     font-size: 1.3em;
 //     margin-top: 1em;
@@ -217,6 +415,7 @@ p {
     color: $gray-900;
     background-color: $primary;
 }
+
 #content a:hover {
     color: $gray-700;
 }
@@ -243,6 +442,7 @@ p {
     box-shadow: 3px 3px 8px 3px rgba(67, 90, 109, 0.2);
     margin: 10px;
 }
+
 #page-image {
     height: 200px;
 }
@@ -266,13 +466,13 @@ p {
 .fv_mitglied .fv_name {
     display: block;
     font-weight: bold;
-    font-size: larger;
 }
 
 .fv_mitglied .fv_position {
     display: block;
-    font-weight: 300;
+    font-weight: smaller;
 }
+
 .fv_mitglied img {
     border-top-left-radius: 0px; // alter Wert 10
     border-top-right-radius: 0px; // alter Wert 10
@@ -285,33 +485,29 @@ p {
     margin: 0;
     padding: 0;
 }
+
 .categorie-list li {
     display: inline;
 }
 
-.hero-img {
-    max-height: 370px;
-    border-radius: 5px;
-}
 
-.sticky-shadow {
-    box-shadow: 0px 5px 5px #ccc;
-}
 
 .info-box {
     margin-top: 3em;
     margin-bottom: 3em;
 }
+
 .info-box-icon {
     background-color: $primary;
     color: white;
     padding: 1em;
 }
 
-.info-box-content  {
+.info-box-content {
     background-color: #F5F5F5;
     padding: 1em;
 }
+
 .info-box .title {
     font-size: 26px;
     font-weight: bolder;

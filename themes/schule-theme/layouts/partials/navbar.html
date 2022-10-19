@@ -1,63 +1,50 @@
+<navbar class="navbar-container container">
+    <a href="/" class="home-link">
+        <div class="navbar-logo"><img src="/images/lilli-jahn-schule-logo.png"></div>
+    </a>
 
-<div id="main-navbar" class="navbar-div ">
-    <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light">
-            <div class="d-lg-none">
-                <span></span>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>   
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel d-flex">
-                <div class="offcanvas-header">
-                    <div>
-                        <img src="/images/lilli-jahn-kopf.png" alt="Logo" class="d-block" />
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Lilli-Jahn-Schule</h5>
-                        <p>Immenhausen</p>
-                    </div>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav flex-grow-1 flex">
-
-
-                        {{ $currentPage := . }}
-                        {{ range .Site.Menus.main }}
-                        {{ $count := .Params.styleIndex }}
-                        {{ if .HasChildren }}
-                        <!-- sub menus -->
-                        <li class="custom-nav nav-item dropdown {{ printf " nav%d" $count }} {{ if
-                            $currentPage.HasMenuCurrent "main" . }} active {{ printf " nav-item-aktiv-%d" $count }} {{ end }}">
-                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                {{ .Name }}
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                {{ range .Children }}
-                                <li class=""><a class="dropdown-item {{ if $currentPage.IsMenuCurrent " main" . }}
-                                        active {{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
-                                {{ end }}
-                            </ul>
-                        </li>
-                        {{ else }}
-                        <!-- top level menues -->
-                        <li class="custom-nav nav-item {{ printf " nav%d" $count }} {{ if
-                            $currentPage.IsMenuCurrent "main" . }} active{{ printf " nav-item-aktiv-%d" $count }}{{end}}">
-                            <a class="nav-link" {{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page" {{ end
-                                }} href="{{ .URL }}">
-                                {{ .Name }}
-                            </a>
-                        </li>
-                        {{ end }}
+     <!-- https://www.aleksandrhovhannisyan.com/blog/responsive-navbar-tutorial/ -->
+    
+    <button
+        type="button"
+        id="navbar-toggle"
+        aria-control="Toggle menu"
+        aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+    </button>
+    <div id="navbar-menu" aria-labelledby="navbar-toggle">
+        <ul class="navbar-links">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+                {{ $count := .Params.styleIndex }}
+                {{ if .HasChildren }}
+                <!-- sub menus -->
+                <li class="navbar-item dropdown {{ printf " nav%d" $count }} {{ if
+                    $currentPage.HasMenuCurrent "main" . }} active {{ printf " nav-item-aktiv-%d" $count }} {{ end }}">
+                    <a class="navbar-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        {{ .Name }}
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                        {{ range .Children }}
+                        <li class=""><a class="dropdown-item {{ if $currentPage.IsMenuCurrent " main" . }}
+                                active {{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
                         {{ end }}
                     </ul>
-                </div>
-            </div>
-        </nav>
+                </li>
+                {{ else }}
+                <!-- top level menues -->
+                <li class="navbar-item {{ printf " nav%d" $count }} {{ if
+                    $currentPage.IsMenuCurrent "main" . }} active{{ printf " nav-item-aktiv-%d" $count }}{{end}}">
+                    <a class="navbar-link" {{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page" {{ end
+                        }} href="{{ .URL }}">
+                        {{ .Name }}
+                    </a>
+                </li>
+                {{ end }}
+            {{ end }}
+        </ul>
     </div>
-
-</div>
-
+</navbar>
