@@ -38,6 +38,11 @@ collections:
         label: "Homepage"
         fields: 
           - {label: "Body", name: "body", widget: "markdown"}
+      - name: kontakt
+        file: "content/kontakt.md"
+        label: "Kontakt"
+        fields: 
+          - {label: "Body", name: "body", widget: "markdown"}
       - name: datenschutz
         file: "content/datenschutz.md"
         label: "Datenschutz"
