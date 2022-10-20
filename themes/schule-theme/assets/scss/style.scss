@@ -141,10 +141,16 @@ body {
     margin: 0.5em;
     border-radius: 5px;
 }
-.nav-item .active {
-    font-weight: bold;
-    border-bottom: 2px solid #2b7abf;
+.dropdown-menu > li > a {
+    background-color: white;
 }
+.dropdown-menu .active {
+    border-bottom: none;
+}
+// .nav-item .active {
+//     font-weight: bold;
+//     border-bottom: 2px solid #2b7abf;
+// }
 
 $colors: (
     #f68235,
@@ -172,18 +178,29 @@ $foreColors: (
 );
 
 @for $i from 1 through 6 {
-    .nav-#{$i} a:hover {
-        background-color: nth($colorsLight, $i);
+    .nav-#{$i} .nav-link:hover {
+        border-bottom: 2px solid nth($colors, $i);
         color: black;
+    }
+    .nav-#{$i} .nav-link.active {
+        border-bottom: 2px solid nth($colorsLight, $i);
+        font-weight: bold;
     }
     .nav-#{$i} a:active {
         color: nth($colors, $i);
     }
-    
-    .nav-item-aktiv-#{$i} a {
-        background-color: nth($colors, $i);
-        color: nth($foreColors, $i) !important;
+
+    .nav-#{$i} .dropdown-item.active,
+    .nav-#{$i} .dropdown-item:active {
+        background-color: white;
+        color: var(--navbar-font-color);
+        font-weight: bold;
     }
+    
+    // .nav-item-aktiv-#{$i} a {
+    //     background-color: nth($colors, $i);
+    //     color: nth($foreColors, $i) !important;
+    // }
     
     .color-#{$i} .page-header {
         border-left: 1em solid nth($colors, $i);

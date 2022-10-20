@@ -1,0 +1,5 @@
+{{ with .Parent }}
+    {{ partial "breadcrumb-recursive.html" . }}
+    {{ if .Parent }}→{{ end }}
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ end }}
