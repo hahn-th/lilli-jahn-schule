@@ -30,18 +30,18 @@ function onScrollHandler() {
 
 // NAVBAR Stuff
 
-const navbarToggle = document.getElementById('navbar-toggle');
-let isNavbarExpanded = navbarToggle.getAttribute('aria-expanded') === 'true';
+// const navbarToggle = document.getElementById('navbar-toggle');
+// let isNavbarExpanded = navbarToggle.getAttribute('aria-expanded') === 'true';
 
-const toggleNavbarVisibility = () => {
-  isNavbarExpanded = !isNavbarExpanded;
-  navbarToggle.setAttribute('aria-expanded', isNavbarExpanded);
-};
+// const toggleNavbarVisibility = () => {
+//   isNavbarExpanded = !isNavbarExpanded;
+//   navbarToggle.setAttribute('aria-expanded', isNavbarExpanded);
+// };
 
-navbarToggle.addEventListener('click', toggleNavbarVisibility);
+// navbarToggle.addEventListener('click', toggleNavbarVisibility);
 
-const navbarMenu = document.getElementById('navbar-menu');
-const navbarLinksContainer = navbarMenu.querySelector('.navbar-links');
+// const navbarMenu = document.getElementById('navbar-menu');
+// const navbarLinksContainer = navbarMenu.querySelector('.navbar-links');
 
-navbarLinksContainer.addEventListener('click', (e) => e.stopPropagation());
-navbarMenu.addEventListener('click', toggleNavbarVisibility);
+// navbarLinksContainer.addEventListener('click', (e) => e.stopPropagation());
+// navbarMenu.addEventListener('click', toggleNavbarVisibility);

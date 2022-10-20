@@ -1,0 +1,9 @@
+{{ $index := 6 }}
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
+    {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}
+        {{ $index = .Params.styleIndex }}
+    {{ end }}
+{{ end }}
+
+{{ printf "color-%d" $index }}

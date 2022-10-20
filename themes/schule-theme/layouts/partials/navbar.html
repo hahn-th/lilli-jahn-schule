@@ -1,50 +1,61 @@
-<navbar class="navbar-container container">
-    <a href="/" class="home-link">
-        <div class="navbar-logo"><img src="/images/lilli-jahn-schule-logo.png"></div>
-    </a>
+<nav id="main-nav" class="navbar sticky-top navbar-expand-lg">
+    <div class="container d-flex justify-content-between">
+        <a class="navbar-brand" href="/">
+            <img src="/images/lilli-jahn-schule-logo.png" alt="Logo Lilli Jahn Schule">
+        </a>
+        <button id="navbar-toggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <div>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
 
-     <!-- https://www.aleksandrhovhannisyan.com/blog/responsive-navbar-tutorial/ -->
-    
-    <button
-        type="button"
-        id="navbar-toggle"
-        aria-control="Toggle menu"
-        aria-expanded="false">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-    </button>
-    <div id="navbar-menu" aria-labelledby="navbar-toggle">
-        <ul class="navbar-links">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-                {{ $count := .Params.styleIndex }}
-                {{ if .HasChildren }}
-                <!-- sub menus -->
-                <li class="navbar-item dropdown {{ printf " nav%d" $count }} {{ if
-                    $currentPage.HasMenuCurrent "main" . }} active {{ printf " nav-item-aktiv-%d" $count }} {{ end }}">
-                    <a class="navbar-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        {{ .Name }}
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                        {{ range .Children }}
-                        <li class=""><a class="dropdown-item {{ if $currentPage.IsMenuCurrent " main" . }}
-                                active {{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
-                        {{ end }}
-                    </ul>
-                </li>
-                {{ else }}
-                <!-- top level menues -->
-                <li class="navbar-item {{ printf " nav%d" $count }} {{ if
-                    $currentPage.IsMenuCurrent "main" . }} active{{ printf " nav-item-aktiv-%d" $count }}{{end}}">
-                    <a class="navbar-link" {{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page" {{ end
-                        }} href="{{ .URL }}">
-                        {{ .Name }}
-                    </a>
-                </li>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                    {{ $colorIndex := .Params.styleIndex }}
+                    
+                    {{ if .HasChildren }}
+                        <li class="nav-item dropdown {{ printf "nav-%d" $colorIndex }}">
+                            <a class="nav-link dropdown-toggle" href="{{ .URL }}" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">{{ .Name }}</a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                {{ range .Children }}
+                                    <li><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
+                                {{ end }}
+                            </ul>
+                        </li>
+                    {{ else }}
+                        <li class="nav-item {{ printf "nav-%d" $colorIndex }}">
+                            <a class="nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end
+                            }}" {{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page" {{ end
+                            }} href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                    {{ end }}
+
                 {{ end }}
-            {{ end }}
-        </ul>
+<!-- 
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                </li> -->
+            </ul>
+        </div>
     </div>
-</navbar>
+</nav>
