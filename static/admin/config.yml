@@ -27,6 +27,8 @@ collections:
     create: false
     media_folder: "images"
     public_folder: "images"
+    nested:
+      depth: 100
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

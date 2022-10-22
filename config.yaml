@@ -12,9 +12,12 @@ languages:
 
 menu:
   footermenu:
-  - Name: Intra.Net
-    Weight: 100
+  - Name: SchulCloud 2.0
+    url: https://ljs.schule.silk-it.de
     weight: 3
+  - Name: Nextcloud
+    url: https://ljs.schule.silk-it.de/nextcloud/login
+    weight: 4
   main:
   - identifier: start
     weight: 1
@@ -29,7 +32,7 @@ menu:
       styleIndex: 2
   - identifier: fuereltern
     weight: 3
-    name: "Eltern Informationen"
+    name: "Elterninformationen"
     params:
       styleIndex: 3
   - identifier: foerderverein
@@ -67,9 +70,6 @@ outputFormats:
   RSS:
     mediatype: "application/rss"
     baseName: "feed"
-  Calendar:
-    mediatype: "text/calendar"
-    baseName: "termine-lilli-jahn-schule"
 
 sitemap:
   changefreq: monthly
