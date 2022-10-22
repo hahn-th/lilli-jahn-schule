@@ -20,7 +20,21 @@ collections:
       - {label: "Kategorie(n)", name: "categories", widget: "list", allow_add: true}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Fotos zum Beitrag", name: "images", widget: "image", allow_multiple: true, hint: "Bilder, die hier hinzugefügt werden, erscheinen automatisch unter dem Beitrag."}
+      - label: "Fotos zum Beitrag"
+        name: "images"
+        widget: "image"
+        hint: "Bilder, die hier hinzugefügt werden, erscheinen automatisch unter dem Beitrag."
+        media_library:
+          allow_multiple: true
+          config:
+            multiple: true
+      - label: 'Dateianhänge'
+        name: 'dateianhaenge'
+        widget: "file"
+        media_library:
+          allow_multiple: true
+          config:
+            multiple: true
   - name: unsere-schule
     label: "Unsere Schule"
     folder: "content/unsere-schule"
@@ -34,6 +48,13 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: 'Cover Image', name: 'image', widget: 'image'}
+      - label: 'Dateianhänge'
+        name: 'dateianhaenge'
+        widget: "file"
+        media_library:
+          allow_multiple: true
+          config:
+            multiple: true
 
   - name: "pages"
     label: "Pages"
