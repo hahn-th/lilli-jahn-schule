@@ -23,6 +23,7 @@ collections:
       - label: "Fotos zum Beitrag"
         name: "images"
         widget: "image"
+        required: false
         hint: "Bilder, die hier hinzugefügt werden, erscheinen automatisch unter dem Beitrag."
         media_library:
           allow_multiple: true
@@ -31,6 +32,7 @@ collections:
       - label: 'Dateianhänge'
         name: 'dateianhaenge'
         widget: "file"
+        required: false
         media_library:
           allow_multiple: true
           config:
@@ -47,15 +49,24 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: 'Cover Image', name: 'image', widget: 'image'}
-      - label: 'Dateianhänge'
-        name: 'dateianhaenge'
-        widget: "file"
+      - {label: 'Cover Image', name: 'image', required: false,f widget: 'image'}
+      - label: "Fotos zum Beitrag"
+        name: "images"
+        widget: "image"
+        required: false
+        hint: "Bilder, die hier hinzugefügt werden, erscheinen automatisch unter dem Beitrag."
         media_library:
           allow_multiple: true
           config:
             multiple: true
-
+      - label: 'Dateianhänge'
+        name: 'dateianhaenge'
+        widget: "file"
+        required: false
+        media_library:
+          allow_multiple: true
+          config:
+            multiple: true
   - name: "pages"
     label: "Pages"
     files:
