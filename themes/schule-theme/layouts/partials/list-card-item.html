@@ -8,8 +8,9 @@
 <div class="row">
     <div class="col-12 col-sm-4"><img src="{{ $image }}" class="img-fluid"></div>
     <div class="col-12 col-sm-8">
+        {{ partial "categories-preview.html" . }}
+        <span class="article-date">{{ time.Format "02. January 2006" .Date }}</span>
         <h3 class="">{{ .Title }}</h3>
-        <span class="text-uppercase text-muted ">{{ time.Format "02. January" .Date }}</span>&nbsp;<span class="text-muted ">{{ time.Format "2006" .Date }}</span>
         <p>{{ .Content | plainify }}</p>
     </div>
 </div>
