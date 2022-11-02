@@ -6,6 +6,7 @@ menu:
   main:
     weight: 4
     parent: fuereltern
+hero: Waldspiele-ohne-Gesichter.jpg
 ---
 
 ### Konzept
