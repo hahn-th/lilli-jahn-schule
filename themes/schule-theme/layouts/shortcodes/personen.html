@@ -2,22 +2,26 @@
 <link rel="stylesheet" href="{{ "/shortcode-gallery/swipebox/css/swipebox.min.css"| relURL }}">
 
 <div class="container px-1">
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
         {{ $param := .Get 0}}
         {{ $file := index site.Data $param}}
         {{ range $file.personen }}
         
         <div class="col">
-            <div class="m-1 fv_mitglied">
+            <div class="card h-100">
                 {{ $image := "/images/avatar.png" }}
                 {{ if .image}}
                     {{ $image = .image }}
                 {{ end }}
                 <a href="{{ $image }}" class="swipebox" title="{{ .name }} / {{ .funktion }}">
-                    <img src="{{ $image }}" class="img-fluid">
+                    <img src="{{ $image }}" class="card-img-top">
                 </a>
-                <span class="fv_name">{{ .name }}</span>
-                <span class="fv_funktion">{{ .funktion }}</span>
+
+                <div class="card-body">
+                    <h5 class="card-title">{{ .name }}</h5>
+                    <p class="card-text">{{ .funktion }}</p>
+                  </div>
+            
             </div>
         </div>
         
