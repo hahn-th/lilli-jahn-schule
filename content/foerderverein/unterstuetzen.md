@@ -6,7 +6,6 @@ weight: 2
 hero: "foerderverein.jpg"
 menu:
   main:
-    weight: 1
     parent: foerderverein
 ---
 
@@ -15,6 +14,5 @@ Damit diese Unterstützung durch den Förderverein weiterhin stattfinden kann, b
 Das Anmeldeformular gibt es weiter und unten Formulare zum Download.
 
 Wir sind immer auf der Suche nach engagierten Eltern, die gerne im Vorstand des Fördervereins tätig sein möchten. Bei Interesse - sprechen Sie uns einfach an.
-
 
 Betriebe sind als fördernde Mitglieder herzlich willkommen.

@@ -33,9 +33,9 @@ Wenn Sie ein Konto erstellen, geben sie die folgende Einrichtungs-ID ein:
 - Anleitung zur Registrierung auf Deutsch
 - Datenschutzinformationen zur Stay Informed App
 - Infoplakat
-- &#121850; &#x1F1FA; &#128512; UKR Registrierung Stay Informed App
+- UKR Registrierung Stay Informed App
 
-### Ihr Kind krank melden
+### Krankmeldung ihres Kindes
 Ihr Kind können sie ganz einfach über die StayInformed-App krank melden. Dafür gehen sie in der App auf den Menüpunkt **"Meine Kinder"**, wählen das entsprechende Kind aus und fügen einen **Abwesenheitsstatus** hinzu.
 
 <img src="kind-krank-melden.png" class="img-fluid" alt="Beschreibung, wie man ein Kind krank meldet.">
