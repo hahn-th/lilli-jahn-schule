@@ -12,12 +12,13 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-12 col-12">
                     {{ partial "page-title.html" . }}
-                    <article class="article"> 
-                    {{ .Content }}
-                </article>  
+                    <article class="article clearfix"> 
+                        {{ .Content }}
+                    </article>
                 </div>
             </div>
         </div>
+
 </section>
 <section id="aktuelle-meldungen" class="{{ partial "color-index-class.html" . }}">
     <div class="container">

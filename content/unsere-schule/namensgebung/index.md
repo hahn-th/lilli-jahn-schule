@@ -1,9 +1,9 @@
 ---
 title: Namensgebung
 date: 2022-05-09T20:33:30.000+02:00
+weight: 1
 menu:
   main:
-    weight: 6
     parent: unsere-schule
 ---
 

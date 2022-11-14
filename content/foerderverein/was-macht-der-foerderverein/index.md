@@ -34,29 +34,8 @@ Das hat der Förderverein an der Schule bereits verwirklicht:
 - bei Bedarf finanzielle Beihilfe zu Klassenfahrten oder tägliches Mittagessen in der Mensa
 
 
-### Den Förderverein unterstützen
-
-Damit diese Unterstützung durch den Förderverein weiterhin stattfinden kann, brauchen wir Ihre Mithilfe als Mitglied im Förderverein! Bereits mit einem **Jahresbeitrag ab 15,00 Euro** ist das möglich.
-
-Das Anmeldeformular gibt es weiter und unten Formulare zum Download.
-
-Wir sind immer auf der Suche nach engagierten Eltern, die gerne im Vorstand des Fördervereins tätig sein möchten. Bei Interesse - sprechen Sie uns einfach an.
-
-
-Betriebe sind als fördernde Mitglieder herzlich willkommen.
-
-
-
-**Beitrittserklärung Förderverein**
-
-Bitte klicken Sie hier: FV Beitrittserklärung
- 
-
-**Informationen zum Datenschutz**
-
-Bitte klicken Sie hier: FV Datenschutz-Information
-	
-  
-**Satzung**
-
-Bitte klicken Sie hier: FV Satzung
+### Downloads
+Hier finden sie unterschiedliche Dokumente und Informationen zum Förderverein als Download:
+* Beitrittserklärung Förderverein
+* Informationen zum Datenschutz
+* Satzung
