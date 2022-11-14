@@ -1,25 +1,26 @@
 personen:
-- name: Thorsten Schartel
+- name: Thomas hahn
   funktion: 1. Vorsitzender
-  image: thorsten_schartel.jpg
-- name: Marc Siebert
+  image: thomas-hahn.jpeg
+- name: Sabine Hoche
   funktion: 2. Vorsitzender
-  image: prof._dr._marc_siebert.jpg
 - name: Mirium Luttmann
   funktion: Kassenwart
   image: miriam_luttmann_1.jpg
+- name: Alexander Meimbresse
+  funktion: Protokollführer
+  image: alexander_meimbresse.jpg
+- name: Ina Kleinsimon
+  funktion: 2. Kassenwart
+  image: ina-kleinsimon.jpg
 - name: Linda Janson
   funktion: Schulleitung
   image: frau_janson.jpg
-- name: Detlef Eckart
-  funktion: 2. Kassenwart
-  image: detlef_eckart__2_.jpg
 - name: Sabine Hebestreit
   funktion: Ansprechpartnerin Betreuungskräfte
   image: sabine_hebestreit.jpg
 - name: Janika Rittner
   funktion: Beisitzerin
   image: janika_rittner.jpg
-- name: Alexander Meimbresse
-  funktion: Beisitzer
-  image: alexander_meimbresse.jpg
+- name: Coleen Schwarz
+  funktion: Beisitzerin
