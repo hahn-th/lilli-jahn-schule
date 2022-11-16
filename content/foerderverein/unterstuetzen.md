@@ -9,11 +9,11 @@ menu:
     parent: foerderverein
 ---
 
-Damit diese Unterstützung durch den Förderverein weiterhin stattfinden kann, brauchen wir Ihre Mithilfe als Mitglied im Förderverein! Bereits mit einem **Jahresbeitrag ab 15,00 Euro** ist das möglich. Wer zahlen möchte, kann auf der Anmeldung einen höheren Betrag angeben.
+Damit diese Unterstützung durch den Förderverein weiterhin stattfinden kann, brauchen wir Ihre Mithilfe als Mitglied im Förderverein! Bereits mit einem **Jahresbeitrag ab 15,00 Euro** ist das möglich. Wer mehr beitragen möchte, kann auf der Anmeldung einen höheren Betrag angeben.
 
-Das Anmeldeformular gibt es weiter und unten Formulare zum Download.
+Das Anmeldeformular finden sie unter [Was macht der Förderverein]({{< ref "foerderverein/was-macht-der-foerderverein/index.md#downloads">}}) oder im Sekretariat.
 
-Wir sind immer auf der Suche nach engagierten Eltern, die gerne bei Events behilflich sein möchten. Das kann zum Beispiel der Weihnachtsmarkt sein, aber auch die Einschulung.
+Wir sind immer auf der Suche nach engagierten Eltern, die gerne bei Events behilflich sein möchten. Das kann zum Beispiel Waffeln backen auf dem Weihnachtsmarkt sein, oder aber Kuchen verkaufen bei einer Einschulung.
 
 ### Spenden
 
