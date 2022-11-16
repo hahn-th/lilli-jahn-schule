@@ -22,15 +22,15 @@ menu:
 
 ## Soziale Arbeit
 
-Soziale Arbeit durch Silke Meister und Ramona Pfannkuche
+Soziale Arbeit durch Fabian Hügues
 
 Landkreis Kassel  
 Fachbereich Jugend  
 Sozialarbeit in Schule (SiS)
 
-Silke Meister  
+Fabian Hügues  
 05673/9129978  
-silke-meister@landkreiskassel.de
+fabian-huegues@landkreiskassel.de
 
 **Dienstort:**
 Lilli-Jahn-Schule  
