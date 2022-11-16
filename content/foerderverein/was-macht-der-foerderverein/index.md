@@ -36,16 +36,6 @@ Seit Gründung wurden viele Projekte realisiert, Vorhaben unterstützt, Unterric
 - Betreuung: erweiterte Betreuungszeiten, Finanzierung Bedarfsmaterial, Spiele etc.
 - bei Bedarf finanzielle Beihilfe zu Klassenfahrten oder tägliches Mittagessen in der Mensa
 
-### Spenden
-
-Über Spenden freuen wir uns natürlich über die Maßen. Da wir ein anerkannt gemeinnütziger Verein sind, können Ihre Spenden vollständig von der Steuer abgesetzt werden. Eine Spendenquittung stellen wir Ihnen gerne aus.
-
-Spenden können Sie einfach per Banküberweisung. Unsere Bankverbindung lautet wie folgt:
-
-Stadtsparkasse Grebenstein<br>
-IBAN: DE77 5205 1877 0000 0191 33<br>
-BIC: HELADEF1GRE
-
 ### Kontakt
 
 Den Förderverein erreichen sie unter der Email Adresse <a href="mailto:fv-lilli-jahn-schule@gmx.de" class="text-break"><i data-feather="mail"></i>fv-lilli-jahn-schule@gmx.de</a>

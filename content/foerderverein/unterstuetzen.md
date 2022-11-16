@@ -9,10 +9,22 @@ menu:
     parent: foerderverein
 ---
 
-Damit diese Unterstützung durch den Förderverein weiterhin stattfinden kann, brauchen wir Ihre Mithilfe als Mitglied im Förderverein! Bereits mit einem **Jahresbeitrag ab 15,00 Euro** ist das möglich.
+Damit diese Unterstützung durch den Förderverein weiterhin stattfinden kann, brauchen wir Ihre Mithilfe als Mitglied im Förderverein! Bereits mit einem **Jahresbeitrag ab 15,00 Euro** ist das möglich. Wer zahlen möchte, kann auf der Anmeldung einen höheren Betrag angeben.
 
 Das Anmeldeformular gibt es weiter und unten Formulare zum Download.
 
-Wir sind immer auf der Suche nach engagierten Eltern, die gerne im Vorstand des Fördervereins tätig sein möchten. Bei Interesse - sprechen Sie uns einfach an.
+Wir sind immer auf der Suche nach engagierten Eltern, die gerne bei Events behilflich sein möchten. Das kann zum Beispiel der Weihnachtsmarkt sein, aber auch die Einschulung.
 
-Betriebe sind als fördernde Mitglieder herzlich willkommen.
+### Spenden
+
+Über Spenden freuen wir uns natürlich über die Maßen. Da wir ein anerkannt gemeinnütziger Verein sind, können Ihre Spenden vollständig von der Steuer abgesetzt werden. Eine Spendenquittung stellen wir Ihnen gerne aus. Betriebe sind als fördernde Mitglieder herzlich willkommen.
+
+Spenden können Sie einfach per Banküberweisung. Unsere Bankverbindung lautet wie folgt:
+
+Stadtsparkasse Grebenstein<br>
+IBAN: DE77 5205 1877 0000 0191 33<br>
+BIC: HELADEF1GRE
+
+### Kontakt
+
+Bei Fragen können uns jederzeit per Email erreichen: <a href="mailto:fv-lilli-jahn-schule@gmx.de" class="text-break"><i data-feather="mail"></i>fv-lilli-jahn-schule@gmx.de</a>
