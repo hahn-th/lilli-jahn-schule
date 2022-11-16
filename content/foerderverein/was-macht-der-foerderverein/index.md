@@ -12,11 +12,14 @@ menu:
 
 ## Was macht der Förderverein
 
-Der Förderverein der Lilli-Jahn-Schule wurde am 18. September 2000 auf Initiative der damaligen Rektorin Frau Babette Schirmer gegründet. Seither unterstützt der Förderverein die pädagogische Arbeit der Grundschule durch finanzielle Unterstützung, Zusammenarbeit mit anderen Gremien und Vereinen und der Organisation von gemeinsamen Veranstaltungen. Der Förderverein finanziert die Betreuung an unserer Grundschule zusammen mit dem Landkreis Kassel.
+Der Förderverein der Lilli-Jahn-Schule wurde im Jahr 2000 gegründet. Nicht für alles Notwendige ist Geld vom Schulträger vorhanden. Hier möchten wir unterstützen, die pädagogische Arbeit fördern, um den Schülern die bestmöglichen Lernbedingungen zugutekommen zu lassen.
 
-Nur dadurch sind die aktuell vorhandenen Betreuungszeiten gewährleistet.
+Der Förderverein finanziert die Betreuung an unserer Grundschule zusammen mit dem Landkreis Kassel. Nur dadurch können die aktuelle vorhandenen Betreuungszeiten gewährleistet und die
+Hausaufgabenbetreuung angeboten werden.
 
-Das hat der Förderverein an der Schule bereits verwirklicht:
+Seit Gründung wurden viele Projekte realisiert, Vorhaben unterstützt, Unterrichtsmaterialien angeschafft und gemeinsame Veranstaltungen organisiert:
+
+- Finanzierung der StayInformed App
 - Klettergerüst und Schaukelgeräte auf dem oberen Schulhof
 - Vogelhaus auf dem unteren Schulhof
 - Fußballtore auf dem unteren Schulhof
@@ -33,9 +36,24 @@ Das hat der Förderverein an der Schule bereits verwirklicht:
 - Betreuung: erweiterte Betreuungszeiten, Finanzierung Bedarfsmaterial, Spiele etc.
 - bei Bedarf finanzielle Beihilfe zu Klassenfahrten oder tägliches Mittagessen in der Mensa
 
+### Spenden
+
+Über Spenden freuen wir uns natürlich über die Maßen. Da wir ein anerkannt gemeinnütziger Verein sind, können Ihre Spenden vollständig von der Steuer abgesetzt werden. Eine Spendenquittung stellen wir Ihnen gerne aus.
+
+Spenden können Sie einfach per Banküberweisung. Unsere Bankverbindung lautet wie folgt:
+
+Stadtsparkasse Grebenstein<br>
+IBAN: DE77 5205 1877 0000 0191 33<br>
+BIC: HELADEF1GRE
+
+### Kontakt
+
+Den Förderverein erreichen sie unter der Email Adresse <a href="mailto:fv-lilli-jahn-schule@gmx.de" class="text-break"><i data-feather="mail"></i>fv-lilli-jahn-schule@gmx.de</a>
 
 ### Downloads
+
 Hier finden sie unterschiedliche Dokumente und Informationen zum Förderverein als Download:
-* Beitrittserklärung Förderverein
-* Informationen zum Datenschutz
-* Satzung
+
+- <a href="fv_lilli-jahn-schule_beitrittserkla__rung.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Beitrittserklärung Förderverein</a>
+- <a href="fv_datenschutz-information.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Informationen zum Datenschutz</a>
+- <a href="satzung_synopse_20190807.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Satzung</a>

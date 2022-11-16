@@ -9,6 +9,22 @@ menu:
 hero: Waldspiele-ohne-Gesichter.jpg
 ---
 
+### Informationen
+
+In der Regel versuchen wir jede Ferien Waldspiele anzubieten. Dies ist jedoch aufgrund von Betreuungskräften nicht immer möglich. Auch bitten wir zu entschuldigen, dass wir keine verbindliche Jahresplanung anbieten können. Sollten sich zu wenig Kinder für eine Waldspielwoche anmelden, behalten wir uns vor, die Waldspiele für diese Woche abzusagen. Sie bekommen in diesem Fall natürlich jegliche bezahlten Teilnahemgebühren zurück.
+
+Ein paar Hinweise zu der Zeit bei den Waldspielen:
+
+- Die Waldspiele finden an der Holzkothe am Pfadfinderheim in Immenhausen statt.
+- Die Betreuungszeit ist von 8 bis 14 Uhr
+- Bitte geben Sie Ihrem Kind ausreichend Essen und Trinken mit
+- Teilweise bereiten wir selber etwas zu Essen am Lagerfeuer zu. Das könnten Waffeln oder Stockbrot sein.
+- Geben Sie Ihrem Kind unbedingt wetterentsprechende Kleidung, sowie Wechselsachen mit (mindestens 1x komplett von Kopf bis Fuß).
+- Melden Sie Ihr Kind bitte bei Krankheit ab
+- Informieren Sie uns, wann und wie ihr Kind zu den Waldspielen kommt und geht (früher/später, alleine, Fahrgemeinschaft, welche Person holt das Kind ab usw.).
+- Wetterinformation: Sollte es zu gefährlichen Wettersituationen kommen (Sturm, Gewitter…), behalten wir uns vor, die Waldspiele für diesen Tag auszusetzen. Sollte dies im Laufe der Betreuungszeit sein, muss eine Abholung der Kinder sichergestellt sein.
+- Kontaktinformationen erhalten sie mit der Bestätigung der Anmeldung
+
 ### Konzept
 
 Die Waldspielbetreuung richtet sich an Kinder aus Immenhausen und finden ausschließlich im Wald
@@ -17,7 +33,6 @@ Landschaft, sowohl Lichtung und Waldwiese, Bach, lichter Tannenwald, als auch di
 Gebiete, sowie ein Teich.
 
 {{<lightbox_image src="images/waldspiele-jacken.jpg" title="Die Waldspiele" class="float-end" >}}
-
 
 Als Unterstand dient eine von den Pfadfindern errichtete „Kothe“ aus Holz, in deren Innerem die
 Kinder Schutz finden, sich zurückziehen, aufwärmen usw. können.
@@ -51,14 +66,13 @@ nachfolgenden Herausforderungen in der Zukunft zu meistern.
 
 Die Sommerwaldspiele sind vorbei, die Schule hat längst begonnen - mit ihrem Sitzen, ihrer Ordnung und ihren Aufgaben.
 
-Ganz anders war's im Wald: Die Kinder waren Taggestalter*, Waldgestalter*, Freundschaftsgestalter*innen.
+Ganz anders war's im Wald: Die Kinder waren Taggestalter*, Waldgestalter*, Freundschaftsgestalter\*innen.
 
-Sie werkten Schilder und Boote, baute Baumhäuser, batikten, nähten Wimple, fanden Schätze, begegneten der weißen Frau am Telefon, stritten und vertrugen sich, malten Kunstwerke, tobten in Geländespielen. 
+Sie werkten Schilder und Boote, baute Baumhäuser, batikten, nähten Wimple, fanden Schätze, begegneten der weißen Frau am Telefon, stritten und vertrugen sich, malten Kunstwerke, tobten in Geländespielen.
 
-Die Kinder waren Feriengestalter*innen und werden es wieder sein.
+Die Kinder waren Feriengestalter\*innen und werden es wieder sein.
 
 Bis Bald am Wald
 **Euer Waldspielteam**
 
 {{< gallery match="images/2022_sommer/*" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" >}}
-

@@ -60,9 +60,68 @@
     font-weight: 900;
     font-style: normal;
 }
+@font-face {
+    font-family: "Montserrat";
+    src: url('/fonts/Montserrat-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face {
+    font-family: "Montserrat";
+    src: url('/fonts/Montserrat-ExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: "Montserrat";
+    src: url('/fonts/Montserrat-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('/fonts/Montserrat-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('/fonts/Montserrat-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('/fonts/Montserrat-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('/fonts/Montserrat-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('/fonts/Montserrat-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('/fonts/Montserrat-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
 
 
 html,
@@ -71,7 +130,7 @@ body {
     margin: 0px;
     box-sizing: border-box;
     /* font-family: 'Jost', sans-serif;*/
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: "Jost", Arial, sans-serif;
     font-size: 1.05rem;
 }
 
@@ -208,7 +267,7 @@ $foreColors: (
         border-left: 1em solid nth($colors, $i);
         padding-left: 0.5em;
         text-transform: uppercase;
-        font-weight: 100;
+        font-weight: 200;
     }
 
     .color-#{$i} footer, .color-#{$i} .header-contact {
