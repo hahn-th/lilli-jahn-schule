@@ -26,10 +26,15 @@
             <div class="col-lg-8 col-md-12 col-12">        
                 <h2 class="page-header">Aktuelle Meldungen</h2>
                 <article class="aktuelles">
-                    {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" "post") }}
-                    {{ range $pag.Pages }}
-                        {{ partial "list-card-item.html" . }}
-                    {{ end }}
+                        {{ $rng := where .Site.RegularPages "Type" "in" "post" }}
+                            {{ if gt (len $rng) 0 }} 
+                                {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" "post") }}
+                                {{ range $pag.Pages }}
+                                    {{ partial "list-card-item.html" . }}
+                                {{ end }}
+                        {{ else }}
+                            <p>Noch keine Beiträge vorhanden.</p>
+                        {{ end }}
                 </article>
                 
                 <div class="post-navigation">
