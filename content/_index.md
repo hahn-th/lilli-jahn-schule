@@ -12,22 +12,22 @@ Nach Unterrichtsschluss können die Kinder bis 15.30 Uhr in der Betreuung spiele
 
 <div class="row">
     <div class="col-md-6 mb-3">
-        <div class="card">
+        <div class="card h-100">
             <img class="img-fluid" alt="100%x280" src="/images/sonstige/krankmelden.jpg">
             <div class="card-body">
                 <h4 class="card-title">Krankmeldung jetzt online</h4>
                 <p class="card-text">Über die App Stay-Informed können sie die Krankmeldung für ihr Kind nun ganz einfach online einreichen. Wie das geht? </p>
-                <a href="{{< ref "/fuereltern/digitale-schule" >}}" class="card-link">Hier steht's!</a>
+                <a href="{{< ref "/fuereltern/digitale-schule" >}}" class="btn btn-primary text-black" role="button">Hier steht's!</a>
             </div>
         </div>
     </div>
     <div class="col-md-6 mb-3">
-        <div class="card">
-            <img class="img-fluid" alt="100%x280" src="/images/sonstige/stay-informed-app.jpg">
+        <div class="card h-100">
+            <img class="img-fluid" alt="100%x280" src="/images/sonstige/schulranzen.jpg">
             <div class="card-body">
-                <h4 class="card-title">Stay Informed App</h4>
-                <p class="card-text">Die Lilli-Jahn-Schule nutzt seit dem Sommer 2022 die Stay stay-informed-App, um mit den Eltern zu kommunizieren. Bitte melden sie sich für die App an, um alle Elternpost zu erhalten. Wie das geht? </p>
-                <a href="{{< ref "/fuereltern/digitale-schule" >}}" class="card-link">Hier steht's!</a>
+                <h4 class="card-title">Ranzenpost 2.0</h4>
+                <p class="card-text">Die Ranzenpost 2.0 wird bei uns über eine App namens StayInformed verteilt. Auch Umfragen zu Schulthemen bzw. Zustimmungen zu z.B. Schwimmbadbesuchen werden über die App umgesetzt. Wir bitten alle Eltern sich in der App anzumelden. Wie das geht? </p>
+                <a href="{{< ref "/fuereltern/digitale-schule" >}}" class="btn btn-primary text-black" role="button">Hier steht's!</a>
             </div>
         </div>
     </div>
