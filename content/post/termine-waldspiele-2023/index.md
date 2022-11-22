@@ -6,7 +6,7 @@ categories:
   - Waldspiele
 date: 2022-11-22T10:43:52.579Z
 ---
-Wir freuen uns, euch die Termine für die Waldspiele 2023 bekanntgeben zu können.Zu beachten gibt es dabei, dass die Termine unverbindlich sind. Sollten deutlich zu wenig Anmeldungen zu einer Woche vorliegen, behalten wir uns vor für diese Woche abzusagen.
+Wir freuen uns, euch die Termine für die Waldspiele 2023 bekanntgeben zu können. Zu beachten gibt es dabei, dass die Termine unverbindlich sind. Sollten deutlich zu wenig Anmeldungen zu einer Woche vorliegen, behalten wir uns vor, die Waldspiele für diese Woche abzusagen.
 
 Pro Woche kosten die Waldspiele für 5 Tage 75€. Wochen mit nur 4 Tagen werden mit 60€ berechnet.
 
