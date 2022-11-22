@@ -11,7 +11,7 @@ collections:
     label: "Posts"
     folder: /content/post
     create: true
-    path: "{{slug}}/index"
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
     media_folder: "images"
     public_folder: "images"
     fields:
@@ -49,7 +49,36 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: 'Cover Image', name: 'image', required: false,f widget: 'image'}
+      - {label: 'Cover Image', name: 'image', required: false, widget: 'image'}
+      - label: "Fotos zum Beitrag"
+        name: "images"
+        widget: "image"
+        required: false
+        hint: "Bilder, die hier hinzugefügt werden, erscheinen automatisch unter dem Beitrag."
+        media_library:
+          allow_multiple: true
+          config:
+            multiple: true
+      - label: 'Dateianhänge'
+        name: 'dateianhaenge'
+        widget: "file"
+        required: false
+        media_library:
+          allow_multiple: true
+          config:
+            multiple: true
+  - name: fuereltern
+    label: "Für Eltern"
+    folder: "content/fuereltern"
+    create: false
+    media_folder: ""
+    public_folder: ""
+    path: '{{slug}}/index'
+    nested:
+      depth: 100
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - label: "Fotos zum Beitrag"
         name: "images"
         widget: "image"
