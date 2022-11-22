@@ -25,6 +25,30 @@ Ein paar Hinweise zu der Zeit bei den Waldspielen:
 - Wetterinformation: Sollte es zu gefährlichen Wettersituationen kommen (Sturm, Gewitter…), behalten wir uns vor, die Waldspiele für diesen Tag auszusetzen. Sollte dies im Laufe der Betreuungszeit sein, muss eine Abholung der Kinder sichergestellt sein.
 - Kontaktinformationen erhalten sie mit der Bestätigung der Anmeldung
 
+### Die nächsten Waldspiele
+
+Die nächsten Waldspiele werden voraussichtlich an folgenden Terminen angebote. _Bitte beachten Sie, dass die Termine unverbindlich sind und eine Anmeldung erst vor den Waldspielen erfolgen kann._ Die Waldspiele kosten für 5 Tage 75€. Wochen mit nur 4 Tagen werden mit 60€ berechnet.
+
+**Weihnachtsferien 22/23**
+
+1. Woche / 02.01.2023 - 06.01.2023
+
+**Osterferien 22/23**
+
+1. Woche / 03.04.2023 - 06.04.2023 (\* 4 Tage Woche)
+2. Woche / 11.04.2023 - 14.04.2023 (\* 4 Tage Woche)
+3. Woche / 17.04.2023 - 21.04.2023
+
+**Sommerferien 23**
+
+1. Woche / 14.08.2023 - 18.08.2023
+2. Woche / 21.08.2023 - 25.08.2023
+3. Woche / 28.08.2023 - 31.08.2023 (\* 4 Tage Woche)
+
+**Herbstferien 23/24**
+
+1. Woche / 23.10.2023 - 28.10.2023
+
 ### Konzept
 
 Die Waldspielbetreuung richtet sich an Kinder aus Immenhausen und finden ausschließlich im Wald
