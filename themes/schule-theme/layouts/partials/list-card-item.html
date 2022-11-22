@@ -2,12 +2,16 @@
 
 {{ if .Params.thumbnail }}
     {{ with .Resources.GetMatch .Params.thumbnail }}
-        {{ $image = .Permalink }}
+        {{ $image = .Resize "900x" }}
     {{ end }}
+{{ else }}
+  {{ with .Resources.GetMatch "/images/vorschaubild-platzhalter.jpg"}}
+   {{ $image = .Resize "900x" }}
+  {{ end }}
 {{ end }}
 
 <div class="card mb-3">
-    <img class="card-img-top" src="{{ $image }}" alt="Card image cap">
+    <img class="card-img-top" src="{{ $image.Permalink }}" alt="Titelbild zum Beitrag">
     <div class="card-body">
         {{ partial "categories-preview.html" . }}
         <p class="card-text"><small class="text-muted">{{ time.Format "02. January 2006" .Date }}</small></p>
