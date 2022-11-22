@@ -30,3 +30,5 @@ Pro Woche kosten die Waldspiele für 5 Tage 75€. Wochen mit nur 4 Tagen werden
 **Herbstferien 23/24**
 
 1. Woche / 23.10.2023 - 28.10.2023
+
+Weitere Informationen unter (Für Eltern)[{{< ref "/fuereltern/waldspiele" >}}]
