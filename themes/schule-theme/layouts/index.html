@@ -1,7 +1,8 @@
 {{ define "main" }}
 
-<section>
+<section class="text-center">
     {{ $image := resources.Get "images/hero/skizze_schule.jpeg" }}
+    {{ $image = $image.Resize "1700x" }}
     <img src="{{ $image.RelPermalink }}" class="img-fluid" >
 </section>
 
