@@ -6,6 +6,7 @@ menu:
   main:
     weight: 9
     parent: unsere-schule
+images: img_2146.jpeg
 ---
 
 {{<lightbox_image src="maske_lilly.jpg" title="Schuldhund Lilli erklärt, wie man eine Maske trägt" class="float-start">}}
