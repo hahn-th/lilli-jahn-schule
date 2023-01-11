@@ -8,14 +8,14 @@ menu:
     parent: fuereltern
 ---
 
-
 {{<lightbox_image src="/images/sonstige/stay-informed-app.jpg" title="Stay Informed App" class="float-start" >}}
 
-Seit dem Sommer 2022 wird an der Lilli-Jahn-Schule die Stay-Informed App verwendet, um die Kommunikation zwischen Schule und Eltern zu erleichtern. Dies umfasst Nachrichten an Sie als Eltern, Einverständniserklärungen, aber auch Krankmeldungen für ihr Kind. Die App dürfte vielen Eltern bereits  durch den Kindergarten "Kleine Immen" in Immenhausen bekannt sein. 
+Seit dem Sommer 2022 wird an der Lilli-Jahn-Schule die Stay-Informed App verwendet, um die Kommunikation zwischen Schule und Eltern zu erleichtern. Dies umfasst Nachrichten an Sie als Eltern, Einverständniserklärungen, aber auch den Abwesendheitsstatus Ihres Kindes. Die App dürfte vielen Eltern bereits durch den Kindergarten "Kleine Immen" in Immenhausen bekannt sein.
 
 Laden Sie sich die App im Apple App Store oder im Google Play Store gratis herunter. Nutzen sie dafür die Links zu den App Stores oder suchen nach **Stay Informed**.
 
 Wenn Sie ein Konto erstellen, geben sie die folgende Einrichtungs-ID ein:
+
 <div class="alert alert-primary" role="alert">
     Einrichtungs-ID: <span class="text-black"> js81499249</span>
 </div>
@@ -30,15 +30,21 @@ Wenn Sie ein Konto erstellen, geben sie die folgende Einrichtungs-ID ein:
 </div>
 
 #### Weitere Downloads
+
 - Anleitung zur Registrierung auf Deutsch
 - Datenschutzinformationen zur Stay Informed App
 - Infoplakat
 - UKR Registrierung Stay Informed App
 
-### Krankmeldung ihres Kindes
-Ihr Kind können sie ganz einfach über die StayInformed-App krank melden. Dafür gehen sie in der App auf den Menüpunkt **"Meine Kinder"**, wählen das entsprechende Kind aus und fügen einen **Abwesenheitsstatus** hinzu.
+### Abwesendheitsstatus Ihres Kindes
 
-<img src="kind-krank-melden.png" class="img-fluid" alt="Beschreibung, wie man ein Kind krank meldet.">
+Ihr Kind können sie ganz einfach über die StayInformed-App vom Schulunterricht abmelden. Dafür gehen Sie in der App auf den Menüpunkt **"Meine Kinder"**, wählen das entsprechende Kind aus und fügen einen **Abwesenheitsstatus** hinzu.
+
+<div class="alert alert-primary" role="alert">
+    Die Krankmeldung bei der Klassenlehrerin ist noch immer notwendig. Der Anruf im Sekretariat entfällt jedoch.
+</div>
+
+<img src="kind-krank-melden.png" class="img-fluid" alt="Beschreibung, wie man ein Kind vom Schulunterricht abmeldet.">
 
 <div class="container-fluid info-box">
     <div class="row">
@@ -52,7 +58,6 @@ Ihr Kind können sie ganz einfach über die StayInformed-App krank melden. Dafü
         </div>
     </div>
 </div>
-
 
 ### Wissenswertes zum Umgang mit dem Internet
 

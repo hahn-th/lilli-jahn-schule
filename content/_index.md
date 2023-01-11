@@ -15,8 +15,8 @@ Nach Unterrichtsschluss können die Kinder bis 15.30 Uhr in der Betreuung spiele
         <div class="card h-100">
             <img class="img-fluid" alt="100%x280" src="/images/sonstige/krankmelden.jpg">
             <div class="card-body">
-                <h4 class="card-title">Krankmeldung jetzt online</h4>
-                <p class="card-text">Über die App Stay-Informed können sie die Krankmeldung für ihr Kind nun ganz einfach online einreichen. Wie das geht? </p>
+                <h4 class="card-title">Online abmelden</h4>
+                <p class="card-text">Über die App Stay-Informed können sie ihr Kind nun ganz einfach online vom Schulunterricht abmelden. Wie das geht? </p>
                 <a href="{{< ref "/fuereltern/digitale-schule" >}}" class="btn btn-primary text-black" role="button">Hier steht's!</a>
             </div>
         </div>
