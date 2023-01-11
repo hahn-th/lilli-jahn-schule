@@ -1,7 +1,7 @@
 {{ $imgPath := .Resources.GetMatch "/images/vorschaubild-platzhalter.jpg" }}
 
 {{ if .Params.thumbnail }}
-  {{ $imgPath := .Params.thumbnail}}
+  {{ $imgPath = .Params.thumbnail}}
 {{ end }}
 
 <div class="card mb-3">
