@@ -42,8 +42,4 @@ Den Förderverein erreichen sie unter der Email Adresse <a href="mailto:fv-lilli
 
 ### Downloads
 
-Hier finden sie unterschiedliche Dokumente und Informationen zum Förderverein als Download:
-
-- <a href="fv_lilli-jahn-schule_beitrittserkla__rung.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Beitrittserklärung Förderverein</a>
-- <a href="fv_datenschutz-information.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Informationen zum Datenschutz</a>
-- <a href="satzung_synopse_20190807.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Satzung</a>
+Dokumente zum Herunterladen, die Satzung des Fördervereins und das Beitrittsformular finden sie unter [Downloads]({{< ref "downloads" >}})
