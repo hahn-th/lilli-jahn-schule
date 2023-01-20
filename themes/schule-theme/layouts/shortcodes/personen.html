@@ -5,16 +5,22 @@
     <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
         {{ $param := .Get 0}}
         {{ $file := index site.Data $param}}
-        {{ range $file.personen }}
+        {{ range $person := $file.personen }}
         
         <div class="col">
             <div class="card h-100">
-                {{ $image := "/images/avatar.png" }}
-                {{ if .image}}
-                    {{ $image = .image }}
+                {{ $image := resources.Get "images/avatar.png" }}
+                {{ if $person.image}}
+                    {{ $search := print "**/" $person.image  }}
+                    {{ with $.Page.Resources.GetMatch $search }}
+                         {{ $image = . }}
+                    {{ end }}
                 {{ end }}
-                <a href="{{ $image }}" class="swipebox" title="{{ .name }} / {{ .funktion }}">
-                    <img src="{{ $image }}" class="card-img-top">
+                
+                {{ $imagePreview := $image.Resize "300x420" }}
+                {{ $imageFull := $image.Resize "700x" }}
+                <a href="{{ $imageFull.RelPermalink }}" class="swipebox"  title="{{ .name }} / {{ .funktion }}">
+                    <img src="{{ $imagePreview.RelPermalink }}" class="card-img-top ">
                 </a>
 
                 <div class="card-body">

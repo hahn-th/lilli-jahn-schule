@@ -1,19 +1,32 @@
 personen:
-- name: Frau Habisch
-  funktion: Betreuungskraft
-  image: betreuung/1259.jpg
-- name: Frau Hadasch
-  funktion: Betreuungskraft
-  image: betreuung/3742_1.jpg
-- name: Frau Ohlemeyer
-  funktion: Betreuungskraft
-  image: betreuung/frau_ohlemeyer.jpg
-- name: Frau Kleinsimon
-  funktion: Betreuungskraft
-  image: sekretariat/4352_1.jpg
-- name: Herr Topp
-  funktion: Betreuungskraft
-  image: betreuung/christian.jpg
-- name: Frau Luttmann
-  funktion: Betreuungskraft
-  image: betreuung/miriam_luttmann.jpg 
+- name: Heike Dörner
+  funktion: Hausaufgabenbetreuung
+- name: Tanja Habisch
+  funktion: Betreuung
+  image: habisch.jpg
+- name: Sylvia Hadasch
+  funktion: Betreuung
+  image: hadasch.jpg
+- name: Ina Kleinsimon
+  funktion: Betreuung
+  image: kleinsimon.jpg
+- name: Christiane Langer
+  funktion: Hausaufgabenbetreuung
+- name: Lisa Markert
+  funktion: Hausaufgabenbetreuung
+- name: Arne Nixdorf
+  funktion: Hausaufgabenbetreuung
+- name: Gerhard Nixdorf
+  funktion: Hausaufgabenbetreuung
+- name: Irmhild Ohlemeyer
+  funktion: Betreuung
+  image: ohlemeyer.jpg
+- name: Barbara Rauwolf
+  funktion: Hausaufgabenbetreuung
+- name: Ilka Sandgaard
+  funktion: Hausaufgabenbetreuung
+- name: Marion Seeger
+  funktion: Betreuung
+- name: Christian Topp
+  funktion: Betreuung
+  image: topp.jpg

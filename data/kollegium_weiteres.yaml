@@ -1,0 +1,10 @@
+personen:
+- name: Ina Kleinsimon
+  funktion: Sekretärin
+  image: kleinsimon.jpg
+- name: Frau Pfannkuche
+  funktion: UBUS-Kraft
+  image: pfannkuche.jpg
+- name: Herr Hügues
+  funktion: Schulsozialarbeiter
+  image: huegues.png

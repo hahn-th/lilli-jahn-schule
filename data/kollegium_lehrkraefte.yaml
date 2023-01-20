@@ -1,0 +1,61 @@
+personen:
+- name: Lea Bärg Isaak
+  funktion: Lehrerin
+- name: Eckhard Becker
+  funktion: Lehrer/Pfarrer
+  image: eckhard_sw32.jpg
+- name: Sabrina Behnken
+  funktion: Lehrerin (BFZ)
+- name: Anna-Lisa Berger
+  funktion: Lehrerin
+- name: Andrea Beyer
+  funktion: Lehrerin
+  image: beyer.jpg
+- name: Michaela Dettori
+  funktion: Lehrerin BFZ
+- name: Justyna Fron
+  funktion: Lehrerin (BFZ)
+  image: fron.jpg
+- name: Solveig Gundlach
+  funktion: Lehrerin
+  image: gundlach.jpg
+- name: Julia Hadasch
+  funktion: Lehrauftrag
+  image: hadasch.jpg
+- name: Lisa Hille
+  funktion: Lehrerin
+  image: hille.jpg
+- name: Hildegard Hillebrand
+  funktion: Lehrerin (BFZ)
+- name: Christiane Kemper
+  funktion: Lehrerin
+  image: kemper.jpg
+- name: Jana Landskron
+  funktion: Lehrerin (BFZ)
+- name: Heike Lohr
+  funktion: Lehrerin
+  image: lohr.jpeg
+- name: Lisa Markert
+  funktion: Lehrauftrag
+- name: Birgitt Neukirch
+  funktion: Lehrerin
+- name: Sabine Nödel
+  funktion: Lehrerin
+  image: noedel.jpg
+- name: Ute Pilger
+  funktion: Lehrerin
+  image: pilger.jpg
+- name: Petra Risse
+  funktion: Lehrerin
+  image: risse.jpg
+- name: Rebecca Röttger
+  funktion: Lehrerin
+  image: roettger.jpg
+- name: Christine Schilling
+  funktion: Lehrerin
+  image: schilling.jpg
+- name: Astrid Schnittker
+  funktion: Lehrerin
+  image: schnittker.jpg
+- name: Caroline Seyler
+  funktion: Lehrerin

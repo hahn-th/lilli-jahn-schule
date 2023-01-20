@@ -12,47 +12,21 @@ menu:
 
 {{< personen "kollegium_leitung" >}}
 
-## Lehrer/in
+## Lehrkräfte
 
-{{< personen "kollegium_lehrerin" >}}
+{{< personen "kollegium_lehrkraefte" >}}
 
-## Sekretariat
+## Weiteres Personal
 
-{{< personen "kollegium_sekretariat" >}}
+{{< personen "kollegium_weiteres" >}}
 
-## Soziale Arbeit
-
-Soziale Arbeit durch Fabian Hügues
-
-Landkreis Kassel  
-Fachbereich Jugend  
-Sozialarbeit in Schule (SiS)
-
-Fabian Hügues  
-05673/9129978  
-fabian-huegues@landkreiskassel.de
-
-**Dienstort:**
-Lilli-Jahn-Schule  
-Nordweg 10  
-34376 Immenhausen
-
-Lucas-Lossius-Schule  
-Graseweg 1  
-34359 Reinhardshagen
-
-**Träger:**
-
-AGIL, gemeinnützige Arbeitsförderungsgesellschaft im Landkreis Kassel mbH
-34466 Wolfhagen
-
-## Betreuungskräfte
+## Betreuung
 
 {{< personen "kollegium_betreuung">}}
 
-## Hausaufgabenbetreuung
+## Waldspiele
 
-{{< personen "kollegium_hausaufgabenbetreuung" >}}
+{{< personen "kollegium_waldspieler">}}
 
 ## Hausmeister
 
