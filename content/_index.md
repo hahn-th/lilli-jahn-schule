@@ -1,10 +1,9 @@
 ---
 title: Start
 date: 2022-05-09T20:33:52.000+02:00
-hero: "schulhof2.jpeg"
+hero: schulhof2.jpeg
 ---
-
-die Lilli-Jahn-Schule besuchen ungefähr 230 Kinder aus Immenhausen, Holzhausen und Mariendorf.
+die Lilli-Jahn-Schule besuchen ungefähr 270 Kinder aus Immenhausen, Holzhausen und Mariendorf.
 
 Sie ist eine Grundschule mit Vorklasse und den Jahrgangsstufen 1 bis 4.
 
