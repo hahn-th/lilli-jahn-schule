@@ -9,6 +9,6 @@ menu:
 images: img_2146.jpeg
 ---
 
-{{<lightbox_image src="maske_lilly.jpg" title="Schuldhund Lilli erklärt, wie man eine Maske trägt" class="float-start">}}
-
 Unser Schulhund Lilli ist immer mit dabei. Heute erklärt sie, wie man die Maske richtig trägt.
+
+{{< gallery match="images/*" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" >}}
