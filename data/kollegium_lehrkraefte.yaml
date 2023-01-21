@@ -2,7 +2,7 @@ personen:
 - name: Lea Bärg Isaak
   funktion: Lehrerin
 - name: Eckhard Becker
-  funktion: Lehrer/Pfarrer
+  funktion: Pfarrer
   image: eckhard_sw32.jpg
 - name: Sabrina Behnken
   funktion: Lehrerin (BFZ)
@@ -21,12 +21,9 @@ personen:
   image: gundlach.jpg
 - name: Julia Hadasch
   funktion: Lehrauftrag
-  image: hadasch.jpg
 - name: Lisa Hille
   funktion: Lehrerin
   image: hille.jpg
-- name: Hildegard Hillebrand
-  funktion: Lehrerin (BFZ)
 - name: Christiane Kemper
   funktion: Lehrerin
   image: kemper.jpg
