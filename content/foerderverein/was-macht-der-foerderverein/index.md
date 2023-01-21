@@ -14,8 +14,7 @@ menu:
 
 Der Förderverein der Lilli-Jahn-Schule wurde im Jahr 2000 gegründet. Nicht für alles Notwendige ist Geld vom Schulträger vorhanden. Hier möchten wir unterstützen, die pädagogische Arbeit fördern, um den Schülern die bestmöglichen Lernbedingungen zugutekommen zu lassen.
 
-Der Förderverein finanziert die Betreuung an unserer Grundschule zusammen mit dem Landkreis Kassel. Nur dadurch können die aktuelle vorhandenen Betreuungszeiten gewährleistet und die
-Hausaufgabenbetreuung angeboten werden.
+Der Förderverein finanziert die Betreuung an unserer Grundschule zusammen mit dem Landkreis Kassel. Nur dadurch können die aktuell vorhandenen Betreuungszeiten gewährleistet und die Hausaufgabenbetreuung angeboten werden.
 
 Seit Gründung wurden viele Projekte realisiert, Vorhaben unterstützt, Unterrichtsmaterialien angeschafft und gemeinsame Veranstaltungen organisiert:
 
@@ -42,4 +41,4 @@ Den Förderverein erreichen sie unter der Email Adresse <a href="mailto:fv-lilli
 
 ### Downloads
 
-Dokumente zum Herunterladen, die Satzung des Fördervereins und das Beitrittsformular finden sie unter [Downloads]({{< ref "downloads" >}})
+Formulare zum Herunterladen, die Satzung des Fördervereins und das Beitrittsformular finden sie unter [Formulare]({{< ref "formulare" >}})
