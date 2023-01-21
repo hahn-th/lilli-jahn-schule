@@ -43,7 +43,7 @@ Die nächsten Waldspiele werden voraussichtlich an folgenden Terminen angebote. 
 
 1. Woche / 14.08.2023 - 18.08.2023
 2. Woche / 21.08.2023 - 25.08.2023
-3. Woche / 28.08.2023 - 31.08.2023 (\* 4 Tage Woche)
+3. Woche / 28.08.2023 - 01.09.2023
 
 **Herbstferien 23/24**
 
