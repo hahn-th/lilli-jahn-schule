@@ -8,7 +8,7 @@ menu:
     parent: unsere-schule
 ---
 
-Das Schulprogramm der Lilli-Jahn-Schule Immenhausen liegt in einer digitalen-Version vor, um dem bildungspolitischen Anspruch eines „Schulprogramms als Arbeitsplan“ durch jederzeit mögliche und schnelle Überarbeitung und Ergänzung gerecht zu werden. Die vorliegende mindmap soll einen schnellen Überblick der vorhanden Dateien und Dokumente geben.
+Das Schulprogramm der Lilli-Jahn-Schule Immenhausen liegt in einer digitalen Version vor, um dem bildungspolitischen Anspruch eines „Schulprogramms als Arbeitsplan“ durch jederzeit mögliche und schnelle Überarbeitung und Ergänzung gerecht zu werden. Die vorliegende Mindmap soll einen schnellen Überblick der vorhanden Dateien und Dokumente geben.
 
 Die Haupthandlungsstränge sind:
 

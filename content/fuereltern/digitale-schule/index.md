@@ -38,10 +38,10 @@ Wenn Sie ein Konto erstellen, geben sie die folgende Einrichtungs-ID ein:
 
 ### Abwesendheitsstatus Ihres Kindes
 
-Ihr Kind können sie ganz einfach über die StayInformed-App vom Schulunterricht abmelden. Dafür gehen Sie in der App auf den Menüpunkt **"Meine Kinder"**, wählen das entsprechende Kind aus und fügen einen **Abwesenheitsstatus** hinzu.
+Ihr Kind können Sie ganz einfach über die StayInformed-App vom Schulunterricht abmelden. Dafür gehen Sie in der App auf den Menüpunkt **"Meine Kinder"**, wählen das entsprechende Kind aus und fügen einen **Abwesenheitsstatus** hinzu.
 
 <div class="alert alert-primary" role="alert">
-    Wenn die Kinder wieder gesund und in der Schule sind ist eine schriftliche Entschuldigung mitgebracht werden. Der Anruf im Sekretariat entfällt jedoch.
+    Wenn die Kinder wieder gesund und in der Schule sind, muss eine schriftliche Entschuldigung mitgebracht werden. Der Anruf im Sekretariat entfällt jedoch.
 </div>
 
 <img src="kind-krank-melden.png" class="img-fluid" alt="Beschreibung, wie man ein Kind vom Schulunterricht abmeldet.">
@@ -54,7 +54,7 @@ Ihr Kind können sie ganz einfach über die StayInformed-App vom Schulunterricht
             </svg>
         </div>
         <div class="col-10 info-box-content">
-            Die App wird der Schule vom Förderverein der Lilli-Jahn-Schule bereitgestellt. Mit ihrer Mitgliedschaft im Förderverein unterstützen sie unter anderem die laufenden Kosten der Lizenzgebühren.
+            Die App wird der Schule vom Förderverein der Lilli-Jahn-Schule bereitgestellt. Mit Ihrer Mitgliedschaft im Förderverein unterstützen sie unter anderem die laufenden Kosten der Lizenzgebühren.
         </div>
     </div>
 </div>

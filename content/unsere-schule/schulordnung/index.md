@@ -11,7 +11,7 @@ resources:
     title: Schulordnung
 ---
 
-Unsere Schulordnung kann hier als PDF heruntergeladen werden. Jeder Schüler unterschreibt die Schulordnung und muss sich daran halten.
+Unsere Schulordnung kann hier als PDF heruntergeladen werden. Jeder Schüler und jede Schülerin unterschreibt die Schulordnung und muss sich daran halten.
 <a href="schulordnung.pdf" target="_blank">Schulordnung herunterladen</a>
 
 ### Toiletten – Regeln

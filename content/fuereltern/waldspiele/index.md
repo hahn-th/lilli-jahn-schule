@@ -11,7 +11,7 @@ hero: Waldspiele-ohne-Gesichter.jpg
 
 ### Informationen
 
-In der Regel versuchen wir jede Ferien Waldspiele anzubieten. Dies ist jedoch aufgrund von Betreuungskräften nicht immer möglich. Auch bitten wir zu entschuldigen, dass wir keine verbindliche Jahresplanung anbieten können. Sollten sich zu wenig Kinder für eine Waldspielwoche anmelden, behalten wir uns vor, die Waldspiele für diese Woche abzusagen. Sie bekommen in diesem Fall natürlich jegliche bezahlten Teilnahemgebühren zurück.
+In der Regel versuchen wir jede Ferien Waldspiele anzubieten. Dies ist jedoch aufgrund von Betreuungskräften nicht immer möglich. Auch bitten wir zu entschuldigen, dass wir keine verbindliche Jahresplanung anbieten können. Sollten sich zu wenig Kinder für eine Waldspielwoche anmelden, behalten wir uns vor, die Waldspiele für diese Woche abzusagen. Sie bekommen in diesem Fall natürlich jegliche bezahlten Teilnahmegebühren zurück.
 
 Ein paar Hinweise zu der Zeit bei den Waldspielen:
 
@@ -27,7 +27,7 @@ Ein paar Hinweise zu der Zeit bei den Waldspielen:
 
 ### Die nächsten Waldspiele
 
-Die nächsten Waldspiele werden voraussichtlich an folgenden Terminen angebote. _Bitte beachten Sie, dass die Termine unverbindlich sind und eine Anmeldung erst vor den Waldspielen erfolgen kann._ Die Waldspiele kosten für 5 Tage 75€. Wochen mit nur 4 Tagen werden mit 60€ berechnet.
+Die nächsten Waldspiele werden voraussichtlich an folgenden Terminen angeboten. _Bitte beachten Sie, dass die Termine unverbindlich sind und eine Anmeldung erst vor den Waldspielen erfolgen kann._ Die Waldspiele kosten für 5 Tage 75€. Wochen mit nur 4 Tagen werden mit 60€ berechnet.
 
 **Weihnachtsferien 22/23**
 

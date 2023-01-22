@@ -11,7 +11,7 @@ menu:
 
 {{<lightbox_image src="lilli-portraet.jpg" title="Lilli Jahn" class="float-end" >}}
 
-Unsere Schule hieß immer nur Grundschule Immenhausen. Dann haben unsere Lehrer und Eltern überlegt, wie unsere Schule heißen soll. Nach langem Überlegen haben sie sich auf den Namen Lilli Jahn geeinigt.
+Unsere Schule hieß immer nur Grundschule Immenhausen. Dann haben unsere LehrerInnen und Eltern überlegt, wie unsere Schule heißen soll. Nach langem Überlegen haben sie sich auf den Namen Lilli Jahn geeinigt.
 
 ### Über das Leben von Lilli Jahn
 
