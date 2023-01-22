@@ -31,17 +31,17 @@ Wenn Sie ein Konto erstellen, geben sie die folgende Einrichtungs-ID ein:
 
 #### Weitere Downloads
 
-- Anleitung zur Registrierung auf Deutsch
-- Datenschutzinformationen zur Stay Informed App
-- Infoplakat
-- UKR Registrierung Stay Informed App
+- <a href="Anleitung NutzerInnen-Registrierung Deutsch.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Anleitung zur Registrierung auf Deutsch</a>
+- <a href="Datenschutz Schul-Info-App.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Datenschutzinformationen zur Stay Informed App</a>
+- <a href="Infoplakat.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Infoplakat</a>
+- <a href="Інструкції - Anleitung NutzerInnen Registrierung UKR.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> UKR Registrierung Stay Informed App</a>
 
 ### Abwesendheitsstatus Ihres Kindes
 
 Ihr Kind können sie ganz einfach über die StayInformed-App vom Schulunterricht abmelden. Dafür gehen Sie in der App auf den Menüpunkt **"Meine Kinder"**, wählen das entsprechende Kind aus und fügen einen **Abwesenheitsstatus** hinzu.
 
 <div class="alert alert-primary" role="alert">
-    Die Krankmeldung bei der Klassenlehrerin ist noch immer notwendig. Der Anruf im Sekretariat entfällt jedoch.
+    Wenn die Kinder wieder gesund und in der Schule sind ist eine schriftliche Entschuldigung mitgebracht werden. Der Anruf im Sekretariat entfällt jedoch.
 </div>
 
 <img src="kind-krank-melden.png" class="img-fluid" alt="Beschreibung, wie man ein Kind vom Schulunterricht abmeldet.">
