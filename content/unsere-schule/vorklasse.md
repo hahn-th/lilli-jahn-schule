@@ -8,12 +8,14 @@ menu:
     parent: unsere-schule
 ---
 
-Zum Profil der Lilli-Jahn-Schule gehört die Vorklasse. Sie bietet Kindern, denen man noch ein Jahr lang Erfahrungsmöglichkeiten geben möchte, eine an ihrem individuellen Entwicklungs- und Lernstand ansetzende Förderung, die sie auf einen erfolgreichen Übergang in die erste Klasse vorbereiten soll.
+Zum Profil der Lilli-Jahn-Schule gehört die Vorklasse. Sie bietet individuelle Förderung für schulpflichtig gewordene Kinder, die aus unterschiedlichen Gründen (körperlich, geistig, emotional) noch nicht die erforderliche Reife haben, um erfolgreich und frei von Überforderung am 1. Schuljahr teilnehmen zu können. 
+Das Jahr in der Vorklasse gilt als Zurückstellung und wird nicht auf die Schulbesuchszeit angerechnet.
 
-Als Aufnahmekriterium gilt: Wenn ein Kind bis zum 30 Juni sechs Jahre alt geworden ist und nach den Hessischen Schulsommerferien schulpflichtig wird, kann es bei Förderbedarf in Absprache mit den Eltern und der Schule zunächst die Vorklasse besuchen. Nachträglich können noch Kinder aufgenommen werden, die bereits im August eingeschult worden waren, bei denen sich aber im Laufe des Herbstes Überforderungen in der ersten Klasse herausstellten.
+Das Lernen in der Vorklasse geschieht durch vielfältige Spiel- und Lernangebote, welche die Kinder ganzheitlich auf ihren Weg zur Schulfähigkeit begleiten. 
+Mit positiven Erlebnissen werden die Kinder Schritt für Schritt an die methodisch-didaktischen Strukturen der Schule herangeführt, ohne dabei den Inhalten der 1. Klasse vorzugreifen. 
 
-Der Vorklassenunterricht an der Lilli-Jahn-Schule bereitet die Kinder in allen relevanten Entwicklungsbereichen auf die Schulfähigkeit vor und orientiert sich dabei sowohl methodisch-didaktisch als auch in seiner Angebotsstruktur an schulischen Formen.
+Zu Beginn des Schuljahres wird für jedes Kind ein individueller Förderplan erstellt. Die Fortschritte werden laufend beobachtet und durch entsprechende Förderung unterstützt. Am Ende des Schuljahres erhalten die Kinder einen Abschlussbericht, der den persönlichen Lern- und Entwicklungsstand dokumentiert.
+Eine enge Zusammenarbeit mit den Eltern gilt hierbei als Selbstverständnis.  
 
-Die Vorklassenleiterin arbeitet eng mit den Eltern zusammen. Zu Beginn eines Schuljahres wird im "Herbstgespräch" der individuelle Förderbedarf eines jeden Kindes erstellt und dessen Umsetzung mit den Eltern besprochen. Die Entwicklungsfortschritte werden laufend beobachtet und durch entsprechende Förderung unterstützt. Im "Frühjahrsgespräch" reflektieren die Eltern zusammen mit der Vorklassenleiterin die Fortschritte ihres Kindes.
-
-Die Eltern erhalten am Ende des Schuljahres einen Abschlussbericht, der den Lern- und Entwicklungsstand des Kindes dokumentiert. Die Kinder bekommen am letzten Tag vor den Sommerferien ein "Zeugnis", das ihnen die Lernfortschritte während des Vorklassenjahres und den Wissensstand verdeutlicht.
+Die Vorklasse ist ein Ort zum Wohlfühlen, Wachsen und Ankommen im Schulsystem; 
+ein Ort, der den Kindern Motivation und Selbstvertrauen für das zukünftige (Schul-)Leben mitgibt.

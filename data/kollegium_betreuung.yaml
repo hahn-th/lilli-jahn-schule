@@ -27,6 +27,7 @@ personen:
   funktion: Hausaufgabenbetreuung
 - name: Marion Seeger
   funktion: Betreuung
+  image: seeger.jpg
 - name: Christian Topp
   funktion: Betreuung
   image: topp.jpg
