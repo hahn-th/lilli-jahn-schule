@@ -25,6 +25,8 @@ Ein paar Hinweise zu der Zeit bei den Waldspielen:
 - Wetterinformation: Sollte es zu gefährlichen Wettersituationen kommen (Sturm, Gewitter…), behalten wir uns vor, die Waldspiele für diesen Tag auszusetzen. Sollte dies im Laufe der Betreuungszeit sein, muss eine Abholung der Kinder sichergestellt sein.
 - Kontaktinformationen erhalten sie mit der Bestätigung der Anmeldung
 
+Kinder, die in den Sommerferien aus dem Kindergarten in die Schule oder von der vierten in die fünfte Klasse wechseln dürfen sich auch gerne anmelden. Vorrang haben jedoch Kinder, die zur Zeit die erste bis vierte Klasse besuchen.
+
 ### Die nächsten Waldspiele
 
 Die nächsten Waldspiele werden voraussichtlich an folgenden Terminen angeboten. _Bitte beachten Sie, dass die Termine unverbindlich sind und eine Anmeldung erst vor den Waldspielen erfolgen kann._ Die Waldspiele kosten für 5 Tage 75€. Wochen mit nur 4 Tagen werden mit 60€ berechnet.
