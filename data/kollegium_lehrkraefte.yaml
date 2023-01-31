@@ -1,6 +1,7 @@
 personen:
 - name: Lea Bärg Isaak
   funktion: Lehrerin
+  image: baerg.jpg
 - name: Eckhard Becker
   funktion: Pfarrer
   image: eckhard_sw32.jpg
@@ -35,6 +36,7 @@ personen:
   funktion: Lehrauftrag
 - name: Birgitt Neukirch
   funktion: Lehrerin
+  image: neukirch.jpg
 - name: Sabine Nödel
   funktion: Lehrerin
   image: noedel.jpg
