@@ -28,6 +28,7 @@ Auf dieser Seite finden sie verschiedene Formulare zum Herunterladen.
 
 ## Förderverein
 
-- <a href="dateien/Mitgliedsantrag Förderverein.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Mitgliedsantrag Förderverein</a>
+- <a href="dateien/Beitrittserklärung inkl. SEPA-Lastschriftmandat.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Beitrittserklärung und SEPA-Lastschriftmandat</a>
+- <a href="dateien/Mitgliedsantrag Förderverein.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Flyer mit Mitgliedsantrag</a>
 - <a href="dateien/Datenschutz-Information FV LJS.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Datenschutz-Information des Fördervereins</a>
 - <a href="dateien/satzung_synopse_20190807.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Satzung des Fördervereins</a>
