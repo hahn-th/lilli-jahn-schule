@@ -1,8 +1,8 @@
 title: Lilli-Jahn-Schule Immenhausen
-author: 
+author:
   name: Lilli-Jahn-Schule Immenhausen
 
-baseURL: https://test.lilli-jahn-schule.de
+baseURL: https://www.lilli-jahn-schule.de
 languageCode: de-de
 defaultContentLanguage: de
 languages:
@@ -12,40 +12,40 @@ languages:
 
 menu:
   footermenu:
-  - Name: SchulCloud 2.0
-    url: https://ljs.schule.silk-it.de
-    weight: 3
-  - Name: Nextcloud
-    url: https://ljs.schule.silk-it.de/nextcloud/login
-    weight: 4
+    - Name: SchulCloud 2.0
+      url: https://ljs.schule.silk-it.de
+      weight: 3
+    - Name: Nextcloud
+      url: https://ljs.schule.silk-it.de/nextcloud/login
+      weight: 4
   main:
-  - identifier: start
-    weight: 1
-    name: "Start"
-    pageRef: "/_index.md"
-    params:
-      styleIndex: 6
-  - identifier: unsere-schule
-    weight: 2
-    name: "Unsere Schule"
-    params:
-      styleIndex: 2
-  - identifier: fuereltern
-    weight: 3
-    name: "Elterninformationen"
-    params:
-      styleIndex: 3
-  - identifier: foerderverein
-    weight: 4
-    name: "Förderverein"
-    params:
-      styleIndex: 4
-  - identifier: kontakt
-    weight: 5
-    name: "Kontakt"
-    pageRef: kontakt
-    params:
-      styleIndex: 5
+    - identifier: start
+      weight: 1
+      name: "Start"
+      pageRef: "/_index.md"
+      params:
+        styleIndex: 6
+    - identifier: unsere-schule
+      weight: 2
+      name: "Unsere Schule"
+      params:
+        styleIndex: 2
+    - identifier: fuereltern
+      weight: 3
+      name: "Elterninformationen"
+      params:
+        styleIndex: 3
+    - identifier: foerderverein
+      weight: 4
+      name: "Förderverein"
+      params:
+        styleIndex: 4
+    - identifier: kontakt
+      weight: 5
+      name: "Kontakt"
+      pageRef: kontakt
+      params:
+        styleIndex: 5
 markup:
   goldmark:
     renderer:
@@ -56,14 +56,14 @@ params:
 theme:
   - hugo-shortcode-gallery
   - schule-theme
-  
+
 galleryShowExif: false
 galleryLastRow: "nojustify"
 outputs:
   home:
-  - "RSS"
-  - "HTML"
-  - "Calendar"
+    - "RSS"
+    - "HTML"
+    - "Calendar"
 section: "HTML"
 
 outputFormats:
