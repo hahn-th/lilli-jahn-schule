@@ -1,9 +1,9 @@
 personen:
-- name: Lucia Knäpper
-  funktion: Waldspielerin
-  image: lucia.jpeg
-- name: Julia Hofmann-Knäpper
-  funktion: Waldspielerin
-  image: julia.jpeg
-- name: Simone Rösner-Hobein
-  funktion: Waldspielerin
+  - name: Lucia Knäpper-Hofmann
+    funktion: Waldspielerin
+    image: lucia.jpeg
+  - name: Julia Hofmann
+    funktion: Waldspielerin
+    image: julia.jpeg
+  - name: Simone Rösner-Hobein
+    funktion: Waldspielerin
