@@ -25,6 +25,7 @@ Auf dieser Seite finden sie verschiedene Formulare zum Herunterladen.
 - <a href="dateien/Abmeldung von der Betreuung.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Abmeldung von der Betreuung</a>
 - <a href="dateien/Vertrag kurzfristige Betreuung - 2023.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Vertrag kurzfristige Betreuung</a>
 - <a href="dateien/Vertrag stundenweise Betreuung - 2023.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Vertrag stundenweise Betreuung</a>
+- <a href="dateien/Informationen zur Betreuung.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Informationen zur Betreuung</a>
 
 ## Förderverein
 
