@@ -35,23 +35,24 @@ Sie erreichen uns unter folgender Telefonnummer: 05673-925779
 <table class="table">
 <tr>
   <td>&nbsp;</td>
+  <td class="word-wrap"><b>Mitglieder im Förderverein</b></td>
+  <td><b>Nichtmitglieder</b></td>
+</tr>
+<tr>
   <td>Gesamtbetrag</td>
-  <td>Förderverein</td>
-  <td>Landkreis</td>
-</tr>
-<tr>
-  <td>Für <b>Fördervereinsmitglieder</b></td>
   <td>300€ pro Halbjahr</td>
-  <td>150€</td>
-  <td>150€</td>
+  <td>318€ pro Halbjahr</td>
 </tr>
 <tr>
-  <td>Für <b>Nichtmitglieder</b></td>
-  <td>318€ pro Halbjahr</td>
+  <td class="word-wrap">Anteil Förderverein</td>
+  <td>150€</td>
   <td>168€</td>
+</tr>
+<tr>
+  <td class="word-wrap">Anteil Landkreis</td>
+  <td>150€</td>
   <td>150€</td>
 </tr>
-
 </table>
 
 Das Angebot zur Betreuung der Lilli-Jahn-Schule ist ein gemeinsames Angebot vom Landkreis Kassel und dem Förderverein der Lilli-Jahn-Schule e.V. Da der Landkreis nur eine begrenzte Stundenzahl mit geringerem Betreuungsschlüssel pro Tag und Kind unterstützt, konnte erst mit Unterstützung des Fördervereins die momentane Betreuungszeit und -qualität in unserer Schule ermöglicht werden.
