@@ -39,7 +39,9 @@ ist ein Fachdienst des Fachbereichs Jugend und arbeitet auf Basis des SGB VIII
 - Vernetzung inner- und außerschulisch mit verschiedenen Institutionen des Fachbereichs Jugend, Jugendhilfeeinrichtungen oder auch psychologischer Beratung
 - Einzelfallberatung und -begleitung am Ort Schule
 
-Kontakt: Dienstag - Freitag  
+### Kontakt:
+
+Dienstag - Freitag  
 Email: lea-bunse@landkreiskassel.de  
 Tel. 05673/9129978  
 Diensthandy: 0152/27651945  
