@@ -2,12 +2,6 @@ personen:
   - name: Lea Bärg Isaak
     funktion: Lehrerin
     image: baerg.jpg
-  - name: Eckhard Becker
-    funktion: Pfarrer
-    image: eckhard_sw32.jpg
-  - name: Sabrina Behnken
-    funktion: Lehrerin (BFZ)
-    image: behnken.jpg
   - name: Andrea Beyer
     funktion: Lehrerin
     image: beyer.jpg
@@ -21,9 +15,6 @@ personen:
     image: gundlach.jpg
   - name: Julia Hadasch
     funktion: Lehrauftrag
-  - name: Lisa Hille
-    funktion: Lehrerin
-    image: hille.jpg
   - name: Christiane Kemper
     funktion: Lehrerin
     image: kemper.jpg
@@ -34,17 +25,12 @@ personen:
     image: lohr.jpeg
   - name: Lisa Markert
     funktion: Lehrauftrag
-  - name: Birgitt Neukirch
-    funktion: Lehrerin
-    image: neukirch.jpg
   - name: Sabine Nödel
     funktion: Lehrerin
     image: noedel.jpg
   - name: Ute Pilger
     funktion: Lehrerin
     image: pilger.jpg
-  - name: Petra Risse
-    funktion: Lehrerin
   - name: Rebecca Röttger
     funktion: Vorklassenleitung
     image: roettger.jpg
