@@ -27,6 +27,10 @@ Auf dieser Seite finden sie verschiedene Formulare zum Herunterladen.
 - <a href="dateien/Vertrag stundenweise Betreuung - 2023.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Vertrag stundenweise Betreuung</a>
 - <a href="dateien/Informationen zur Betreuung.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Informationen zur Betreuung</a>
 
+## Waldspiele
+
+- <a href="dateien/Waldspiele Teilnahmebedingungen Stand 23-09-27.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Teilnahmebedingungen Waldspiele Stand 27.09.2023</a>
+
 ## Förderverein
 
 - <a href="dateien/Beitrittserklärung inkl. SEPA-Lastschriftmandat.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Beitrittserklärung und SEPA-Lastschriftmandat</a>
