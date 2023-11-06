@@ -27,15 +27,15 @@ Ein paar Hinweise zu der Zeit bei den Waldspielen:
 
 Kinder, die in den Sommerferien aus dem Kindergarten in die Schule oder von der vierten in die fünfte Klasse wechseln dürfen sich auch gerne anmelden. Vorrang haben jedoch Kinder, die zur Zeit die erste bis vierte Klasse besuchen.
 
-Die aktuellen Teilnahmebedingungen finden sie unter dem Menüpunkt [Formulare]({{< ref "/fuereltern/formulare" >}}).
+Die aktuellen Teilnahmebedingungen finden sie hier: [Teilnahmebedingungen Waldspiele Stand 27.09.2023]({{< resref "dateien/Waldspiele Teilnahmebedingungen Stand 23-09-27.pdf" >}})
 
 ### Die nächsten Waldspiele
 
 Die nächsten Waldspiele werden voraussichtlich an folgenden Terminen angeboten. _Bitte beachten Sie, dass die Termine unverbindlich sind und eine Anmeldung erst vor den Waldspielen erfolgen kann._ Die Waldspiele kosten für 5 Tage 75€. Wochen mit nur 4 Tagen werden mit 60€ berechnet.
 
-**Herbstferien 23/24**
+**Winterferien 23/24**
 
-1. Woche / 23.10.2023 - 28.10.2023
+08.01.2024 - 12.01.2024
 
 ### Konzept
 

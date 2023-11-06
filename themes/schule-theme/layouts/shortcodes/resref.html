@@ -1,0 +1,6 @@
+{{ with .Site.GetPage "/fuereltern/formulare" }}
+{{ $resource := .Resources.GetMatch ($.Get 0) }}
+{{ with $resource }}
+{{ $resource.Permalink }}
+{{ end }}
+{{ end }}
