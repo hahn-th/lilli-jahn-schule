@@ -29,7 +29,7 @@ Auf dieser Seite finden sie verschiedene Formulare zum Herunterladen.
 
 ## Waldspiele
 
-- <a href="dateien/Waldspiele Teilnahmebedingungen Stand 23-09-27.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Teilnahmebedingungen Waldspiele Stand 27.09.2023</a>
+- <a href="dateien/Waldspiele Teilnahmebedingungen Stand 23-11-08.pdf" target="_blank" class="pdf-document"><i data-feather="file-text"></i> Teilnahmebedingungen Waldspiele Stand 08.11.2023</a>
 
 ## Förderverein
 

@@ -27,7 +27,7 @@ Ein paar Hinweise zu der Zeit bei den Waldspielen:
 
 Kinder, die in den Sommerferien aus dem Kindergarten in die Schule oder von der vierten in die fünfte Klasse wechseln dürfen sich auch gerne anmelden. Vorrang haben jedoch Kinder, die zur Zeit die erste bis vierte Klasse besuchen.
 
-Die aktuellen Teilnahmebedingungen finden sie hier: [Teilnahmebedingungen Waldspiele Stand 27.09.2023]({{< resref "dateien/Waldspiele Teilnahmebedingungen Stand 23-09-27.pdf" >}})
+Die aktuellen Teilnahmebedingungen finden sie hier: [Teilnahmebedingungen Waldspiele Stand 08.11.2023]({{< resref "dateien/Waldspiele Teilnahmebedingungen Stand 23-11-08.pdf" >}})
 
 ### Die nächsten Waldspiele
 
