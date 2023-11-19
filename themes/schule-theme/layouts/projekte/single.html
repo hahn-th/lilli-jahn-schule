@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+{{ partial "breadcrumbs.html" . }}
+
+<section id="content" class="{{ partial "color-index-class.html" . }}" >
+    <article class="article"> 
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12 col-12">
+                
+                <p><a href="{{ .Section | urlize | absLangURL }}">Zurück zur Übersicht</a></p>
+                
+
+                {{ $imgPath := .Resources.GetMatch "/images/vorschaubild-platzhalter.jpg" }}
+
+                {{ if .Params.thumbnail }}
+                {{ $imgPath = .Params.thumbnail}}
+                {{ end }}
+
+                {{ with .Resources.GetMatch $imgPath }}
+                {{ $image:= .Resize "900x" }}
+                <img class="card-img-top" src="{{ $image.Permalink }}" alt="Titelbild zum Beitrag">
+                {{ end }}
+                
+                <h1>{{ .Title }}</h1>
+                        {{ partial "categories-preview.html" . }}
+                        <p class="card-text"><small class="text-muted">{{ time.Format "02. January 2006" .Date }}</small></p>
+                    <p class="card-text">{{ .Content }}</p>
+
+                </div> 
+            </div>
+        </div>
+        </div>
+    </article>  
+</section>
+
+{{ end }}
