@@ -29,20 +29,14 @@
             <div class="col-lg-8 col-md-12 col-12">        
                 <h2 class="page-header">Aktuelle Meldungen</h2>
                 <article class="aktuelles">
-                        {{ $rng := where .Site.RegularPages "Type" "in" "post" }}
-                            {{ if gt (len $rng) 0 }} 
-                                {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" "post") }}
-                                {{ range $pag.Pages }}
-                                    {{ partial "list-card-item.html" . }}
-                                {{ end }}
-                        {{ else }}
-                            <p>Noch keine Beiträge vorhanden.</p>
+                        {{ $sections := slice "post" "projekte" }}
+                        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" $sections) }}
+                        {{ range $paginator.Pages }}
+                            {{ partial "list-card-item.html" . }}
                         {{ end }}
                 </article>
                 
-                <div class="post-navigation">
-                    {{ partial "pagination.html" . }}
-                </div>
+                {{ template "_internal/pagination.html" . }}
             </div>
         </div>
     </div>

@@ -11,6 +11,7 @@ languages:
     weight: 1
 
 summaryLength: 30
+paginate: 10
 
 menu:
   footermenu:
