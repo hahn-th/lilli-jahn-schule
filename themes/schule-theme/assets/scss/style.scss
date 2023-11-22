@@ -276,6 +276,13 @@ $foreColors: (
     max-height: 370px;
     border-radius: 5px;
 }
+#hero-single {
+    padding-top: var(--navbar-height);
+    margin: auto 0 auto 0;
+}
+.hero-single-img {
+    border-radius: 5px;
+}
 
 .sticky-shadow {
     /*box-shadow: 0px 5px 5px #ccc;*/

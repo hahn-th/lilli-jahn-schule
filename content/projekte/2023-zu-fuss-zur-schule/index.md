@@ -2,7 +2,7 @@
 title: "Zu Fuss Zur Schule"
 date: 2023-11-15T23:11:43+01:00
 draft: false
-thumbnail: images/IMG-20230128-WA0010.jpg
+thumbnail: images/ADAC_STSA_IMG1619601729543_002.jpg
 categories:
   - Projekte
 ---

@@ -6,11 +6,15 @@
 
 
 
-<section id="hero">
+<section id="hero-single">
     <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-12 col-12">
         {{ with .Resources.GetMatch $imgPath }}
         {{ $image:= .Resize "900x" }}
-            <img src="{{ $image.RelPermalink }}" class="img-fluid hero-img">
+            <img src="{{ $image.RelPermalink }}" class="img-fluid hero-single-img">
         {{ end }}
+    </div>
+</div>
     </div>
 </section>
