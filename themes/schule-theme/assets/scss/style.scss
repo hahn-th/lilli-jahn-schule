@@ -69,7 +69,7 @@
         --navbar-dropdown-background-color: white;
         --navbar-dropdown-background-color-hover: rgb(240,240,240);
         --site-background-color: white;
-        --site-color: rgb(20,20,20);
+        --site-color: rgb(93, 104, 111);
         --section-alternative-background-color: #f8f8f8;
         --cards-background-color: #F5F5F5;
         --cards-border-color: #EEE;
@@ -280,13 +280,31 @@ $foreColors: (
     padding-top: var(--navbar-height);
     margin: auto 0 auto 0;
 }
-.hero-single-img {
-    border-radius: 5px;
-}
-
 .sticky-shadow {
     /*box-shadow: 0px 5px 5px #ccc;*/
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.post-title {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 1em auto 0.5em auto;
+}
+.post-date {
+    margin-bottom: 0.5em auto 0.5em auto;
+    text-align: center;
+}
+.post-categories {
+    text-align: center;
+    margin: 0.5em auto 1em auto;
+}
+.single-post .hero-single-img {
+    
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 52px -12px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 0px 52px -12px rgba(0,0,0,0.55);
+box-shadow: 0px 0px 52px -12px rgba(0,0,0,0.55);
 }
 
 article {
