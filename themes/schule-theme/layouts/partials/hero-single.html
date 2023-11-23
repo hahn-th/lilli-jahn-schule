@@ -12,7 +12,7 @@
         <div class="col-lg-8 col-md-12 col-12">
         {{ with .Resources.GetMatch $imgPath }}
         {{ $image:= .Resize "900x" }}
-            <img src="{{ $image.RelPermalink }}" class="img-fluid hero-single-img">
+            <img src="{{ $image.RelPermalink }}" class="img-fluid post-title-img">
         {{ end }}
     </div>
 </div>

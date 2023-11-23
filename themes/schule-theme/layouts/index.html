@@ -4,41 +4,69 @@
     <div class="container">
         {{ $image := resources.Get "images/hero/skizze_schule.jpeg" }}
         {{ $image = $image.Resize "1700x" }}
-        <img src="{{ $image.RelPermalink }}" class="img-fluid" >
+        <img src="{{ $image.RelPermalink }}" class="img-fluid">
     </div>
 </section>
 
 {{ partial "breadcrumbs.html" . }}
 
 <section id="content" class="{{ partial "color-index-class.html" . }}">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-md-12 col-12">
-                    {{ partial "page-title.html" . }}
-                    <article class="article clearfix"> 
-                        {{ .Content }}
-                    </article>
-                </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12 col-12">
+                {{ partial "page-title.html" . }}
+                <article class="article clearfix">
+                    {{ .Content }}
+                </article>
             </div>
         </div>
+    </div>
 
 </section>
 <section id="aktuelle-meldungen" class="{{ partial "color-index-class.html" . }}">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12 col-12">        
-                <h2 class="page-header">Aktuelle Meldungen</h2>
-                <article class="aktuelles">
-                        {{ $sections := slice "post" "projekte" }}
-                        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" $sections) }}
-                        {{ range $paginator.Pages }}
-                            {{ partial "list-card-item.html" . }}
-                        {{ end }}
-                </article>
-                
-                {{ template "_internal/pagination.html" . }}
+    <div id="preview-cards" class="container py-0">
+        <h2 class="post-title text-center">Aktuelle Meldungen</h2>
+        <div class="row">
+            {{ $sections := slice "post" "projekte" }}
+            {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" $sections) }}
+            {{ range $paginator.Pages }}
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card-columns">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            {{ $image := resources.Get "/images/vorschaubild-platzhalter.jpg" }}
+                            {{ if .Params.thumbnail }}
+                                {{ with .Resources.GetMatch .Params.thumbnail }}
+                                    {{ $image = . }}
+                                {{ end }}
+                            {{ end }}
+                            <a href="{{ .Permalink }}">
+                                {{ $image:= $image.Fill "600x400 center" }}
+                                <img src="{{ $image.Permalink }}" class="card-img-top" alt="{{ .Title }}">
+                            </a>
+                        </div>
+                        <div class="card-body bg-transparent p-4 shadow-sm">
+                            <a href="{{ .Permalink }}" class="primary-font card-title">
+                                <h5 class="card-title bg-transparent" title="{{ .Title }}">{{ .Title }}</h5>
+                            </a>
+                            <div class="card-text secondary-font">
+                                <p>{{ .Summary }}</p>
+                            </div>
+                        </div>
+                        <div class="mt-auto post-footer bg-transparent py-3">
+                            <span class="float-start bg-transparent">{{ time.Format "02. January 2006" .Date }}</span>
+                            <a href="{{ .Permalink }}" class="float-end btn btn-outline-info btn-sm">Weiterlesen</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            {{ end }}
+
         </div>
+
+        {{ template "_internal/pagination.html" . }}
+    </div>
     </div>
 </section>
 {{ end }}
