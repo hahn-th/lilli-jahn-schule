@@ -1,7 +1,7 @@
 <script src="{{ "/shortcode-gallery/swipebox/js/jquery.swipebox.min.js" | relURL }}"></script>
 <link rel="stylesheet" href="{{ "/shortcode-gallery/swipebox/css/swipebox.min.css"| relURL }}">
 
-<div class="container px-1">
+<div class="container px-1 preview-cards mb-3">
     <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 g-3">
         {{ $param := .Get 0}}
         {{ $file := index site.Data $param}}
