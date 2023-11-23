@@ -1,6 +1,6 @@
 ---
 title: "Zu Fuss Zur Schule"
-date: 2023-11-15T23:11:43+01:00
+date: 2023-07-19
 draft: false
 thumbnail: images/ADAC_STSA_IMG1619601729543_002.jpg
 categories:

@@ -1,6 +1,6 @@
 ---
 title: "Herstellen Von Bienenwachstuechern"
-date: 2023-11-15T21:19:38+01:00
+date: 2022-11-28
 draft: false
 thumbnail: images/IMG-20230128-WA0010.jpg
 categories:

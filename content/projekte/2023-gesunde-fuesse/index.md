@@ -1,6 +1,6 @@
 ---
 title: 'Projekt "Gesunde Füße – Gesunde Kinder – Gesunde Umwelt"'
-date: 2023-11-16T20:03:07+01:00
+date: 2023-05-23
 draft: false
 thumbnail: images/20230713_124146.jpg
 hero: images/20230713_124146.jpg
