@@ -1,12 +1,20 @@
 personen:
+- name: Patrick Berthold
+  funktion: Betreuung
 - name: Heike Dörner
   funktion: Hausaufgabenbetreuung
+- name: Sylvia Drews
+  funktion: Betreuung
+- name: Jessica Enders
+  funktion: Betreuung
 - name: Tanja Habisch
   funktion: Betreuung
   image: habisch.jpg
 - name: Sylvia Hadasch
   funktion: Betreuung
   image: hadasch.jpg
+- name: Nane Janson
+  funktion: Hausaufgabenbetreuung
 - name: Ina Kleinsimon
   funktion: Betreuung
   image: kleinsimon.jpg

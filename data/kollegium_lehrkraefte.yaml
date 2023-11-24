@@ -2,9 +2,13 @@ personen:
   - name: Lea Bärg Isaak
     funktion: Lehrerin
     image: baerg.jpg
+  - name: Anna-Lisa Berger
+    funktion: Lehrerin
   - name: Andrea Beyer
     funktion: Lehrerin
     image: beyer.jpg
+  - name: Sandra Czap
+    funktion: Lehrerin
   - name: Michaela Dettori
     funktion: Lehrerin BFZ
   - name: Justyna Fron
@@ -14,26 +18,38 @@ personen:
     funktion: Lehrerin
     image: gundlach.jpg
   - name: Julia Hadasch
-    funktion: Lehrauftrag
+    funktion: Referendarin
+  - name: Dominik Hueck
+    funktion: Lehrer
   - name: Christiane Kemper
     funktion: Lehrerin
     image: kemper.jpg
   - name: Jana Landskron
     funktion: Lehrerin (BFZ)
+  - name: Frank Lieberknecht
+    funktion: Lehrer
   - name: Heike Lohr
     funktion: Lehrerin
     image: lohr.jpeg
   - name: Lisa Markert
     funktion: Lehrauftrag
+  - name: Hala Mouamar
+    funktion: Lehrauftrag
+  - name: Nina Marie Nadolny
+    funktion: Pfarrerin
   - name: Sabine Nödel
     funktion: Lehrerin
     image: noedel.jpg
   - name: Ute Pilger
     funktion: Lehrerin
     image: pilger.jpg
+  - name: Alexandra Reiß
+    funktion: Lehrerin (BFZ)
   - name: Rebecca Röttger
     funktion: Vorklassenleitung
     image: roettger.jpg
+  - name: Angela Schäfer
+    funktion: Lehrerin
   - name: Christine Schilling
     funktion: Lehrerin
     image: schilling.jpg
