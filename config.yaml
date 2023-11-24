@@ -1,5 +1,5 @@
 title: Lilli-Jahn-Schule Immenhausen
-author:
+params.author:
   name: Lilli-Jahn-Schule Immenhausen
 
 baseURL: https://www.lilli-jahn-schule.de
@@ -9,6 +9,9 @@ languages:
   de:
     languagedirection: rtl
     weight: 1
+
+summaryLength: 30
+paginate: 10
 
 menu:
   footermenu:

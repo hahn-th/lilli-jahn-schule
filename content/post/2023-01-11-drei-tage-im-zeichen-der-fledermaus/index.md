@@ -3,6 +3,7 @@ title: Drei Tage im Zeichen der Fledermaus
 thumbnail: "images/fledermaus.jpg"
 date: 2023-01-11T18:32:20.959Z
 draft: false
+type: projekte
 ---
 
 Als zertifizierte Umweltschule ist die Lilli-Jahn-Schule bemüht, im Rahmen des Sachunterrichts außerschulische Lernorte aufzusuchen und den Unterricht praxisnah zu gestalten. Für das Sachunterrichtsthema „Fledermäuse“ konnte das Umweltbildungszentrum „Wassererlebnishaus Fuldatal“ als Kooperationspartner gewonnen werden. Der Mitarbeiter und Biologe Gerd Greskamp gestaltete gemeinsam mit den Lehrerinnen des Jahrgangs 3 das Fledermaus-Projekt. Mittels Team-Teaching brachte Greskamp den Kindern in verschiedenen Praxis- und Theorieteilen die Lebensweise der Fledermäuse nahe und erklärte viel zum Thema Artenschutz dieser kleinen Säugetiere.

@@ -1,0 +1,20 @@
+{{ $imgPath := resources.Get "images/hero/schulhof1.jpeg" }}
+
+{{ if .Params.thumbnail }}
+{{ $imgPath = .Params.thumbnail}}
+{{ end }}
+
+
+
+<section id="hero-single">
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-12 col-12">
+        {{ with .Resources.GetMatch $imgPath }}
+        {{ $image:= .Resize "900x" }}
+            <img src="{{ $image.RelPermalink }}" class="img-fluid post-title-img">
+        {{ end }}
+    </div>
+</div>
+    </div>
+</section>

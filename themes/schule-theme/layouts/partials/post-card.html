@@ -1,0 +1,29 @@
+<div class="card-columns">
+    <div class="card h-100">
+        <div class="card-header">
+            {{ $image := resources.Get "/images/vorschaubild-platzhalter.jpg" }}
+            {{ if .Params.thumbnail }}
+                {{ with .Resources.GetMatch .Params.thumbnail }}
+                    {{ $image = . }}
+                {{ end }}
+            {{ end }}
+            <a href="{{ .Permalink }}">
+                {{ $imageFilled:= $image.Fill "600x400 center" }}
+                <img src="{{ $imageFilled.Permalink }}" class="card-img-top" alt="{{ .Title }}">
+            </a>
+        </div>
+        <div class="card-body bg-transparent p-4 shadow-sm">
+            <a href="{{ .Permalink }}" class="primary-font card-title">
+                <h5 class="card-title bg-transparent" title="{{ .Title }}">{{ .Title }}</h5>
+            </a>
+            <div class="card-categories">{{ partial "categories-preview.html" . }}</div>
+            <div class="card-text secondary-font">
+                <p>{{ .Summary }}</p>
+            </div>
+        </div>
+        <div class="mt-auto post-footer bg-transparent py-3">
+            <span class="float-start bg-transparent">{{ time.Format "02. January 2006" .Date }}</span>
+            <a href="{{ .Permalink }}" class="float-end btn btn-outline-info btn-sm">Weiterlesen</a>
+        </div>
+    </div>
+</div>

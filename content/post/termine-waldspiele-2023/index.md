@@ -1,6 +1,7 @@
 ---
 title: Termine Waldspiele 2023
 thumbnail: images/pexels-charles-parker-5859332.jpg
+type: projekte
 categories:
   - Förderverein
   - Waldspiele
