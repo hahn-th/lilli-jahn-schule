@@ -13,10 +13,10 @@
             </a>
         </div>
         <div class="card-body bg-transparent p-4 shadow-sm">
+            <div class="card-categories">{{ partial "categories-preview.html" . }}</div>
             <a href="{{ .Permalink }}" class="primary-font card-title">
                 <h5 class="card-title bg-transparent" title="{{ .Title }}">{{ .Title }}</h5>
             </a>
-            <div class="card-categories">{{ partial "categories-preview.html" . }}</div>
             <div class="card-text secondary-font">
                 <p>{{ .Summary }}</p>
             </div>

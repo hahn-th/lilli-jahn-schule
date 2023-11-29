@@ -111,6 +111,7 @@ body {
     /* font-family: 'Jost', sans-serif;*/
     font-family: "Jost", Arial, sans-serif;
     font-size: 1.05rem;
+    font-weight: 300;
     background-color: var(--site-background-color);
     color: var(--site-color)
 }
@@ -358,7 +359,14 @@ article {
 
 #aktuelle-meldungen {
     background: var(--section-alternative-background-color);
-    padding: 70px 0 70px;
+    padding: 4em 0 70px;
+    margin: 4em 0 0;
+}
+#aktuelle-meldungen .post-title span {
+    position:relative;
+    top:2px;
+    display:inline-block;
+    border-bottom: 4px solid $primary !important;
 }
 
 #aktuelle-meldungen .row {
@@ -533,10 +541,16 @@ p {
     height: 16px;
 }
 
+.lightbox-img {
+    padding: 0;
+    margin: 20px;
+    display: block;
+    text-align: center;
+}
 .lightbox-img img {
     border-radius: 10px;
-    box-shadow: 3px 3px 8px 3px rgba(67, 90, 109, 0.2);
-    margin: 10px;
+    // box-shadow: 3px 3px 8px 3px rgba(67, 90, 109, 0.2);
+    box-shadow: 0px 8px 56px rgba(60, 80, 100, 0.3);
 }
 
 #page-image {

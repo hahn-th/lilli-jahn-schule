@@ -1,5 +1,5 @@
 ---
-title: Namensgebung
+title: Vorstellung
 date: 2022-05-09T20:33:30.000+02:00
 weight: 1
 menu:
@@ -7,13 +7,21 @@ menu:
     parent: unsere-schule
 ---
 
-## So hat unsere Schule ihren Namen bekommen!
+Die Lilli-Jahn-Schule besuchen ungefähr 300 Kinder aus Immenhausen, Holzhausen und Mariendorf.
 
-{{<lightbox_image src="lilli-portraet.jpg" title="Lilli Jahn" class="float-end" >}}
+Sie ist eine Grundschule mit Vorklasse und den Jahrgangsstufen 1 bis 4.
+
+Nach Unterrichtsschluss können die Kinder bis 15.30 Uhr in der Betreuung spielen und Hausaufgaben machen und an freiwilligen Arbeitsgemeinschaften teilnehmen.
+
+{{<lightbox_image src="20230210_163240000_iOS.jpg" title="Lilli Jahn" class="" >}}
+
+## So hat unsere Schule ihren Namen bekommen!
 
 Unsere Schule hieß immer nur Grundschule Immenhausen. Dann haben unsere LehrerInnen und Eltern überlegt, wie unsere Schule heißen soll. Nach langem Überlegen haben sie sich auf den Namen Lilli Jahn geeinigt.
 
 ### Über das Leben von Lilli Jahn
+
+{{<lightbox_image src="lilli-portraet.jpg" title="Lilli Jahn" class="" >}}
 
 Lilli Schlüchterer wurde am 5.3.1900 in Köln geboren.
 
@@ -45,7 +53,7 @@ Abends nach der Arbeit trafen sich Lilli und Ernst in der Bibliothek ihres Hause
 
 Es waren Lillis glücklichste Jahre.
 
-{{<lightbox_image src="lilli-mit-familie.jpeg" title="Lilli Jahn mit ihrer Familie" class="float-start" >}}
+{{<lightbox_image src="lilli-mit-familie.jpeg" title="Lilli Jahn mit ihrer Familie" class="" >}}
 
 ### FREUNDE!
 

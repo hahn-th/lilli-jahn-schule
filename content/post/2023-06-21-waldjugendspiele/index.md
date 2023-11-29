@@ -3,6 +3,7 @@ title: Waldjugendspiele
 date: 2023-06-21T18:32:20.959Z
 draft: false
 thumbnail: "images/Bild1.jpg"
+type: projekte
 ---
 
 Am 02.06.2023 machten sich die Kinder des Jahrgangs 3 mit ihren Klassenlehrerinnen und Elternunterstützung auf den Weg zum Wald am Schäferberg. Dort angekommen begrüßte Herr Obermann, der Bürgermeister von Immenhausen, alle Anwesenden und wünschte allen Kindern viel Glück und viel Spaß und verteilte Süßigkeiten.
