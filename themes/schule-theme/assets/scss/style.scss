@@ -73,6 +73,8 @@
         --section-alternative-background-color: #f8f8f8;
         --cards-background-color: #F5F5F5;
         --cards-border-color: rgb(250,250,250);
+        --cards-shadow-color: rgba(15, 80, 100, 0.16);
+        --post-title-color: #444;
     }
 
 }
@@ -81,14 +83,16 @@
     body {
         --navbar-font-color: rgba(230, 230, 230, 0.7);
         --navbar-font-color-hover: rgba(250, 250, 250, 0.9);
-        --navbar-background-color: rgb(40, 40, 40);
+        --navbar-background-color: rgb(60,60,60);
         --navbar-dropdown-background-color: rgb(40, 40, 40);
         --navbar-dropdown-background-color-hover: rgb(50, 50, 50);
-        --site-background-color: rgb(40, 40, 40);
-        --site-color: rgba(240, 240, 240, 1.0);
-        --section-alternative-background-color: rgb(60, 60, 60);
+        --site-background-color: rgb(60, 60, 60);
+        --site-color: rgba(230, 230, 230, 0.8);
+        --section-alternative-background-color: rgb(40, 40, 40);
         --cards-background-color: rgb(70, 70, 70);
         --cards-border-color: #EEE;
+        --cards-shadow-color: rgba(0,0,0,0.5);
+        --post-title-color: rgba(230, 230, 230, 0.8);
     }
 
     .table {
@@ -310,7 +314,7 @@ $foreColors: (
 }
 
 .post-title {
-    color: #444;
+    color: var(--post-title-color); 
     text-transform: uppercase;
     font-weight: 300;
     margin: 1em auto 0.5em auto;
@@ -369,23 +373,23 @@ article {
     border-bottom: 4px solid $primary !important;
 }
 
-#aktuelle-meldungen .row {
-    margin: 10px 0 10px 0;
-}
+// #aktuelle-meldungen .row {
+//     margin: 10px 0 10px 0;
+// }
 
-#aktuelle-meldungen h2,
-#aktuelle-meldungen h3,
-#aktuelle-meldungen h4 {
-    margin: 0.4rem 0 0.4rem 0;
-}
+// #aktuelle-meldungen h2,
+// #aktuelle-meldungen h3,
+// #aktuelle-meldungen h4 {
+//     margin: 0.4rem 0 0.4rem 0;
+// }
 
-.aktuelles {
-    margin: 20px 0 20px 0;
-}
+// .aktuelles {
+//     margin: 20px 0 20px 0;
+// }
 
-.article-date {
-    font-size: 0.9rem;
-}
+// .article-date {
+//     font-size: 0.9rem;
+// }
 
 .categorie-list span {
     color: black;
@@ -550,7 +554,9 @@ p {
 .lightbox-img img {
     border-radius: 10px;
     // box-shadow: 3px 3px 8px 3px rgba(67, 90, 109, 0.2);
-    box-shadow: 0px 8px 56px rgba(60, 80, 100, 0.3);
+    // box-shadow: 0px 8px 56px rgba(60, 80, 100, 0.3);
+    box-shadow: 0px 8px 56px var(--cards-shadow-color);
+    
 }
 
 #page-image {
