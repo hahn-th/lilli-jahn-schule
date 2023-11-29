@@ -4,28 +4,15 @@
     <div class="container">
         {{ $image := resources.Get "images/hero/skizze_schule.jpeg" }}
         {{ $image = $image.Resize "1700x" }}
-        <img src="{{ $image.RelPermalink }}" class="img-fluid">
+        <img src="{{ $image.RelPermalink }}" class="img-fluid main-image">
     </div>
 </section>
 
 {{ partial "breadcrumbs.html" . }}
 
-<section id="content" class="{{ partial "color-index-class.html" . }}">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12 col-12">
-                {{ partial "page-title.html" . }}
-                <article class="article clearfix">
-                    {{ .Content }}
-                </article>
-            </div>
-        </div>
-    </div>
-
-</section>
 <section id="aktuelle-meldungen" class="{{ partial "color-index-class.html" . }}">
     <div class="preview-cards container py-0">
-        <h2 class="post-title text-center">Aktuelle Meldungen</h2>
+        <h2 class="post-title text-center"><span>Aktuelle Meldungen</span></h2>
         <div class="row">
             {{ $sections := slice "post" "projekte" }}
             {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" $sections) }}

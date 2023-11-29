@@ -1,3 +1,4 @@
+<div class="container-fluid">
 <script src="{{ "/shortcode-gallery/swipebox/js/jquery.swipebox.min.js" | relURL }}"></script>
 <link rel="stylesheet" href="{{ "/shortcode-gallery/swipebox/css/swipebox.min.css"| relURL }}">
 
@@ -18,11 +19,11 @@
     {{ $imagePreview := $image.Fit $targetSize }}
 
     <a href="{{ $image.RelPermalink }}" class="lightbox-img swipebox" title="{{ $title }}">
-        <img src="{{ $imagePreview.RelPermalink }}" class="{{ $class }}">
+        <img src="{{ $imagePreview.RelPermalink }}" class="{{ $class }} img-fluid">
     </a>
 {{ else }} 
     <a href="{{ $src }}" class="lightbox-img swipebox" title="{{ $title }}">
-        <img src="{{ $src }}" class="{{ $class }}">
+        <img src="{{ $src }}" class="{{ $class }} img-fluid">
     </a>
 {{ end }}
 
@@ -30,3 +31,4 @@
 <script>
     $('.swipebox').swipebox();
 </script>
+</div>
