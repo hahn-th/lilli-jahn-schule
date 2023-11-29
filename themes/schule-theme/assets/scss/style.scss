@@ -73,7 +73,7 @@
         --section-alternative-background-color: #f8f8f8;
         --cards-background-color: #F5F5F5;
         --cards-border-color: rgb(250,250,250);
-        --cards-shadow-color: rgba(15, 80, 100, 0.16);
+        --cards-shadow-color: rgba(80, 80, 80, 0.25);
         --post-title-color: #444;
     }
 
@@ -556,7 +556,11 @@ p {
     // box-shadow: 3px 3px 8px 3px rgba(67, 90, 109, 0.2);
     // box-shadow: 0px 8px 56px rgba(60, 80, 100, 0.3);
     box-shadow: 0px 8px 56px var(--cards-shadow-color);
-    
+}
+
+.main-image {
+    border-radius: 10px;
+    box-shadow: 0px 8px 56px var(--cards-shadow-color);
 }
 
 #page-image {

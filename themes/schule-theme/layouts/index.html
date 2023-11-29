@@ -4,7 +4,7 @@
     <div class="container">
         {{ $image := resources.Get "images/hero/skizze_schule.jpeg" }}
         {{ $image = $image.Resize "1700x" }}
-        <img src="{{ $image.RelPermalink }}" class="img-fluid">
+        <img src="{{ $image.RelPermalink }}" class="img-fluid main-image">
     </div>
 </section>
 
