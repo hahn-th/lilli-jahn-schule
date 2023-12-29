@@ -8,7 +8,7 @@ menu:
     parent: unsere-schule
 ---
 
-Die Lilli-Jahn-Schule wird durch die soziale Arbeit von Fabian Hügues und Ramona Pfannkuche zu Fragen des sozialen Miteinanders unterstützt. Sie stärken die sozialen Kompetenzen der Kinder und helfen in Konfliktsituationen.
+Die Lilli-Jahn-Schule wird durch die soziale Arbeit von Lea Reinbold und Ramona Pfannkuche zu Fragen des sozialen Miteinanders unterstützt. Sie stärken die sozialen Kompetenzen der Kinder und helfen in Konfliktsituationen.
 Des Weiteren beraten sie die Kinder, ihre Eltern und Lehrkräfte auf vertrauensvoller und freiwilliger Basis.
 
 Ihre Arbeitsbereiche definieren sich wie folgt:
@@ -32,7 +32,7 @@ Termine nach Vereinbarung!
 
 ist ein Fachdienst des Fachbereichs Jugend und arbeitet auf Basis des SGB VIII
 
-**Lea Bunse**
+**Lea Reinbold**
 
 - Sozialkompetenztrainings und Projektarbeit im Klassenverband sowie offene Kontakt- und Beratungsangebote
 - AG-Angebote klassenübergreifend, z.B. Internet-AG
@@ -42,9 +42,9 @@ ist ein Fachdienst des Fachbereichs Jugend und arbeitet auf Basis des SGB VIII
 ### Kontakt:
 
 Dienstag - Freitag  
-Email: lea-bunse@landkreiskassel.de  
+Email: lea-reinbold@landkreiskassel.de  
 Tel. 05673/9129978  
 Diensthandy: 0152/27651945  
 Termine nach Vereinbarung!
 
-Lea Bunse und Ramona Pfannkuche kooperieren miteinander in ihrer Arbeit und sind im regelmäßigen Austausch mit dem Beratungs- und Förderzentrum.
+Lea Reinbold und Ramona Pfannkuche kooperieren miteinander in ihrer Arbeit und sind im regelmäßigen Austausch mit dem Beratungs- und Förderzentrum.
