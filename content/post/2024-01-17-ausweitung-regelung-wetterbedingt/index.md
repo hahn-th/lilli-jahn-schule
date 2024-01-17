@@ -11,7 +11,7 @@ type: projekte
 # Bild im images Ordner
 # der Pfad muss ist relativ zu dieser Datei. Das heißt eine Datei im Unterordner "images" wird über images/dateiname.jpg angegeben.
 #thumbnail: images/uploads/vorschaubild-platzhalter.jpg
-thumbnail: images/kind_im_schnee.jpeg
+thumbnail: images/kinder-im-schnee.jpeg
 
 # Kategorien für den Beitrag.
 categories:
