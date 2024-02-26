@@ -28,6 +28,9 @@ personen:
 - name: Lisa Markert
   funktion: Hausaufgabenbetreuung
   image: Markert.jpg
+- name: Lukas Jantzen
+  funktion: Betreuung
+  image: Jantzen.jpg
 - name: Marion Seeger
   funktion: Betreuung
   image: Seeger.jpg
