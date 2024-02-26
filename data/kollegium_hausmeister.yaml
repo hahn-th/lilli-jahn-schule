@@ -1,13 +1,13 @@
 personen:
 - name: Halil Hajra
   funktion: Hausmeister
-  image: hajra.jpg
+  image: Hajra.jpg
 - name: Nicolaj Kraus
   funktion: Hausmeister
-  image: kraus.jpg
+  image: Kraus.jpg
 - name: Lilibeth Ludloff
   funktion: Hausmeisterin
-  image: ludloff.jpg
+  image: Ludloff.jpg
 - name: Sven Rösler
   funktion: Haustechniker
   image: roesler.jpg

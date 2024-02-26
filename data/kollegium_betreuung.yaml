@@ -1,39 +1,51 @@
 personen:
-- name: Patrick Berthold
+- name: Arne Nixdorf
+  funktion: Hausaufgabenbetreuung
+  image: A. Nixdorf.jpg
+- name: Barbara Rauwolf
+  funktion: Hausaufgabenbetreuung
+  image: Rauwolf.jpg
+- name: Christian Topp
   funktion: Betreuung
+  image: Topp.jpg
+- name: Christiane Langer
+  funktion: Hausaufgabenbetreuung
+  image: Langer.jpg
+- name: Gerhard Nixdorf
+  funktion: Hausaufgabenbetreuung
+  image: Nixdorf.jpg
 - name: Heike Dörner
   funktion: Hausaufgabenbetreuung
-- name: Sylvia Drews
+  image: Dörner.jpg
+- name: Irmhild Ohlemeyer
   funktion: Betreuung
-- name: Jessica Enders
-  funktion: Betreuung
-- name: Tanja Habisch
-  funktion: Betreuung
-  image: habisch.jpg
-- name: Sylvia Hadasch
-  funktion: Betreuung
-  image: hadasch.jpg
-- name: Nane Janson
-  funktion: Hausaufgabenbetreuung
+  image: Ohlemeyer.jpg
 - name: Ina Kleinsimon
   funktion: Betreuung
   image: kleinsimon.jpg
-- name: Christiane Langer
-  funktion: Hausaufgabenbetreuung
+- name: Jessica Enders
+  funktion: Betreuung
 - name: Lisa Markert
   funktion: Hausaufgabenbetreuung
-- name: Arne Nixdorf
-  funktion: Hausaufgabenbetreuung
-- name: Gerhard Nixdorf
-  funktion: Hausaufgabenbetreuung
-- name: Irmhild Ohlemeyer
-  funktion: Betreuung
-  image: ohlemeyer.jpg
-- name: Barbara Rauwolf
-  funktion: Hausaufgabenbetreuung
+  image: Markert.jpg
 - name: Marion Seeger
   funktion: Betreuung
-  image: seeger.jpg
-- name: Christian Topp
+  image: Seeger.jpg
+- name: Nane Janson
+  funktion: Hausaufgabenbetreuung
+  image: N. Janson.jpg
+- name: Patrick Berthold
   funktion: Betreuung
-  image: topp.jpg
+  image: Berthold.jpg
+- name: Ricarda Boulnois
+  funktion: Betreuung
+  image: Boulnois.jpg
+- name: Sylvia Drews
+  funktion: Betreuung
+  image: Drews.jpg
+- name: Sylvia Hadasch
+  funktion: Betreuung
+  image: Hadasch.jpg
+- name: Tanja Habisch
+  funktion: Betreuung
+  image: Habisch.jpg
