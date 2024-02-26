@@ -1,37 +1,38 @@
 personen:
-- name: Thomas Hahn
-  funktion: 1. Vorsitzender
-  image: Hahn.jpg
-- name: Sabine Hoche
-  funktion: 2. Vorsitzender
-  image: Hoche.jpg
-- name: Miriam Luttmann
-  funktion: Kassenwart
-  image: Luttmann.jpg
 - name: Alexander Meimbresse
   funktion: Protokollführer
   image: Meimbresse.jpg
-- name: Ina Kleinsimon
-  funktion: 2. Kassenwart
-  image: Kleinsimon.jpg
-- name: Linda Janson
-  funktion: Schulleitung
-  image: Janson.jpg
-- name: Sabine Hebestreit
-  funktion: Ansprechpartnerin Betreuungskräfte
-  image: Hebestreit.jpg
-- name: Janika Rittner
-  funktion: Beisitzerin
-  image: Rittner.jpg
 - name: Colleen Schwarz
   funktion: Beisitzerin
   image: Schwarz.jpg
-- name: Thomas Rosenthal
-  funktion: Beisitzer
-  image: Rosenthal.jpg
-- name: Martin Obalski
-  funktion: Beisitzer
-  image: Obalski.jpg
+- name: Ina Kleinsimon
+  funktion: 2. Kassenwart
+  image: Kleinsimon.jpg
+- name: Janika Rittner
+  funktion: Beisitzerin
+  image: Rittner.jpg
+- name: Linda Janson
+  funktion: Schulleitung
+  image: Janson.jpg
 - name: Maren Fräger
   funktion: Elternbeiratsvorsitzende
   image: Fräger.jpg
+- name: Martin Obalski
+  funktion: Beisitzer
+  image: Obalski.jpg
+- name: Miriam Luttmann
+  funktion: Kassenwart
+  image: Luttmann.jpg
+- name: Sabine Hebestreit
+  funktion: Ansprechpartnerin Betreuungskräfte
+  image: Hebestreit.jpg
+- name: Sabine Hoche
+  funktion: 2. Vorsitzender
+  image: Hoche.jpg
+- name: Thomas Hahn
+  funktion: 1. Vorsitzender
+  image: Hahn.jpg
+- name: Thomas Rosenthal
+  funktion: Beisitzer
+  image: Rosenthal.jpg
+
