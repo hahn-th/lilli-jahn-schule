@@ -1,7 +1,7 @@
 personen:
-  - name: Lea Bärg Isaak
-    funktion: Lehrerin
-    image: baerg.jpg
+  # - name: Lea Bärg Isaak
+  #   funktion: Lehrerin
+  #   image: baerg.jpg
   - name: Anna-Lisa Berger
     funktion: Lehrerin
     image: Berger.jpg
@@ -60,9 +60,9 @@ personen:
   - name: Angela Schäfer
     funktion: Lehrerin
     image: Schäfer.jpg
-  - name: Christine Schilling
-    funktion: Lehrerin
-    image: schilling.jpg
+  # - name: Christine Schilling
+  #   funktion: Lehrerin
+  #   image: schilling.jpg
   - name: Astrid Schnittker
     funktion: Lehrerin
     image: Schnittker.jpg

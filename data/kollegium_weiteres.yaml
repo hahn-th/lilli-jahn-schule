@@ -1,4 +1,10 @@
 personen:
+- name: Alla Demchenko
+  funktion: Schulassistenz
+  image: Demchenko.jpg
+- name: Christiane Jaegeler-Ott
+  funktion: Schulassistanz
+  image: Jaegeler-Ott.jpg
 - name: Ina Kleinsimon
   funktion: Sekretärin
   image: Kleinsimon.jpg
@@ -8,6 +14,3 @@ personen:
 - name: Lea Reinbold
   funktion: Schulsozialarbeiterin
   image: Reinbold.jpg
-- name: Alla Demchenko
-  funktion: Schulassistenz
-  image: Demchenko.jpg
