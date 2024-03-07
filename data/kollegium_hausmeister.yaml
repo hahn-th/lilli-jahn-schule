@@ -1,13 +1,22 @@
 personen:
+- name: Jörg Fräßdorf
+  funktion: Haustechniker
+  image: Fräßdorf.jpg
 - name: Halil Hajra
   funktion: Hausmeister
   image: Hajra.jpg
+- name: Hänsel
+  funktion: Reinigungskraft
+  image: Hänsel.jpg
 - name: Nicolaj Kraus
   funktion: Hausmeister
   image: Kraus.jpg
 - name: Lilibeth Ludloff
   funktion: Hausmeisterin
   image: Ludloff.jpg
-- name: Jörg Fräßdorf
-  funktion: Haustechniker
-  image: Fräßdorf.jpg
+- name: Miskovic
+  funktion: Reinigungskraft
+  image: Miskovic.jpg
+- name: Schwan
+  funktion: Reinigungskraft
+  image: Schwan.jpg

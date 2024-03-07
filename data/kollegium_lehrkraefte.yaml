@@ -8,6 +8,9 @@ personen:
   - name: Andrea Beyer
     funktion: Lehrerin
     image: Beyer.jpg
+  - name: Bartesch
+    funktion: Lehrerin
+    image: Bartesch.jpg
   - name: Sandra Czap
     funktion: Lehrerin
     image: Czap.jpg
