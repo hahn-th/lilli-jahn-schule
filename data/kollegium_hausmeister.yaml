@@ -5,7 +5,7 @@ personen:
 - name: Halil Hajra
   funktion: Hausmeister
   image: Hajra.jpg
-- name: Hänsel
+- name: Andrea Hänsel
   funktion: Reinigungskraft
   image: Hänsel.jpg
 - name: Nicolaj Kraus
@@ -17,6 +17,6 @@ personen:
 - name: Miskovic
   funktion: Reinigungskraft
   image: Miskovic.jpg
-- name: Schwan
+- name: Aurea Schwan
   funktion: Reinigungskraft
   image: Schwan.jpg

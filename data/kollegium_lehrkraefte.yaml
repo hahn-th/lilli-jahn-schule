@@ -8,7 +8,7 @@ personen:
   - name: Andrea Beyer
     funktion: Lehrerin
     image: Beyer.jpg
-  - name: Bartesch
+  - name: Vanessa Bartesch
     funktion: Lehrerin
     image: Bartesch.jpg
   - name: Sandra Czap
@@ -69,3 +69,4 @@ personen:
   - name: Caroline Seyler
     funktion: Lehrerin
     image: seyler.jpg
+ 
