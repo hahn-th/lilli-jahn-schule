@@ -9,33 +9,33 @@ menu:
 hero: Waldspiele-ohne-Gesichter.jpg
 ---
 
-### Informationen
+Die Waldspiele sind Ferienspiele für Grundschüler der Lilli-Jahn-Schule und finden an der Holzkothe am Pfadfinderheim in Immenhausen statt. 
 
-In der Regel versuchen wir jede Ferien Waldspiele anzubieten. Dies ist jedoch aufgrund von Betreuungskräften nicht immer möglich. Auch bitten wir zu entschuldigen, dass wir keine verbindliche Jahresplanung anbieten können. Sollten sich zu wenig Kinder für eine Waldspielwoche anmelden, behalten wir uns vor, die Waldspiele für diese Woche abzusagen. Sie bekommen in diesem Fall natürlich jegliche bezahlten Teilnahmegebühren zurück.
+Die Waldspiele bieten Kindern die Möglichkeit, in der Natur zu spielen, kreativ zu sein und soziale Kompetenzen zu entwickeln. Sie finden an der Holzkothe am Pfadfinderheim in Immenhausen statt und sind primär für Kinder der ersten bis vierten Klasse gedacht.
 
-Ein paar Hinweise zu der Zeit bei den Waldspielen:
+In der Betreuungszeit von 8 bis 14 Uhr können die Kinder eine Vielzahl von Aktivitäten erleben, wie das Basteln, Spielen, Kochen am Lagerfeuer und das Entdecken der Natur. Die Spiele fördern das selbstständige Denken und ermöglichen es den Kindern, ihre Fähigkeiten zu entfalten und neue Freundschaften zu schließen.
+
+{{<lightbox_image src="images/2024-a-zerstoeren.jpeg" title="&quot;A&quot; zerstören" >}}
+
+### Informationen zu den Waldspielen in den Ferien
+
+In der Regel bieten wir in den Ferien Waldspiele an. Bitte beachten Sie, dass dies aufgrund der verfügbaren Betreuungskräfte nicht immer garantiert werden kann. Außerdem können wir leider keine verbindliche Jahresplanung vorlegen. Sollte sich für eine Waldspielwoche zu wenig Kinder anmelden, behalten wir uns das Recht vor, die Waldspiele abzusagen. In diesem Fall erstatten wir selbstverständlich die bereits gezahlten Teilnahmegebühren.
+
+Wichtige Hinweise zu den Waldspielen:
 
 - Die Waldspiele finden an der Holzkothe am Pfadfinderheim in Immenhausen statt.
-- Die Betreuungszeit ist von 8 bis 14 Uhr
-- Bitte geben Sie Ihrem Kind ausreichend Essen und Trinken mit
-- Teilweise bereiten wir selber etwas zu Essen am Lagerfeuer zu. Das könnten Waffeln oder Stockbrot sein.
-- Geben Sie Ihrem Kind unbedingt wetterentsprechende Kleidung, sowie Wechselsachen mit (mindestens 1x komplett von Kopf bis Fuß).
-- Melden Sie Ihr Kind bitte bei Krankheit ab
-- Informieren Sie uns, wann und wie ihr Kind zu den Waldspielen kommt und geht (früher/später, alleine, Fahrgemeinschaft, welche Person holt das Kind ab usw.).
-- Wetterinformation: Sollte es zu gefährlichen Wettersituationen kommen (Sturm, Gewitter…), behalten wir uns vor, die Waldspiele für diesen Tag auszusetzen. Sollte dies im Laufe der Betreuungszeit sein, muss eine Abholung der Kinder sichergestellt sein.
-- Kontaktinformationen erhalten sie mit der Bestätigung der Anmeldung
-
-Kinder, die in den Sommerferien aus dem Kindergarten in die Schule oder von der vierten in die fünfte Klasse wechseln dürfen sich auch gerne anmelden. Vorrang haben jedoch Kinder, die zur Zeit die erste bis vierte Klasse besuchen.
+- Die Betreuungszeit ist von 8 bis 14 Uhr.
+- Bitte geben Sie Ihrem Kind ausreichend Essen und Trinken mit.
+- Gelegentlich bereiten wir gemeinsam etwas am Lagerfeuer zu, wie Waffeln oder Stockbrot.
+- Achten Sie bitte darauf, dass Ihr Kind wetterfeste Kleidung und Wechselsachen (mindestens einmal komplett) dabei hat.
+- Bei Krankheit bitten wir um rechtzeitige Abmeldung Ihres Kindes.
+- Informieren Sie uns bitte, wie und wann Ihr Kind zu den Waldspielen kommt und geht (z. B. alleine, in Fahrgemeinschaften, wer das Kind abholt usw.).
+- **Wetterhinweis:** Bei gefährlichen Wetterbedingungen (Sturm, Gewitter usw.) behalten wir uns vor, die Waldspiele an diesem Tag auszusetzen. Falls dies während der Betreuungszeit geschieht, muss eine Abholung der Kinder sichergestellt werden.
+- Die Kontaktdaten erhalten Sie mit der Bestätigung der Anmeldung.
+- Kinder, die in den Sommerferien aus dem Kindergarten in die Schule oder von der vierten in die fünfte Klasse wechseln, sind ebenfalls herzlich willkommen. Vorrang haben jedoch Kinder, die aktuell die erste bis vierte Klasse besuchen.
+Vielen Dank für Ihr Verständnis und Ihre Unterstützung!
 
 Die aktuellen Teilnahmebedingungen finden sie hier: [Teilnahmebedingungen Waldspiele Stand 08.11.2023]({{< resref "dateien/Waldspiele Teilnahmebedingungen Stand 23-11-08.pdf" >}})
-
-### Die nächsten Waldspiele
-
-Die nächsten Waldspiele werden voraussichtlich an folgenden Terminen angeboten. _Bitte beachten Sie, dass die Termine unverbindlich sind und eine Anmeldung erst vor den Waldspielen erfolgen kann._ Die Waldspiele kosten für 5 Tage 75€. Wochen mit nur 4 Tagen werden mit 60€ berechnet.
-
-**Winterferien 23/24**
-
-08.01.2024 - 12.01.2024
 
 ### Konzept
 
