@@ -26,7 +26,7 @@ Alle haben ihr Bestes gegeben und waren super stolz auf ihre Leistungen. Wir kö
 
 Ein riesiges Dankeschön an die Eltern, die ihr Versprechen gehalten und gespendet haben. Wenn ihr eine Spendenquittung wollt, meldet euch einfach per E-Mail bei uns (fv-lilli-jahn-schule@gmx.de).
 
-Und einen besonderen Dank an Thomas Fiome Otto von der Eisdiele Taranto, der am Samstag noch unsere Restkuchen verkauft und die Einnahmen gespendet hat!
+Und einen besonderen Dank an Thomas Fiume Otto von der Eisdiele Taranto, der am Samstag noch unsere Restkuchen verkauft und die Einnahmen gespendet hat!
 
 Herzliche Grüße, Euer Förderverein
 
