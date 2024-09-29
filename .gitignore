@@ -18,3 +18,5 @@ node_modules
 vendor/
 resources/
 /node_modules
+
+**/.DS_Store
