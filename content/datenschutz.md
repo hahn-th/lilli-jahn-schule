@@ -65,7 +65,7 @@ Nordweg 10
 34376 Immenhausen
 
 Telefon: Telefon (05673) 2651  
-E-Mail: poststelle@grundschule.Immenhausen.schulverwaltung.hessen.de
+E-Mail: poststelle7344@schule.hessen.de
 
 Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-Adressen o. &Auml;.) entscheidet.
 

@@ -2,15 +2,21 @@ personen:
   # - name: Lea Bärg Isaak
   #   funktion: Lehrerin
   #   image: baerg.jpg
+  - name: Lena Alter
+    funktion: Lehrerin
+    image: Alter.jpg
+  - name: Vanessa Bartesch
+    funktion: Lehrerin
+    image: Bartesch.jpg
   - name: Anna-Lisa Berger
     funktion: Lehrerin
     image: Berger.jpg
   - name: Andrea Beyer
     funktion: Lehrerin
     image: Beyer.jpg
-  - name: Vanessa Bartesch
+  - name: Pia Bodem
+    image: Bodem.jpg
     funktion: Lehrerin
-    image: Bartesch.jpg
   - name: Sandra Czap
     funktion: Lehrerin
     image: Czap.jpg

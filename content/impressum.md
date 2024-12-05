@@ -11,7 +11,7 @@ menu:
 Nordweg 10<br>
 34376 Immenhausen<br>
 Telefon: 05673-2651<br>
-E-mail: <a href="mailto:poststelle@grundschule.Immenhausen.schulverwaltung.hessen.de" class="word-break">poststelle@grundschule.Immenhausen.schulverwaltung.hessen.de</a>
+E-mail: <a href="mailto:poststelle7344@schule.hessen.de" class="word-break">poststelle7344@schule.hessen.de</a>
 
 ##### Schulleitung
 
