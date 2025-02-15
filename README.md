@@ -8,3 +8,7 @@
 
 1. Abhängigkeiten installieren: `npm install`
 1. Submodules initial lokal registrieren: `git submodule update --init --recursive`
+
+# Artikel schreiben
+
+Trennung zwischen Summary und Artikel-Inhalt über `<!--more-->`

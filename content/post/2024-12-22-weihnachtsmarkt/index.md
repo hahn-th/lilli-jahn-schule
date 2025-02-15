@@ -1,6 +1,6 @@
 ---
 # Hier kann ein Title eingetragen werden. Der Titel muss in " eingefasst sein
-title: "Weihnachtsmarkt und Weihnachtsbaumverkauf"
+title: "Aktionen des Fördervereins"
 
 # Datum der Veröffentlichung.
 date: 2024-12-22T23:05:01+01:00
@@ -19,10 +19,14 @@ categories:
 #- Projekte
 ---
 
-## Weihnachtsbaumverkauf
+### Weihnachtsbaumverkauf
 
 Am 30.11.24 hatte der Förderverein der Lilli-Jahn-Grundschule wieder zum Weihnachtsbaum-Verkauf auf das Rittergut Mühlenhof geladen.
+
+<!--more-->
+
 Dank tatkräftiger Unterstützung der Vorstandsmitglieder, Lehrenden und Eltern wurde daraus auch das 2. Jahr in Folge ein gelungenes Event.
+
 Die Kinder der Grundschule verzauberten die Gäste mit Weihnachtsliedern und die der dritten und vierten Klasse boten schöne selbstgebastelte Kleinigkeiten zum Kauf an. Auch bei den Bioweihnachtsbäumen wurden viele Familien fündig. Etwa 130 Bäume werden nun Kinderaugen zum Strahlen bringen.
 
 Die Waffeln am Stiel sowie die Crêpes mit Zimt und Zucker oder Nussnougatcreme waren der Renner, sodass uns schon weit vor dem Schluss der Crêpes-Teig ausging.

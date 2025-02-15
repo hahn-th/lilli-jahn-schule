@@ -21,6 +21,8 @@ categories:
 
 Immenhausen – Auf dem Gelände der Lilli-Jahn-Schule rollen die Bagger. Die Immenhäuser Grundschule wird umfangreich erweitert. Am Mittwoch fand der erste Spatenstich für den offiziellen Baubeginn statt.
 
+<!--more-->
+
 300 Kinder besuchen die Grundschule. Der Platzbedarf an der Lilli-Jahn-Schule steigt. In dem Erweiterungsbau entstehen zwölf Klassenräume, die dazu gehörenden Differenzierungsräume, ein Technikraum sowie eine Aula.
 
 Ist der Erweiterungsbau fertig, wird das vorhandene Schulgebäude saniert. Dafür will der Landkreis insgesamt rund 8,5 Millionen Euro investieren. Die Bauarbeiten werden voraussichtlich bis zu den Osterferien2027 dauern. Im Mai 2024 hatte der Kreis die Pläne dafür vorgestellt.
