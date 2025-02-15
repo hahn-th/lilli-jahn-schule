@@ -9,7 +9,7 @@
 <title>{{ .Page.Title }} | {{ .Site.Title }}</title>
 
 {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
-{{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | minify }}
+{{ $style := resources.Get "scss/main.scss" | css.Sass $options | minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
 
 <link rel="alternate" type="application/rss+xml" href='{{ "feed.xml" | absURL }}' />

@@ -11,7 +11,9 @@ languages:
     weight: 1
 
 summaryLength: 30
-paginate: 10
+pagination:
+  disableAliases: true
+  pagerSize: 12
 
 menu:
   footermenu:
