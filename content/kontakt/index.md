@@ -13,7 +13,8 @@ Nordweg 10
 34376 Immenhausen
 
 Sekretariat: <a href="tel:056732651"> <i data-feather="phone-call"></i> 05673-2651</a><br>
-Betreuung: <a href="tel:05673925779"> <i data-feather="phone-call"></i> 05673-925779</a> (ab 11:15 Uhr)
+Betreuung: <a href="tel:05673925779"> <i data-feather="phone-call"></i> 05673-925779</a> (ab 11:15 Uhr)<br>
+Fax: 05673-925773
 
 Email: <a href="mailto:poststelle7344@schule.hessen.de" class="text-break"><i data-feather="mail"></i>poststelle7344@schule.hessen.de</a>
 

@@ -30,7 +30,7 @@ Sie erreichen uns unter folgender Telefonnummer: 05673-925779
 </tbody>
 </table>
 
-#### Betreuungskosten - Stand 01.02.2023
+#### Betreuungskosten - Stand 01.02.2025
 
 <table class="table">
 <tr>
@@ -40,23 +40,23 @@ Sie erreichen uns unter folgender Telefonnummer: 05673-925779
 </tr>
 <tr>
   <td>Gesamtbetrag</td>
-  <td>300€ pro Halbjahr</td>
-  <td>318€ pro Halbjahr</td>
+  <td>376€ pro Halbjahr</td>
+  <td>406€ pro Halbjahr</td>
 </tr>
 <tr>
   <td class="word-wrap">Anteil Förderverein</td>
-  <td>150€</td>
-  <td>168€</td>
+  <td>126€</td>
+  <td>156€</td>
 </tr>
 <tr>
   <td class="word-wrap">Anteil Landkreis</td>
-  <td>150€</td>
-  <td>150€</td>
+  <td>250€</td>
+  <td>250€</td>
 </tr>
 </table>
 
 Das Angebot zur Betreuung der Lilli-Jahn-Schule ist ein gemeinsames Angebot vom Landkreis Kassel und dem Förderverein der Lilli-Jahn-Schule e.V. Da der Landkreis nur eine begrenzte Stundenzahl mit geringerem Betreuungsschlüssel pro Tag und Kind unterstützt, konnte erst mit Unterstützung des Fördervereins die momentane Betreuungszeit und -qualität in unserer Schule ermöglicht werden.
-Aus organisatorischen Gründen rechnen Landkreis und Förderverein ihre Betreuungskosten getrennt ab. Der Anteil des Landkreises beträgt bei unserem Angebot pro Kind und Halbjahr 150,00€. Sie erhalten also eine Rechnung vom Landkreis pro Halbjahr über 150,00 €.
+Aus organisatorischen Gründen rechnen Landkreis und Förderverein ihre Betreuungskosten getrennt ab. Der Anteil des Landkreises beträgt bei unserem Angebot pro Kind und Halbjahr 250,00€. Sie erhalten also eine Rechnung vom Landkreis pro Halbjahr über 250,00 €.
 Die Bezahlung des Fördervereinsbeitrages erfolgt mittels SEPA-Lastschriftverfahren jeweils im Oktober (für das 1. Halbjahr) und im März (für das 2. Halbjahr).
 
 Dementsprechend müssen bei Wahrnehmung des Angebotes auch 2 Verträge (Förderverein und Landkreis) ausgefüllt und unterschrieben werden. Die Verträge werden aber gemeinsam in der Schule abgegeben und verwaltet.
