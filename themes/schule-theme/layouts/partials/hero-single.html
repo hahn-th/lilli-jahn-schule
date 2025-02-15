@@ -14,6 +14,9 @@
         {{ $image:= .Resize "900x" }}
             <img src="{{ $image.RelPermalink }}" class="img-fluid post-title-img">
         {{ end }}
+        {{ if .Params.credits_image }}
+            <div class="post-credits-image">{{ .Params.credits_image }}</div>
+        {{ end }}
     </div>
 </div>
     </div>

@@ -11,6 +11,7 @@ type: projekte
 # Bild im images Ordner
 # der Pfad muss ist relativ zu dieser Datei. Das heißt eine Datei im Unterordner "images" wird über images/dateiname.jpg angegeben.
 thumbnail: images/spatenstich.jpg
+credits_image: "Bild: Bernd Schünemann"
 
 # Kategorien für den Beitrag.
 categories:
