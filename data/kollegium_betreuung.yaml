@@ -11,9 +11,6 @@ personen:
 - name: Christiane Langer
   funktion: Hausaufgabenbetreuung
   image: Langer.jpg
-- name: Gerhard Nixdorf
-  funktion: Hausaufgabenbetreuung
-  image: Nixdorf.jpg
 - name: Heike Dörner
   funktion: Hausaufgabenbetreuung
   image: Dörner.jpg
@@ -26,18 +23,12 @@ personen:
 - name: Jessica Enders
   funktion: Betreuung
   image: Enders.jpg
-- name: Lisa Markert
-  funktion: Hausaufgabenbetreuung
-  image: Markert.jpg
 - name: Lukas Jantzen
   funktion: Hausaufgabenbetreuung
   image: Jantzen.jpg
 - name: Marion Seeger
   funktion: Betreuung
   image: Seeger.jpg
-- name: Nane Janson
-  funktion: Hausaufgabenbetreuung
-  image: N. Janson.jpg
 - name: Patrick Berthold
   funktion: Betreuung
   image: Berthold.jpg

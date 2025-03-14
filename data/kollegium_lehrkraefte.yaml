@@ -38,14 +38,12 @@ personen:
   - name: Jana Landskron
     funktion: Lehrerin (BFZ)
     image: Landskron.jpg
-  - name: Frank Lieberknecht
-    funktion: Lehrer
   - name: Heike Lohr
     funktion: Lehrerin
     image: Lohr.jpg
-  - name: Lisa Markert
+  - name: Nane Janson
     funktion: Lehrauftrag
-    image: Markert.jpg
+    image: N. Janson.jpg
   - name: Hala Mouamar
     funktion: Lehrauftrag
     image: Mouamar.jpg
@@ -64,9 +62,6 @@ personen:
   - name: Rebecca Röttger
     funktion: Vorklassenleitung
     image: Röttger.jpg
-  - name: Angela Schäfer
-    funktion: Lehrerin
-    image: Schäfer.jpg
   # - name: Christine Schilling
   #   funktion: Lehrerin
   #   image: schilling.jpg
@@ -76,4 +71,7 @@ personen:
   - name: Caroline Seyler
     funktion: Lehrerin
     image: seyler.jpg
+  - name: Christian Topp
+    funktion: Lehrauftrag
+    image: Topp.jpg
  

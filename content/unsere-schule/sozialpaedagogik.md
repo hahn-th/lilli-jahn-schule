@@ -32,7 +32,7 @@ Termine nach Vereinbarung!
 
 ist ein Fachdienst des Fachbereichs Jugend und arbeitet auf Basis des SGB VIII
 
-**Lea Reinbold**
+**Leonie Schaeling**
 
 - Sozialkompetenztrainings und Projektarbeit im Klassenverband sowie offene Kontakt- und Beratungsangebote
 - AG-Angebote klassenübergreifend, z.B. Internet-AG
@@ -42,9 +42,9 @@ ist ein Fachdienst des Fachbereichs Jugend und arbeitet auf Basis des SGB VIII
 ### Kontakt:
 
 Dienstag - Freitag  
-Email: lea-reinbold@landkreiskassel.de  
+Email: leonie-schaeling@landkreiskassel.de  
 Tel. 05673/9129978  
 Diensthandy: 0152/27651945  
 Termine nach Vereinbarung!
 
-Lea Reinbold und Ramona Pfannkuche kooperieren miteinander in ihrer Arbeit und sind im regelmäßigen Austausch mit dem Beratungs- und Förderzentrum.
+Lea Reinbold und Leonie Schaeling kooperieren miteinander in ihrer Arbeit und sind im regelmäßigen Austausch mit dem Beratungs- und Förderzentrum.
