@@ -47,4 +47,4 @@ Tel. 05673/9129978
 Diensthandy: 0152/27651945  
 Termine nach Vereinbarung!
 
-Lea Reinbold und Leonie Schaeling kooperieren miteinander in ihrer Arbeit und sind im regelmäßigen Austausch mit dem Beratungs- und Förderzentrum.
+Ramona Pfannkuche und Leonie Schaeling kooperieren miteinander in ihrer Arbeit und sind im regelmäßigen Austausch mit dem Beratungs- und Förderzentrum.
