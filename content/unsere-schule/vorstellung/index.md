@@ -17,7 +17,7 @@ Nach Unterrichtsschluss können die Kinder bis 15.30 Uhr in der Betreuung spiele
 
 ## So hat unsere Schule ihren Namen bekommen!
 
-Unsere Schule hieß immer nur Grundschule Immenhausen. Dann haben unsere LehrerInnen und Eltern überlegt, wie unsere Schule heißen soll. Nach langem Überlegen haben sie sich auf den Namen Lilli Jahn geeinigt.
+Unsere Schule hieß immer nur Grundschule Immenhausen. Dann haben unsere Lehrkräfte und Eltern überlegt, wie unsere Schule heißen soll. Nach langem Überlegen haben sie sich auf den Namen Lilli Jahn geeinigt.
 
 ### Über das Leben von Lilli Jahn
 

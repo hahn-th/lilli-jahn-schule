@@ -62,9 +62,9 @@ personen:
   - name: Rebecca Röttger
     funktion: Vorklassenleitung
     image: Röttger.jpg
-  # - name: Christine Schilling
-  #   funktion: Lehrerin
-  #   image: schilling.jpg
+  - name: Christine Schilling
+    funktion: Lehrerin
+    image: Schilling.jpg
   - name: Astrid Schnittker
     funktion: Lehrerin
     image: Schnittker.jpg

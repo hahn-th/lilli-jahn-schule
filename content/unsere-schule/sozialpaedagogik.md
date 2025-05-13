@@ -21,7 +21,7 @@ Ihre Arbeitsbereiche definieren sich wie folgt:
 - Förderung einzelner Kinder in ihrer schulischen Entwicklung
 - Streitschlichter AG
 - Unterstützung bei Klassenfahrten/-ausflügen
-- Unterstützung bei der Integration von Schüler\*innen nicht deutscher Her-kunftssprache
+- Unterstützung bei der Integration von Kindern nicht deutscher Herkunftssprache
 
 ### Kontakt:
 
