@@ -68,9 +68,9 @@ personen:
   - name: Astrid Schnittker
     funktion: Lehrerin
     image: Schnittker.jpg
-  - name: Caroline Seyler
-    funktion: Lehrerin
-    image: seyler.jpg
+  # - name: Caroline Seyler
+  #   funktion: Lehrerin
+  #   image: seyler.jpg
   - name: Christian Topp
     funktion: Lehrauftrag
     image: Topp.jpg
