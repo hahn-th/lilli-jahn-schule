@@ -8,7 +8,7 @@ menu:
     parent: unsere-schule
 ---
 
-Die Lilli-Jahn-Schule wird durch die soziale Arbeit von Lea Reinbold und Ramona Pfannkuche zu Fragen des sozialen Miteinanders unterstützt. Sie stärken die sozialen Kompetenzen der Kinder und helfen in Konfliktsituationen.
+Die Lilli-Jahn-Schule wird durch die soziale Arbeit von Leonie Schaeling und Ramona Pfannkuche zu Fragen des sozialen Miteinanders unterstützt. Sie stärken die sozialen Kompetenzen der Kinder und helfen in Konfliktsituationen.
 Des Weiteren beraten sie die Kinder, ihre Eltern und Lehrkräfte auf vertrauensvoller und freiwilliger Basis.
 
 Ihre Arbeitsbereiche definieren sich wie folgt:
